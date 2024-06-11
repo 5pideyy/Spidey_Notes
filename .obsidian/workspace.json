@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md"
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md"
               }
             }
           }
@@ -243,10 +243,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5e7e01b6b4ebc85",
+  "active": "f0868bb9d554141d",
   "lastOpenFiles": [
-    "update_spidey_notes.sh",
     "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+    "update_spidey_notes.sh",
     "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
     "PASTED IMAGES/Pasted image 20240611192038.png",
     "PASTED IMAGES/Pasted image 20240611191910.png",
@@ -290,7 +291,6 @@
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/guided-analysis.zip",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/Wireshark-lab-2.zip",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/RDP-analysis.zip",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/11. Footprinting/resources/Footprinting-wordlist.zip",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "Untitled.canvas",
