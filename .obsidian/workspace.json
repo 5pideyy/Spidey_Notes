@@ -1,0 +1,299 @@
+{
+  "main": {
+    "id": "752cbbb68b49b7e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e302936fbbf3e262",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22469cc5017b8f30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c3901584f0fabc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF LEARNINGS/PwnLand/Format String/overwrite-got-system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13c85950992d903d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "PASTED IMAGES/shell.png"
+              }
+            }
+          },
+          {
+            "id": "0da721f59296fcb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF WRITEUPS/writeup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9bf04ba26bdb965a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b8d0fe8a1d1994c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cf356e4c3b05c23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF LEARNINGS/BINARY/PWNABLE.TW/START.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "859d0568e7fd7545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKS/D OSI , TCP MODEL.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0868bb9d554141d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d820ae27ac6475fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "d01ec6893195ab84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fc2af40511fda44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8e7903c0f4bc35f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bea737e1a7116ff3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6041b6d6e6674334",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c5b43001fb723c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b005b37926fd15c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d602aa95adb9880e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b33ede83ad3fbcc9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e5e7e01b6b4ebc85",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e5e7e01b6b4ebc85",
+  "lastOpenFiles": [
+    "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+    "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
+    "PASTED IMAGES/Pasted image 20240611192038.png",
+    "PASTED IMAGES/Pasted image 20240611191910.png",
+    "HTB/ACADEMY/BUG HUNTER PATH/H COMMAND INJECTION.md",
+    "PASTED IMAGES/Pasted image 20240611185303.png",
+    "HTB/ACADEMY/BUG HUNTER PATH/J Server-Side Attacks.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/I FILE UPLOAD.md",
+    "PASTED IMAGES/Pasted image 20240610183959.png",
+    "PASTED IMAGES/Pasted image 20240610133946.png",
+    "PASTED IMAGES/Pasted image 20240610113746.png",
+    "PASTED IMAGES/Pasted image 20240610113633.png",
+    "PASTED IMAGES/Pasted image 20240610111445.png",
+    "PASTED IMAGES/Pasted image 20240610111350.png",
+    "PASTED IMAGES/Pasted image 20240610111101.png",
+    "HTB/BACKUP CODES.md",
+    "HTB/ACADEMY/MODULES/DNS ENUMERATION.md",
+    "HTB/HTB_CPTS/Pro Labs/dante.md",
+    "cp.md",
+    "NETWORKS/HTTP VS SOCKS.md",
+    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+    "HTB/ACADEMY/MODULES",
+    "HTB/ACADEMY/BUG HUNTER PATH/G SQL INJECTION.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/F CROSS-SITE SCRIPTING (XSS).md",
+    "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
+    "HTB/HTB_SEASON5/freelancer.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/PROXYCHAINS.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/B WEB REQUESTS.md",
+    "HTB/ACADEMY/PENETSTER PATH",
+    "HTB/ACADEMY/BUG HUNTER PATH",
+    "HTB/ACADEMY",
+    "HTB/FORTRESS/JET.md",
+    "HTB/HTB_SEASON5/BOARD LIGHT.md",
+    "HTB/HTB_SEASON5/magic gardens.md",
+    "CTF/CTF LEARNINGS/WEB/Web service and API.md",
+    "HTB/HTB_CPTS/Academy/08. Proof-of-Concept/34c. Stack-Based Buffer Overflows on Windows x86/Stack-Based Buffer Overflows on Windows x86.md",
+    "HTB/HTB_CPTS/Academy/09. Post-Engagement/Post-Engagement.md",
+    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/tcpdump-lab2.zip",
+    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/question-1.zip",
+    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/guided-analysis.zip",
+    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/Wireshark-lab-2.zip",
+    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/RDP-analysis.zip",
+    "HTB/HTB_CPTS/Academy/02. Information Gathering/11. Footprinting/resources/Footprinting-wordlist.zip",
+    "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
+    "NETWORKS/PROTOCOL/Protocols.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}
