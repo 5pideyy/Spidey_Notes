@@ -80,3 +80,36 @@ app.get("/about/:language", function(req, res) {
 ```
 
 - `include` function used to render local files or remote URLs
+
+
+
+## Read vs Execute
+
+- some of the above functions only read the content of the specified files
+- some others also execute the specified files
+- some of them allow specifying remote URLs
+- some work with files local to the back-end server.
+
+
+
+| **Function**                 | **Read Content** | **Execute** | **Remote URL** |
+| ---------------------------- | :--------------: | :---------: | :------------: |
+| **PHP**                      |                  |             |                |
+| `include()`/`include_once()` |        ✅         |      ✅      |       ✅        |
+| `require()`/`require_once()` |        ✅         |      ✅      |       ❌        |
+| `file_get_contents()`        |        ✅         |      ❌      |       ✅        |
+| `fopen()`/`file()`           |        ✅         |      ❌      |       ❌        |
+| **NodeJS**                   |                  |             |                |
+| `fs.readFile()`              |        ✅         |      ❌      |       ❌        |
+| `fs.sendFile()`              |        ✅         |      ❌      |       ❌        |
+| `res.render()`               |        ✅         |      ✅      |       ❌        |
+| **Java**                     |                  |             |                |
+| `include`                    |        ✅         |      ❌      |       ❌        |
+| `import`                     |        ✅         |      ✅      |       ✅        |
+| **.NET**                     |                  |             |                |
+| `@Html.Partial()`            |        ✅         |      ❌      |       ❌        |
+| `@Html.RemotePartial()`      |        ✅         |      ❌      |       ✅        |
+| `Response.WriteFile()`       |        ✅         |      ❌      |       ❌        |
+| `include`                    |        ✅         |      ✅      |       ✅        |
+
+
