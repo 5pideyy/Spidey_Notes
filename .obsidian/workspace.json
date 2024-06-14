@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tty",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md"
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md"
               }
             }
           }
@@ -257,33 +257,33 @@
   },
   "active": "f0868bb9d554141d",
   "lastOpenFiles": [
+    "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/I FILE UPLOAD.md",
     "meet.md",
+    "PASTED IMAGES/Pasted image 20240614150539.png",
+    "PASTED IMAGES/Pasted image 20240614150353.png",
+    "PASTED IMAGES/Pasted image 20240614145835.png",
+    "PASTED IMAGES/Pasted image 20240614145807.png",
+    "PASTED IMAGES/Pasted image 20240614145554.png",
+    "PASTED IMAGES/Pasted image 20240614125308.png",
+    "HTB/HTB_SEASON5/BOARD LIGHT.md",
+    "HTB/HTB_CPTS/Pro Labs/dante.md",
+    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/09. Getting Started/Getting Started.md",
+    "PASTED IMAGES/Pasted image 20240614112342.png",
     "PASTED IMAGES/Pasted image 20240613192435.png",
     "PASTED IMAGES/Pasted image 20240613191624.png",
     "PASTED IMAGES/Pasted image 20240613191227.png",
-    "PASTED IMAGES/Pasted image 20240613190715.png",
-    "PASTED IMAGES/Pasted image 20240613190514.png",
-    "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
     "HTB/BACKUP CODES.md",
     "HTB/HTB_MACHINES/LINUX/Gofer.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
-    "PASTED IMAGES/Pasted image 20240612002032.png",
-    "PASTED IMAGES/Pasted image 20240612002024.png",
-    "HTB/HTB_SEASON5/BOARD LIGHT.md",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/09. Getting Started/Getting Started.md",
     "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
     "number.txt",
-    "PASTED IMAGES/Pasted image 20240611233705.png",
     "custom_wordlist.txt",
-    "PASTED IMAGES/Pasted image 20240611221611.png",
-    "PASTED IMAGES/Pasted image 20240611221602.png",
     "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
     "update_spidey_notes.sh",
     "HTB/ACADEMY/BUG HUNTER PATH/H COMMAND INJECTION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/J Server-Side Attacks.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/I FILE UPLOAD.md",
     "HTB/ACADEMY/MODULES/DNS ENUMERATION.md",
-    "HTB/HTB_CPTS/Pro Labs/dante.md",
     "cp.md",
     "NETWORKS/HTTP VS SOCKS.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
