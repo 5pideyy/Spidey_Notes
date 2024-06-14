@@ -156,7 +156,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tty",
+                "query": "number.txt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,7 +173,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -255,7 +256,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0868bb9d554141d",
+  "active": "d8e7903c0f4bc35f",
   "lastOpenFiles": [
     "PASTED IMAGES/meet.md",
     "CTF.md",
