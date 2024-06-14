@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+                "file": "NETWORKS/H WAN MPLS.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meet.md",
+                "file": "PASTED IMAGES/meet.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+                "file": "NETWORKS/H WAN MPLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+                "file": "NETWORKS/H WAN MPLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md"
+                "file": "NETWORKS/H WAN MPLS.md"
               }
             }
           }
@@ -257,9 +257,12 @@
   },
   "active": "f0868bb9d554141d",
   "lastOpenFiles": [
+    "PASTED IMAGES/meet.md",
+    "CTF.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+    "Untitled.md",
     "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/I FILE UPLOAD.md",
-    "meet.md",
     "PASTED IMAGES/Pasted image 20240614150539.png",
     "PASTED IMAGES/Pasted image 20240614150353.png",
     "PASTED IMAGES/Pasted image 20240614145835.png",
@@ -276,7 +279,6 @@
     "HTB/BACKUP CODES.md",
     "HTB/HTB_MACHINES/LINUX/Gofer.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
     "number.txt",
     "custom_wordlist.txt",
     "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
@@ -295,7 +297,6 @@
     "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
     "HTB/HTB_SEASON5/freelancer.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/PROXYCHAINS.md",
     "HTB/ACADEMY/PENETSTER PATH",
     "HTB/ACADEMY/BUG HUNTER PATH",
     "HTB/ACADEMY",
