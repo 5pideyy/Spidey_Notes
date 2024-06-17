@@ -591,7 +591,8 @@ ffuf -w ./LFI-WordList-Linux:FUZZ -u 'http://94.237.54.176:30951/index.php?view=
 - page parameter vulnerable to lfi
 - use phar wrapper to get source code of index.php
 - find admin directory
-- 
+- path traversel to /etc/passwd
+- view ngnix access log
 
 
 

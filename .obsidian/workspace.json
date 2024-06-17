@@ -4,130 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e302936fbbf3e262",
+        "id": "272bcbb7d29aff53",
         "type": "tabs",
         "children": [
           {
-            "id": "22469cc5017b8f30",
+            "id": "2cf916b602c31a4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
+                "file": "BUG BOUNTY/ROAD MAP.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4c3901584f0fabc2",
+            "id": "93890485da258c87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF LEARNINGS/PwnLand/Format String/overwrite-got-system.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13c85950992d903d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "PASTED IMAGES/shell.png"
-              }
-            }
-          },
-          {
-            "id": "0da721f59296fcb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/CTF WRITEUPS/writeup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bf04ba26bdb965a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b8d0fe8a1d1994c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cf356e4c3b05c23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/PWNABLE.TW/START.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "859d0568e7fd7545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKS/D OSI , TCP MODEL.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0868bb9d554141d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKS/H WAN MPLS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb13948577030461",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PASTED IMAGES/meet.md",
+                "file": "USEFULL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "number.txt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKS/H WAN MPLS.md",
+                "file": "USEFULL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKS/H WAN MPLS.md",
+                "file": "USEFULL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKS/H WAN MPLS.md"
+                "file": "USEFULL.md"
               }
             }
           }
@@ -256,54 +160,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8e7903c0f4bc35f",
+  "active": "93890485da258c87",
   "lastOpenFiles": [
-    "PASTED IMAGES/meet.md",
-    "CTF.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
-    "Untitled.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/I FILE UPLOAD.md",
-    "PASTED IMAGES/Pasted image 20240614150539.png",
-    "PASTED IMAGES/Pasted image 20240614150353.png",
-    "PASTED IMAGES/Pasted image 20240614145835.png",
-    "PASTED IMAGES/Pasted image 20240614145807.png",
-    "PASTED IMAGES/Pasted image 20240614145554.png",
-    "PASTED IMAGES/Pasted image 20240614125308.png",
-    "HTB/HTB_SEASON5/BOARD LIGHT.md",
-    "HTB/HTB_CPTS/Pro Labs/dante.md",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/09. Getting Started/Getting Started.md",
-    "PASTED IMAGES/Pasted image 20240614112342.png",
-    "PASTED IMAGES/Pasted image 20240613192435.png",
-    "PASTED IMAGES/Pasted image 20240613191624.png",
-    "PASTED IMAGES/Pasted image 20240613191227.png",
-    "HTB/BACKUP CODES.md",
-    "HTB/HTB_MACHINES/LINUX/Gofer.md",
-    "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
-    "number.txt",
-    "custom_wordlist.txt",
-    "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
-    "update_spidey_notes.sh",
-    "HTB/ACADEMY/BUG HUNTER PATH/H COMMAND INJECTION.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/J Server-Side Attacks.md",
-    "HTB/ACADEMY/MODULES/DNS ENUMERATION.md",
-    "cp.md",
-    "NETWORKS/HTTP VS SOCKS.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
-    "HTB/ACADEMY/MODULES",
-    "HTB/ACADEMY/BUG HUNTER PATH/G SQL INJECTION.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/F CROSS-SITE SCRIPTING (XSS).md",
-    "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
-    "HTB/HTB_SEASON5/freelancer.md",
-    "HTB/ACADEMY/PENETSTER PATH",
-    "HTB/ACADEMY/BUG HUNTER PATH",
-    "HTB/ACADEMY",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/tcpdump-lab2.zip",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/question-1.zip",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/07c. Intro to Network Traffic Analysis/resources/guided-analysis.zip",
+    "BUG BOUNTY/HowToHunt/XXE/XXE_Methods.md",
+    "BUG BOUNTY/HowToHunt/XXE/Billion_Laugh_Attack.md",
+    "BUG BOUNTY/HowToHunt/XXE",
+    "BUG BOUNTY/HowToHunt/XSS/post_message_xss.md",
+    "BUG BOUNTY/HowToHunt/XSS/Xss.md",
+    "BUG BOUNTY/HowToHunt/XSS/XSS_Bypass.md",
+    "BUG BOUNTY/HowToHunt/XSS/Bypass_CSP.md",
+    "BUG BOUNTY/HowToHunt/XSS/Automated_XSS.md",
+    "BUG BOUNTY/HowToHunt/XSS",
+    "BUG BOUNTY/HowToHunt/Web_Source_Review/codereviewtips.md",
+    "BUG BOUNTY/HowToHunt/Web_Source_Review",
+    "BUG BOUNTY/HowToHunt/Weak_Password_Policy/Weak_password_policy.md",
+    "BUG BOUNTY/HowToHunt/Weak_Password_Policy",
+    "BUG BOUNTY/HowToHunt/WAF_Bypasses/WAF_Bypass_Using_headers.md",
+    "BUG BOUNTY/HowToHunt/WAF_Bypasses",
+    "BUG BOUNTY/HowToHunt/Tabnabbing/Tabnabbing.md",
+    "BUG BOUNTY/HowToHunt/Tabnabbing",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Methods/Easy_Methods.md",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/subdomain_takeover.png",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/sub or top_level_domain takeover",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/dns.png",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/cname_buy.png",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/cname.png",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Subdomain_Takeover.md",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Methods",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover",
+    "BUG BOUNTY/HowToHunt/Status_Code_Bypass/README.md",
+    "BUG BOUNTY/HowToHunt/Status_Code_Bypass/403Bypass.md",
+    "BUG BOUNTY/HowToHunt/Status_Code_Bypass",
+    "BUG BOUNTY/HowToHunt/Sign_Up_Functionality/Signup_Mindmap.png",
+    "BUG BOUNTY/HowToHunt/Sign_Up_Functionality/Hunting_for_bugs_in_signup_feature.md",
+    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Shodan_cve_dorks.md",
+    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Google_Dorks.md",
+    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github_dorks_all.md",
+    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github_Recon_Method.md",
+    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github-dorks.md",
+    "BUG BOUNTY/HowToHunt/SUMMARY.md",
+    "BUG BOUNTY/HowToHunt/SSTI/SSTI.md",
+    "BUG BOUNTY/HowToHunt/SSRF/SSRF.md",
+    "BUG BOUNTY/HowToHunt/SSRF/SSRF-old.md",
+    "BUG BOUNTY/HowToHunt/SSRF/Blind_SSRF.md",
+    "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
+    "BUG BOUNTY/HowToHunt/CheckList/Web_Penetration_Testing_Methodology@2x.png",
+    "PASTED IMAGES/Web App Pentester Roadmap.png",
+    "PASTED IMAGES/Pasted image 20240615220619.png",
+    "PASTED IMAGES/Pasted image 20240615152734.png",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "Untitled.canvas",
