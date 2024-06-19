@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/Untitled.md",
+                "file": "INTRO.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/Untitled.md",
+                "file": "INTRO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/Untitled.md",
+                "file": "INTRO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/Untitled.md"
+                "file": "INTRO.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "93890485da258c87",
   "lastOpenFiles": [
-    "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
+    "netlify.toml",
     "BUG BOUNTY/Untitled.md",
+    "INTRO.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "USEFULL.md",
     "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Methods/Easy_Methods.md",
@@ -194,8 +196,6 @@
     "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Google_Dorks.md",
     "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github_dorks_all.md",
     "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github_Recon_Method.md",
-    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github-dorks.md",
-    "BUG BOUNTY/HowToHunt/SSTI/SSTI.md",
     "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Top_5_Password_Reset_Bugs",
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Penetration_Testing_Methodology@2x.png",
