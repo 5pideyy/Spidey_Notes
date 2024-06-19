@@ -3,7 +3,7 @@
 - helps to under stand attack surface
 - technologies used
 - working
-
+![[20240620_010149.jpg]]
 
 |Area|Description|
 |---|---|
