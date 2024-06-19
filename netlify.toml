@@ -30,7 +30,7 @@ SLUGIFY = "y"
 # (Optional, default true) Shows knowledge graph on home page. Put "" to disable.
 HOME_GRAPH = "y"
 # (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
-PAGE_GRAPH = "y"
+PAGE_GRAPH = ""
 # (Optional, default false) Whether sidebar sections should be collapsed by default.
 SIDEBAR_COLLAPSED = ""
 # (Optional, default blank) Additional footer content.
