@@ -6,5 +6,4 @@
 ### Source
 * [https://twitter.com/hackerscrolls/status/1269266750467649538](https://twitter.com/hackerscrolls/status/1269266750467649538)
 
-### Author
-* [KathanP19](https://twitter.com/KathanP19)
+

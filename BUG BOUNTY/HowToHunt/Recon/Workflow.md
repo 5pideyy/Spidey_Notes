@@ -76,5 +76,3 @@ NOTE: Be careful cause sometimes you might get ASN for VPSs like digital ocean e
 
 **Favicon hash can be found using [favfreak](https://github.com/devanshbatham/FavFreak)**
 
-### Author
-[Mr._fr3qu3n533](https://twitter.com/mr_fr3qu3n533)

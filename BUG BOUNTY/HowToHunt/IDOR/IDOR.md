@@ -210,5 +210,4 @@ And any payment endpoint
 ```
 `Pro tip: Don’t forget to try create/update/delete operations on objects that are publicly readable but shouldn’t be writable. Can you PUT to /api/products and change a price?`
 
-## Author
-[KathanP19](https://twitter.com/KathanP19)
+

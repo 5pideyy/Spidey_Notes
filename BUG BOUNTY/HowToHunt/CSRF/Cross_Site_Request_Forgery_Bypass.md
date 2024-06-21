@@ -1,7 +1,6 @@
 **Cross Site Request Forgery(CSRF)**
 
-Hello Guys, I Tried My Best To Share all The CSRF Bypasses I Know.
-I Hope This Will Help You.
+
 
 Csrf will be login, logout, resetpass, change password, add-cart, like, comment, profie change, user details change, blance transffer, subscription ect
 ```
@@ -49,9 +48,5 @@ Csrf will be login, logout, resetpass, change password, add-cart, like, comment,
 [Medium Writeup](https://medium.com/swlh/bypassing-csrf-protection-c9b217175ee)
 
 
-### Authors
-* [@SMHTahsin33](https://twitter.com/SMHTahsin33)
-* [@Virdoex_hunter](https://twitter.com/Virdoex_hunter)
-* [@remonsec](https://twitter.com/remonsec)
-* [@tamimhasan404](https://twitter.com/tamimhasan404)
+
 

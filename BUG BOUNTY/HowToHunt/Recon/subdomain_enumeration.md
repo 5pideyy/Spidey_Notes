@@ -64,6 +64,3 @@ An automated framework can be used to automate those whole workflow
 
 * [SEF](https://github.com/remonsec/SEF)
 ___
-## Author
-[Mehedi Hasan Remon](https://twitter.com/remonsec)
-[Rishi Choudhary](https://twitter.com/0xRyuk)

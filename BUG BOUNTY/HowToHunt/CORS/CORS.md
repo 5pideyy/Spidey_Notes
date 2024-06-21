@@ -57,5 +57,3 @@ step5-> configure the manually
 6) All the urls with Access-Control-Allow will be displayed.  
 ```
 
-# Authors
-* [@Virdoex_hunter](https://twitter.com/Virdoex_hunter)

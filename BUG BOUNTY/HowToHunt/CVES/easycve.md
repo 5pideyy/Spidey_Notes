@@ -20,8 +20,6 @@
     11.Try all cves if success report it.:)
  ```   
 
-### Authors
-* [@Virdoex_hunter](https://twitter.com/Virdoex_hunter)
-    
+
     
     

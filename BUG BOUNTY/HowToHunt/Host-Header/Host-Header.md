@@ -1,6 +1,4 @@
 # Summary For Host Header
-![https://pbs.twimg.com/media/ET39wJOWoAAfTBb?format=jpg&name=small](https://pbs.twimg.com/media/ET39wJOWoAAfTBb?format=jpg&name=small)
-
 # Also Check This Things While Testing
 1. Add two `HOST:` in Request.
 2. Try this Headers
@@ -26,5 +24,4 @@
    `curl -i -s -k -X 'GET' -H 'Host: <site>' -H 'X-rewrite-url: admin/login' 'https://<site>/'.`
 
 
-## Author:
-* [@KathanP19](https://twitter.com/KathanP19)
+

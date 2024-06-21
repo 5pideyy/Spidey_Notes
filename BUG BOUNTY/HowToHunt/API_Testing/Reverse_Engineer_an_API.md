@@ -1,5 +1,4 @@
 # Reverse Engineer an API
-<img src="https://pasteboard.co/n2094TfDB8qt.png">
 
 ## Tools to use
 1. FoxyProxy

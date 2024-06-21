@@ -34,4 +34,4 @@
 * https://twitter.com/FaniMalikHack/status/1395042756108505092
 * https://twitter.com/FaniMalikHack/status/1402627994833805313
 
-## Twitte :- [Fani Malik](https://twitter.com/FaniMalikHack)
+

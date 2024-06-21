@@ -72,10 +72,3 @@
  ```
  
 
-### Contributors:
-* [@akshaykerkar13](https://twitter.com/akshaykerkar13)
-* [@Yn0tWhy](https://twitter.com/Yn0tWhy)
-* [@Virdoex_hunter](https://twitter.com/Virdoex_hunter)
-* [febinrev](https://twitter.com/febinrev)
-* [Fani Malik](https://twitter.com/fanimalikhack)
-* [@v3daxt](https://twitter.com/v3daxt)

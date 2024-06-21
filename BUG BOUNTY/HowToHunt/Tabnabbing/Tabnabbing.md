@@ -25,6 +25,4 @@ or
 <a href="..." target="_blank" />
 ```
 
-### Author
 
-* [@bolli95](https://github.com/bolli95)

@@ -16,5 +16,4 @@ malicious link by using `<a href>` for eg: `<h1>attacker</h1><a href="your-contr
 * You can redirect the user to your malicious domain and serve a fake reset password page to steal credentials 
 Also you can serve a previously found XSS page and steal user cookies etc etc.. The creativity lies on you..
 
-## Author
-[@C1pher15](https://twitter.com/C1pher15)
+

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRO.md",
+                "file": "USEFULL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INTRO.md",
+                "file": "USEFULL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INTRO.md",
+                "file": "USEFULL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTRO.md"
+                "file": "USEFULL.md"
               }
             }
           }
@@ -157,57 +157,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
     }
   },
   "active": "93890485da258c87",
   "lastOpenFiles": [
-    "netlify.toml",
     "BUG BOUNTY/Untitled.md",
-    "INTRO.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
-    "USEFULL.md",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Methods/Easy_Methods.md",
-    "BUG BOUNTY/HowToHunt/XXE/XXE_Methods.md",
-    "BUG BOUNTY/HowToHunt/XXE/Billion_Laugh_Attack.md",
-    "BUG BOUNTY/HowToHunt/XSS/post_message_xss.md",
-    "BUG BOUNTY/HowToHunt/XSS/Xss.md",
-    "BUG BOUNTY/HowToHunt/XSS/XSS_Bypass.md",
-    "BUG BOUNTY/HowToHunt/XSS/Bypass_CSP.md",
-    "BUG BOUNTY/HowToHunt/XSS/Automated_XSS.md",
-    "BUG BOUNTY/HowToHunt/Web_Source_Review/codereviewtips.md",
-    "BUG BOUNTY/HowToHunt/Weak_Password_Policy/Weak_password_policy.md",
-    "BUG BOUNTY/HowToHunt/WAF_Bypasses/WAF_Bypass_Using_headers.md",
-    "BUG BOUNTY/HowToHunt/Tabnabbing/Tabnabbing.md",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/subdomain_takeover.png",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/sub or top_level_domain takeover",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/dns.png",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/cname_buy.png",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/cname.png",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Subdomain_Takeover.md",
-    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Methods",
-    "BUG BOUNTY/HowToHunt/Status_Code_Bypass/README.md",
-    "BUG BOUNTY/HowToHunt/Status_Code_Bypass/403Bypass.md",
+    "BUG BOUNTY/OneLiners.md",
+    "BUG BOUNTY/HowToHunt/SSTI/SSTI.md",
+    "BUG BOUNTY/HowToHunt/SSRF/SSRF.md",
+    "BUG BOUNTY/HowToHunt/SSRF/SSRF-old.md",
+    "BUG BOUNTY/HowToHunt/SQLi/SQL_Injection.md",
     "BUG BOUNTY/HowToHunt/Sign_Up_Functionality/Signup_Mindmap.png",
     "BUG BOUNTY/HowToHunt/Sign_Up_Functionality/Hunting_for_bugs_in_signup_feature.md",
-    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Version Leak",
-    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Shodan_cve_dorks.md",
-    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Google_Dorks.md",
-    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github_dorks_all.md",
     "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github_Recon_Method.md",
-    "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Top_5_Password_Reset_Bugs",
+    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Github_dorks_all.md",
+    "BUG BOUNTY/HowToHunt/SAML/SAML.md",
+    "BUG BOUNTY/HowToHunt/Recon/Workflow.md",
+    "BUG BOUNTY/HowToHunt/Recon/subdomain_enumeration.md",
+    "BUG BOUNTY/HowToHunt/Recon/Github_Dorking.md",
+    "BUG BOUNTY/HowToHunt/Rate_limit/RateLimitBypass.md",
+    "PASTED IMAGES/Pasted image 20240621190440.png",
+    "BUG BOUNTY/HowToHunt/Race_Condition/race_conditions.md",
+    "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/README.md",
+    "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Password_Reset_Token_Leakage.md",
+    "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Password_Reset_Flaws_by_Sm4rty.md",
+    "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Account_Takeover_By_Password_Reset_Functionality.md",
+    "BUG BOUNTY/HowToHunt/Parameter_Pollution/Parameter_Pollution_in_social_sharing_buttons.md",
+    "BUG BOUNTY/HowToHunt/Open_Redirection/Open_Redirection_Bypass.md",
+    "BUG BOUNTY/HowToHunt/Open_Redirection/find_OpenRedirect_trick.md",
+    "BUG BOUNTY/HowToHunt/OAuth/README.md",
+    "BUG BOUNTY/HowToHunt/OAuth/OAuth 2.0 Hunting Methodology.md",
+    "BUG BOUNTY/HowToHunt/Misconfigurations/S3-Bucket_Misconfig.md",
+    "BUG BOUNTY/HowToHunt/Misconfigurations/Docker.md",
+    "PASTED IMAGES/Pasted image 20240621185827.png",
+    "PASTED IMAGES/Pasted image 20240621185821.png",
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
-    "BUG BOUNTY/HowToHunt/CheckList/Web_Penetration_Testing_Methodology@2x.png",
-    "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
+    "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
+    "BUG BOUNTY/HowToHunt/CheckList/Web_Penetration_Testing_Methodology@2x.png",
+    "PASTED IMAGES/Pasted image 20240621185322.png",
+    "PASTED IMAGES/Pasted image 20240621182607.png",
+    "PASTED IMAGES/Pasted image 20240621182324.png",
+    "PASTED IMAGES/Pasted image 20240621182203.png",
+    "netlify.toml",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/sub or top_level_domain takeover",
+    "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Methods",
+    "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Version Leak",
+    "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Top_5_Password_Reset_Bugs",
     "BUG BOUNTY/HowToHunt/Authentication_Bypass/account_ban_bypass",
     "BUG BOUNTY/HowToHunt/Application_Level_DoS/Password.txt",
     "BUG BOUNTY/HowToHunt/XXE",
-    "BUG BOUNTY/HowToHunt/XSS",
-    "PASTED IMAGES/Web App Pentester Roadmap.png",
-    "PASTED IMAGES/Pasted image 20240615220619.png",
-    "PASTED IMAGES/Pasted image 20240615152734.png",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "Untitled.canvas",

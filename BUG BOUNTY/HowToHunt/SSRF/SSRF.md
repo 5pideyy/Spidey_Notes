@@ -310,5 +310,4 @@ http://100.100.100.200/latest/user-data
 An attacker can tunnel into internal networks and access sensitive internal data such as AWS metadata information.
 
 
-## Author:
-[Tushar Verma](https://twitter.com/e11i0t_4lders0n)
+

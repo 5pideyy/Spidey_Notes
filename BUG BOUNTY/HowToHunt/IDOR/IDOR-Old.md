@@ -106,7 +106,4 @@ Content-Type: application/json
 - [IDOR with Geolocation data not stripped from images](https://hackerone.com/reports/906907)
 - [Replace other user files in Inbox messages](https://hackerone.com/reports/322661)
 
-### Author
 
-* [@harsha0x01](https://twitter.com/harsha0x01)
-* [@klaus](https://twitter.com/klaus_dev)

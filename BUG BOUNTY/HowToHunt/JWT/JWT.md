@@ -413,9 +413,7 @@ The token has various fields: n, e, x5c, x5t, kid. Also, notice that kid value i
 ![https://pbs.twimg.com/media/EZkyGeGUYAEsz4e?format=jpg&name=small](https://pbs.twimg.com/media/EZkyGeGUYAEsz4e?format=jpg&name=small)
 
 ```python
-By @MrTuxracer
+
 If you were able to crack a JWT secret key but there are still some unguessable parameters in the payload just like a UUID, try sending an empty payload instead. This granted me admin rights more than once.
 ```
 
-### Author:
-[KathanP19](https://twitter.com/KathanP19)

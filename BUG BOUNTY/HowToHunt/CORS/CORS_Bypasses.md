@@ -9,10 +9,7 @@
 8. `Origin:sub.attacker%target.com`
 9. `Origin:attacker.com/target.com`
 
-### Authors
 
-* [@tamimhasan404](https://twitter.com/tamimhasan404)
-	
 # Reference Tweets
 https://twitter.com/trbughunters/status/1287023673845612546
 

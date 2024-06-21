@@ -71,6 +71,4 @@ Check out Auth Bypass method, there is a method for OTP bypass via response mani
 * Various Source From Google,Twitter,Medium
 * https://avanishpathak.medium.com/an-account-takeover-vulnerability-due-to-response-manipulation-e23fe629bd1
 
-## Author
-* [@Virdoex_hunter](https://twitter.com/Virdoex_hunter)
-* [@v3daxt](https://twitter.com/v3daxt)
+

@@ -97,5 +97,3 @@ Host: client-app.com
 - If the victim clicks on the link then you would see the authorization code in your webhook.site logs.
 - now you can use this stolen code in the callback request and the rest of the OAuth flow will be completed automatically and you will be logged in as the admin user.
 
-## Author:
-[Pyr0sec](https://twitter.com/Pyr0sec)

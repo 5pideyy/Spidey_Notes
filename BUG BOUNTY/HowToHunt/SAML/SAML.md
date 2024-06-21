@@ -253,5 +253,3 @@ Burp search [SAMLResponse]
  2.PD94bWw -> b64decode -> '<?xml'
 ```
 
-### Author:
-- [Kathan Patel](https://twitter.com/KathanP19)

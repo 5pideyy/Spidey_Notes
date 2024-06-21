@@ -86,5 +86,4 @@ References:
 https://delta.navisec.io/a-pentesters-guide-part-5-unmasking-wafs-and-finding-the-source/
 https://blog.detectify.com/2019/07/31/bypassing-cloudflare-waf-with-the-origin-server-ip-address/
 
-# Authors
-* [@maverickNerd](https://twitter.com/maverickNerd)
+

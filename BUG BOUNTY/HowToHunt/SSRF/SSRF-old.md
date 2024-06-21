@@ -106,6 +106,3 @@ http://169.254.169.254/latest/meta-data/iam/security-credentials/flaws/
 * https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery
 * https://github.com/jdonsec/AllThingsSSRF
 
-### Author:
-* [@0xCyberPirate](https://twitter.com/0xCyberPirate)
-* [0xrtt](https://twitter.com/0xrtt)

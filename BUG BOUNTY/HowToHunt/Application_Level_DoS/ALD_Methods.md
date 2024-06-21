@@ -82,7 +82,5 @@ During report try to add impact by saying that you can permanently block user ac
 \- Permanent DOS to victim
 - https://youtu.be/5drIMXCQuNw
 
-## Author: 
-* [Keshav Malik](https://twitter.com/g0t_rOoT_)
-* [Fani Malik](https://twitter.com/fanimalikhack)
+
 

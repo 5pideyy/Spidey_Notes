@@ -109,13 +109,6 @@ Email Verfication was bypassed due to Broken Authentication Mechanism , Thus mor
       7) Now, login into your account and go to the Profile section to confirm
 ```
 
-* Thanks For Reading Guys Happy Hunting :).
 
-  ## Resources:
-  Google,Youtube.
 
-## Authors
-* [https://twitter.com/Virdoex_hunter](https://twitter.com/Virdoex_hunter) 
-* Linkedin : [@chirag_Agrawal](https://www.linkedin.com/in/chirag-agrawal-770488144/), Twitter  : [@Raiders](https://twitter.com/ChiragA15977205)
-* Twitter : [Fani Malik](https://twitter.com/fanimalikhack) 
-* Linkedin : [@suprit-pandurangi](https://www.linkedin.com/in/suprit-pandurangi-a90526106/)
+

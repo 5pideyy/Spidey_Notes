@@ -308,5 +308,3 @@ Test Case: Validation of CSRF token depends on token value being
 
 ![https://pbs.twimg.com/media/EsAj4HTW8AIk9rZ?format=jpg&name=900x900](https://pbs.twimg.com/media/EsAj4HTW8AIk9rZ?format=jpg&name=900x900)
 
-## Author:
-[KathanP19](https://twitter.com/KathanP19)

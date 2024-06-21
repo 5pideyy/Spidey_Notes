@@ -81,7 +81,4 @@ ___
 - [Testing Two-Factor Authentication](https://research.nccgroup.com/2021/06/10/testing-two-factor-authentication/) by [NCC Group](https://research.nccgroup.com/)
 
 
-## Author
 
-[Harsh Bothra](https://twitter.com/harshbothra_) \
-[Vishal Saini](https://twitter.com/k4k4r07)

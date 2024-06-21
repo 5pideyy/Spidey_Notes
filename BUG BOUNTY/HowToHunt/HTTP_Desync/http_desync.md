@@ -79,6 +79,4 @@ https://paper.seebug.org/1049/ (Recommended !)
 
 [A Brief Video About Req. Smuggling](https://youtu.be/gzM4wWA7RFo)
 
-### Author:
-[Neutron__](https://twitter.com/Neutron__)
-###### If you think something was missed, feel free to add/modify/delete it :)
+

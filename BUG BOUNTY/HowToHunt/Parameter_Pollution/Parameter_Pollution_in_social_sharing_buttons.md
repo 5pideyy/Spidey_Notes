@@ -23,5 +23,3 @@ Though it is not severe bug.But still some organizations take this seriously.
 * https://hackerone.com/reports/105953
 * Google
   
-## Author
-* [KenAdams000](https://twitter.com/KenAdams000)

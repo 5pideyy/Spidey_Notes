@@ -564,5 +564,3 @@ mv shell.jpg  shell.php.jpg
 
 [https://pbs.twimg.com/media/Eq9dOoaXUAAEE8n?format=jpg&name=900x900](https://pbs.twimg.com/media/Eq9dOoaXUAAEE8n?format=jpg&name=900x900)
 
-## Author:
-[KathanP19](https://twitter.com/KathanP19)

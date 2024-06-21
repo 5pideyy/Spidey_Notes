@@ -151,7 +151,4 @@ If you have xmlrpc.php and this User enumeration both presence there. Then you c
 # Researcher Note
 Please do not depend on those issues at all. I saw people only looking for those issues and nothing else. Those are good to have a look while testing for other vulnerabilities and most of the time they work good for chaining with other low bugs.
 
-# Author
-**Name:** Mehedi Hasan Remon
 
-**Handle:** [@remonsec](https://twitter.com/remonsec)

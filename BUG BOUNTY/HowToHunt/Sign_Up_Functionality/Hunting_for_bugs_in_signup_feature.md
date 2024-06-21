@@ -107,13 +107,10 @@ If an application allows users to check their profile with direct path /{usernam
 > Further Read:
 https://infosecwriteups.com/logical-flaw-resulting-path-hijacking-dd4d1e1e832f
   
-**_Thanks for Reading. Any Suggestions are always welcomed!!_**
+
 
 ## Sources:-
 
 + https://twitter.com/kushagrasarathe/status/1385111472385060867?s=19
 
-## Author:-
 
-+ @Kushagra Sarathe - [Twitter](https://twitter.com/kushagrasarathe) & [GitHub](https://github.com/kushagrasarathe)
-+ @Sm4rty - [Twitter](https://twitter.com/Sm4rty\_)  , [LinkedIn](https://www.linkedin.com/in/sm4rty) &  [Instragram](https://www.instagram.com/sm4rty)

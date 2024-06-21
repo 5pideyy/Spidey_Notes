@@ -8,5 +8,4 @@
 
 ### Tools
 + [tplmap](https://github.com/epinna/tplmap)
-### Author
-* [0xsunil](https://twitter.com/0xsunil)
+
