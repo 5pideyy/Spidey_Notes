@@ -88,7 +88,7 @@ Tip: Try switching POST and PUT and see if you can upload something to another u
 
 ## Testcase - 5: Try changing the request’s content type
 
-```jsx
+
 Instead of this:
 ```
 POST /api/chat/join/123
@@ -105,7 +105,7 @@ Content-type: application/json
 ```
 
 Tip: Access controls may be inconsistently implemented across different content types. Don’t forget to try alternative and less common values like text/xml, text/x-json, and similar.
-```
+
 
 ## Testcase - 6: Try changing the requested file type (Test if Ruby)
 

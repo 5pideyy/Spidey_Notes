@@ -66,7 +66,7 @@ Check out Auth Bypass method, there is a method for OTP bypass via response mani
   3. Click forward.
   4. Check response if that contains any link,any token or OTP.
  ```
-
+![[20240623_135626.jpg]]
 ## Reference:
 * Various Source From Google,Twitter,Medium
 * https://avanishpathak.medium.com/an-account-takeover-vulnerability-due-to-response-manipulation-e23fe629bd1
