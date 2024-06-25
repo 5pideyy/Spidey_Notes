@@ -52,3 +52,6 @@ If you have any Questions, Reach out to me via [Twitter](https://twitter.com/g0t
 ## Twitter : [Fani Malik](https://twitter.com/fanimalikhack)
 ## Twitter : [Faizee Asad](https://twitter.com/faizee_asad)
 ## Twitter : [Prince Prafull](https://twitter.com/princeprafull3)
+
+
+https://medium.com/@0xmekky/how-i-got-easy-multiple-rxss-dd3a6bc521dd
