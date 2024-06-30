@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "USEFULL.md",
+                "file": "CERTIFICATIONS/OSWA.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "140a99888c5f7716",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
               }
             }
           }
@@ -61,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "USEFULL.md",
+                "file": "CERTIFICATIONS/OSWA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "USEFULL.md",
+                "file": "CERTIFICATIONS/OSWA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "USEFULL.md"
+                "file": "CERTIFICATIONS/OSWA.md"
               }
             }
           }
@@ -163,8 +173,17 @@
   },
   "active": "93890485da258c87",
   "lastOpenFiles": [
-    "BUG BOUNTY/Untitled.md",
+    "BUG BOUNTY/CONFIDENTIAL/Untitled.md",
+    "CERTIFICATIONS/OSWA.md",
+    "USEFULL.md",
+    "CERTIFICATIONS/CNSP.md",
+    "PASTED IMAGES/Pasted image 20240628221836.png",
+    "PASTED IMAGES/Pasted image 20240628220039.png",
+    "HTB/HTB_CPTS/Academy/05. Web Exploitation/23. Attacking Web Applications with Ffuf/Attacking Web Applications with Ffuf.md",
+    "CERTIFICATIONS",
     "BUG BOUNTY/OneLiners.md",
+    "BUG BOUNTY/CONFIDENTIAL",
+    "BUG BOUNTY/Untitled.md",
     "BUG BOUNTY/HowToHunt/SSTI/SSTI.md",
     "BUG BOUNTY/HowToHunt/SSRF/SSRF.md",
     "BUG BOUNTY/HowToHunt/SSRF/SSRF-old.md",
@@ -186,11 +205,6 @@
     "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Account_Takeover_By_Password_Reset_Functionality.md",
     "BUG BOUNTY/HowToHunt/Parameter_Pollution/Parameter_Pollution_in_social_sharing_buttons.md",
     "BUG BOUNTY/HowToHunt/Open_Redirection/Open_Redirection_Bypass.md",
-    "BUG BOUNTY/HowToHunt/Open_Redirection/find_OpenRedirect_trick.md",
-    "BUG BOUNTY/HowToHunt/OAuth/README.md",
-    "BUG BOUNTY/HowToHunt/OAuth/OAuth 2.0 Hunting Methodology.md",
-    "BUG BOUNTY/HowToHunt/Misconfigurations/S3-Bucket_Misconfig.md",
-    "BUG BOUNTY/HowToHunt/Misconfigurations/Docker.md",
     "PASTED IMAGES/Pasted image 20240621185827.png",
     "PASTED IMAGES/Pasted image 20240621185821.png",
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
@@ -199,16 +213,12 @@
     "BUG BOUNTY/HowToHunt/CheckList/Web_Penetration_Testing_Methodology@2x.png",
     "PASTED IMAGES/Pasted image 20240621185322.png",
     "PASTED IMAGES/Pasted image 20240621182607.png",
-    "PASTED IMAGES/Pasted image 20240621182324.png",
-    "PASTED IMAGES/Pasted image 20240621182203.png",
     "netlify.toml",
     "BUG BOUNTY/HowToHunt/Subdomain_Takeover/sub or top_level_domain takeover",
     "BUG BOUNTY/HowToHunt/Subdomain_Takeover/Methods",
     "BUG BOUNTY/HowToHunt/Sensitive_Info_Leaks/Version Leak",
     "BUG BOUNTY/HowToHunt/Password_Reset_Functionality/Top_5_Password_Reset_Bugs",
     "BUG BOUNTY/HowToHunt/Authentication_Bypass/account_ban_bypass",
-    "BUG BOUNTY/HowToHunt/Application_Level_DoS/Password.txt",
-    "BUG BOUNTY/HowToHunt/XXE",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "Untitled.canvas",
