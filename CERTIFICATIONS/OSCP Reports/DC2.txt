@@ -1,0 +1,11 @@
+119 
+fms login admin admin 
+after download zip
+crack zip pass with john - nabucodonosor
+extrat zip you will see meta files
+you can see pass and username list
+you can try rdp will login alex.l
+after seen dr fone all is acces it 
+create payload and change with wsidservice.exe 
+restart machine 
+take shell from nc

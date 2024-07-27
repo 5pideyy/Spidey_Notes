@@ -1,0 +1,2 @@
+- performs network enumeration and identifies hosts and services while enumerating shares, users, and groups within the network.
+- 

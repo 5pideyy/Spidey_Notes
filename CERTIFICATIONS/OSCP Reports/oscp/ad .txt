@@ -1,0 +1,27 @@
+101
+
+> nmap scan on 8099 showing ws02 search exploit , cve cve-2022-209464
+> https://github.com/hakivvi/CVE-2022-29464
+> nmap scan  9443 port, and it is running ws02
+> upload jsp with exploit.py aa.jsp
+> open https://192.168.x.101:9443/authenticationendpoint/aaa.jsp?cmd=id
+> create hta reverse shell and upload, you will take nc shell
+> enumare PowerUp.ps1 and you see RemoteSystemMonitorService have priv
+> generated a msfvenom exe 
+> uploaded it to the modifiable path and restarted the target machine
+> waiting a fiew minutes i have received a command shell as "nt authority \system"
+> will you see proof.txt
+> upload mimiketz.exe dump creds 
+> see Alice.Walters password , 176.x.x.102 machine i needed a socks tunnel on 192.168.x.101, set chisel for tunneling
+> 192.168.61.101 machine uploaded chisel.exe and running chisel.exe client
+> scan with nmap 176.x.x.102
+> you will see open rdp, login Alice.Walters  with sock tunneling
+> read local.txt flag
+> copy PowerUp.ps1 from the shared folder with xfreerdp to desktop
+> enumarate with powerup
+> found a modifiable file for mysql service
+> generatate for new user add msfvenom exe
+> change with mysqld.exe
+> restart machine login with new cred
+> will see powershell admin
+> 

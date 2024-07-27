@@ -1,0 +1,316 @@
+{
+  "main": {
+    "id": "752cbbb68b49b7e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "272bcbb7d29aff53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cf916b602c31a4b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ceee4038a2d77ce6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36834c4772742dd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KIC PLAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de421d723657371f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d9d601e73573bf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4f509311eff5bd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKS/PROTOCOL/DNS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0cdca89b9e35f79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69ae2748d3d96bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/C ATTACKING COMMON SERVICES.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "851030be6ce4f059",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/LINUX PRIV ESC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7da6dfdcc47f0da2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d820ae27ac6475fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "d01ec6893195ab84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fc2af40511fda44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8e7903c0f4bc35f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Pasted image 20240724001232.png",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bea737e1a7116ff3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6041b6d6e6674334",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c5b43001fb723c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b005b37926fd15c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d602aa95adb9880e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b33ede83ad3fbcc9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e5e7e01b6b4ebc85",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "flowershow:Publish with Flowershow": false
+    }
+  },
+  "active": "8fc2af40511fda44",
+  "lastOpenFiles": [
+    "content/CERTIFICATIONS/CNSP.md",
+    "content/CERTIFICATIONS",
+    "content/CTF/CTF WRITEUPS/writeup.md",
+    "content/CTF/CTF WRITEUPS",
+    "content/CTF",
+    "content/Choice list.md",
+    "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/images/logo_ad_enumeration_and_attack.jpg",
+    "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/images",
+    "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks",
+    "public/HTB/HTB_CPTS/Academy/04. Exploitation",
+    "public/HTB/HTB_CPTS/Academy",
+    "public/HTB/HTB_CPTS",
+    "public/HTB",
+    "content/HTB/HTB_CPTS/Pro Labs/dante.md",
+    "content/HTB/HTB_CPTS/Pro Labs",
+    "public/BUG BOUNTY/HowToHunt/Subdomain_Takeover/dns.png",
+    "content/BUG BOUNTY/OneLiners.md",
+    "content/INTRO.md",
+    "content/KIC PLAN.md",
+    "content/NETWORKS/SUBNETTING.md",
+    "content/PRADYUN_R.md",
+    "content/USEFULL.md",
+    "public/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.16.31 PM.jpeg",
+    "public/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.15.35 PM.jpeg",
+    "public/PASTED IMAGES/Pasted image 20240613190514.png",
+    "public/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.04.52 PM.jpeg",
+    "content/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.16.31 PM.jpeg",
+    "content/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.15.35 PM.jpeg",
+    "content/win services.md",
+    "content/Untitled.md",
+    "content/BUG BOUNTY/ROAD MAP.md",
+    "content/BUG BOUNTY/CONFIDENTIAL/transunion.co.za.md",
+    "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md",
+    "BUG BOUNTY/HowToHunt/Application_Level_DoS/ALD_Methods.md",
+    "BUG BOUNTY/CONFIDENTIAL/Dowts.md",
+    "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+    "PASTED IMAGES/Pasted image 20240727195910.png",
+    "PASTED IMAGES/Pasted image 20240727173733.png",
+    "content/PASTED IMAGES/meet.md",
+    "content/NETWORKS/PROTOCOL/SNMP.md",
+    "content/NETWORKS/PROTOCOL/SMTP.md",
+    "content/NETWORKS/PROTOCOL/NetBIOS.md",
+    "content/NETWORKS/PROTOCOL/HTTP VS SOCKS.md",
+    "content/NETWORKS/PROTOCOL/FTP.md",
+    "content/NETWORKS/PROTOCOL/FTP VS SMB.md",
+    "content/NETWORKS/PROTOCOL/DNS.md",
+    "NETWORKS/PROTOCOL/Protocols.canvas",
+    "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}
