@@ -1,8 +1,0 @@
-- Web => Probably you guys know already :-)
-    - PortSwigger Academy
-    - WebSec fr => websec.fr
-    - Stype
-    - Try Cure53 XSS => Very Famous XSS Challenge Wiki
-    - for learning XS Leaks, POSTMessage Stuff, Lax+POST
-        - follow huli, kevin, Renwa, masato kinugawa, tarjanq
-            - God Level Players
