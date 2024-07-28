@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md"
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
               }
             }
           }
@@ -256,13 +256,31 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false,
-      "flowershow:Publish with Flowershow": false
+      "publish:Publish changes...": false
     }
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20240728150113.png",
+    "PASTED IMAGES/Pasted image 20240728002933.png",
+    "PASTED IMAGES/Pasted image 20240727150935.png",
+    "PASTED IMAGES/Pasted image 20240727145934.png",
+    "PASTED IMAGES/Pasted image 20240727141631.png",
+    "PASTED IMAGES/Pasted image 20240724001232.png",
+    "PASTED IMAGES/Pasted image 20240723233054.png",
+    "PASTED IMAGES/Pasted image 20240723230547.png",
     "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+    "BUG BOUNTY/HowToHunt/Host-Header/Host-Header.md",
+    "BUG BOUNTY/HowToHunt/API_Testing/Reverse_Engineer_an_API.md",
+    "BUG BOUNTY/CONFIDENTIAL/Methodology.md",
+    "BUG BOUNTY/CONFIDENTIAL/NASA.md",
+    "BUG BOUNTY/CONFIDENTIAL/davel.md",
+    "BUG BOUNTY/HowToHunt/IDOR/IDOR.md",
+    "BUG BOUNTY/HowToHunt/IDOR/CHEETSHEET.md",
+    "BUG BOUNTY/MDN HTTP HEADERS.md",
+    "BUG BOUNTY/HowToHunt/IDOR/IDOR-Old.md",
+    "BUG BOUNTY/HowToHunt/API_Testing/Hidden_API_Functionality_Exposure.md",
+    "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md",
     "content/CERTIFICATIONS/CNSP.md",
     "content/CERTIFICATIONS",
     "content/CTF/CTF WRITEUPS/writeup.md",
@@ -286,28 +304,9 @@
     "content/PRADYUN_R.md",
     "content/USEFULL.md",
     "public/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.16.31 PM.jpeg",
-    "public/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.15.35 PM.jpeg",
-    "public/PASTED IMAGES/Pasted image 20240613190514.png",
-    "public/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.04.52 PM.jpeg",
-    "content/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.16.31 PM.jpeg",
-    "content/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.15.35 PM.jpeg",
     "content/win services.md",
     "content/Untitled.md",
     "content/BUG BOUNTY/ROAD MAP.md",
-    "content/BUG BOUNTY/CONFIDENTIAL/transunion.co.za.md",
-    "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md",
-    "BUG BOUNTY/HowToHunt/Application_Level_DoS/ALD_Methods.md",
-    "BUG BOUNTY/CONFIDENTIAL/Dowts.md",
-    "PASTED IMAGES/Pasted image 20240727195910.png",
-    "PASTED IMAGES/Pasted image 20240727173733.png",
-    "content/PASTED IMAGES/meet.md",
-    "content/NETWORKS/PROTOCOL/SNMP.md",
-    "content/NETWORKS/PROTOCOL/SMTP.md",
-    "content/NETWORKS/PROTOCOL/NetBIOS.md",
-    "content/NETWORKS/PROTOCOL/HTTP VS SOCKS.md",
-    "content/NETWORKS/PROTOCOL/FTP.md",
-    "content/NETWORKS/PROTOCOL/FTP VS SMB.md",
-    "content/NETWORKS/PROTOCOL/DNS.md",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
