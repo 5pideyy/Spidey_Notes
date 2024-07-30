@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
+                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md"
               }
             }
           }
@@ -261,6 +261,21 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
+    "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/transunion.co.za.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/NASA.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Dowts.md",
+    "BUG BOUNTY/HowToHunt/IDOR/CHEETSHEET.md",
+    "DHT11 DHT 22 LM35.md",
+    "BUG BOUNTY/APACHE & NGINX.md",
+    "BUG BOUNTY/HowToHunt/CMS/AEM.md",
+    "BUG BOUNTY/HowToHunt/CMS/Drupal.md",
+    "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
+    "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
+    "PASTED IMAGES/Pasted image 20240728222055.png",
+    "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "PASTED IMAGES/Pasted image 20240728150113.png",
     "PASTED IMAGES/Pasted image 20240728002933.png",
     "PASTED IMAGES/Pasted image 20240727150935.png",
@@ -269,14 +284,10 @@
     "PASTED IMAGES/Pasted image 20240724001232.png",
     "PASTED IMAGES/Pasted image 20240723233054.png",
     "PASTED IMAGES/Pasted image 20240723230547.png",
-    "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "BUG BOUNTY/HowToHunt/Host-Header/Host-Header.md",
     "BUG BOUNTY/HowToHunt/API_Testing/Reverse_Engineer_an_API.md",
-    "BUG BOUNTY/CONFIDENTIAL/Methodology.md",
-    "BUG BOUNTY/CONFIDENTIAL/NASA.md",
-    "BUG BOUNTY/CONFIDENTIAL/davel.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
     "BUG BOUNTY/HowToHunt/IDOR/IDOR.md",
-    "BUG BOUNTY/HowToHunt/IDOR/CHEETSHEET.md",
     "BUG BOUNTY/MDN HTTP HEADERS.md",
     "BUG BOUNTY/HowToHunt/IDOR/IDOR-Old.md",
     "BUG BOUNTY/HowToHunt/API_Testing/Hidden_API_Functionality_Exposure.md",
@@ -295,18 +306,7 @@
     "public/HTB/HTB_CPTS",
     "public/HTB",
     "content/HTB/HTB_CPTS/Pro Labs/dante.md",
-    "content/HTB/HTB_CPTS/Pro Labs",
-    "public/BUG BOUNTY/HowToHunt/Subdomain_Takeover/dns.png",
     "content/BUG BOUNTY/OneLiners.md",
-    "content/INTRO.md",
-    "content/KIC PLAN.md",
-    "content/NETWORKS/SUBNETTING.md",
-    "content/PRADYUN_R.md",
-    "content/USEFULL.md",
-    "public/PASTED IMAGES/WhatsApp Image 2024-07-16 at 7.16.31 PM.jpeg",
-    "content/win services.md",
-    "content/Untitled.md",
-    "content/BUG BOUNTY/ROAD MAP.md",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",

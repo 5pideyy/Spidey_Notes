@@ -41,3 +41,23 @@ Vout => produces analog voltage
 
 - Use the **LM35** if you only need temperature measurements and prefer an analog output.
 - Use the **DHT11** if you need both temperature and humidity measurements and prefer a digital output.
+
+
+# Q FLAG IN ASPR
+
+- during arithmetic operation when the result limit exeeds(exceeds boundary conditions, fall into negative region,overflow occurs)
+- Q flag is set and the result is clamped to maximum value
+- sticky not changed , only changed using MSR (move to special register) instruction
+-  `MSR APSR_nzcvq, #0  ; Clear the Q flag`
+
+# STR Register
+
+- store contents of a register into memory location to a specific address 
+
+```
+STR <Rt>, [<Rn>, #<imm>]
+- `<Rt>` is the register containing the data to be stored.
+- `<Rn>` is the base register containing the address of the memory location.
+- `#<imm>` is an optional immediate offset (which can be positive or negative).
+```
+
