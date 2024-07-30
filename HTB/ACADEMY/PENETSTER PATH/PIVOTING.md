@@ -332,7 +332,7 @@ run autoroute -p
 ## Port Forwarding
 
 - redirect traffic from Attack host to target via meterpreter session
-- enable listener port ton our machine and forward all packets recieved in this machine to meterpreter session
+- enable listener port on our machine and forward all packets recieved in this machine to meterpreter session
 
 ```shell-session
  help portfwd
@@ -352,6 +352,8 @@ xfreerdp /v:localhost:3300 /u:victor /p:pass@123
 
 
 ## Meterpreter Reverse Port Forwarding
+
+
 
 
 

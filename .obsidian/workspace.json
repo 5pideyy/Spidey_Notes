@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/IDOR.md"
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
               }
             }
           }
@@ -261,8 +261,9 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
+    "jsnice.md",
     "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/transunion.co.za.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/NASA.md",
@@ -306,7 +307,6 @@
     "public/HTB/HTB_CPTS",
     "public/HTB",
     "content/HTB/HTB_CPTS/Pro Labs/dante.md",
-    "content/BUG BOUNTY/OneLiners.md",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
