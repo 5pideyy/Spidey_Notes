@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
                 "mode": "source",
                 "source": false
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md"
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md"
               }
             }
           }
@@ -273,6 +273,9 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "CERTIFICATIONS/ejpt.pdf",
+    "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
@@ -307,10 +310,7 @@
     "BUG BOUNTY/MDN HTTP HEADERS.md",
     "BUG BOUNTY/HowToHunt/IDOR/IDOR-Old.md",
     "BUG BOUNTY/HowToHunt/API_Testing/Hidden_API_Functionality_Exposure.md",
-    "BUG BOUNTY/HowToHunt/Account_Takeovers_Methodologies/Account_Takeovers_Methods.md",
-    "content/CERTIFICATIONS/CNSP.md",
     "content/CERTIFICATIONS",
-    "content/CTF/CTF WRITEUPS/writeup.md",
     "content/CTF/CTF WRITEUPS",
     "content/CTF",
     "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/images",
