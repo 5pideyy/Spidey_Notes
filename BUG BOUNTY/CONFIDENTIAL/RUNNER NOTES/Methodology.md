@@ -88,3 +88,15 @@ cat urls.txt | httprobe | tee -a aliveurls.txt
 ### GOOGLE DORKING
 
 [Dorks](https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/?source=post_page-----2b69c3b168fe--------------------------------)
+
+
+
+N = int(input())
+T = int(input())
+numbers = []
+for _ in range(N):
+    numbers.append(int(input()))
+for _ in range(T):
+    K = int(input())
+    print(numbers[K])
+
