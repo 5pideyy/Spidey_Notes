@@ -10,7 +10,7 @@ The MSF engagement structure can be divided into five main categories.
 ![[Pasted image 20240728222055.png]]
 
 
-### Msf Structure
+### Msf Modules Structure
 
 | **Type**        | **Description**                                                                                 |
 | --------------- | ----------------------------------------------------------------------------------------------- |
@@ -22,7 +22,39 @@ The MSF engagement structure can be divided into five main categories.
 | ==`Plugins`==   | Additional scripts can be integrated within an assessment with `msfconsole` and coexist.        |
 | ==`Post`==      | Wide array of modules to gather information, pivot deeper, etc.                                 |
 
-# Modules
+#### Syntax
+
+```shell-session
+<No.> <type>/<os>/<service>/<name>
+```
+
+#### Example
+
+```shell-session
+794   exploit/windows/ftp/scriptftp_list
+```
+
+#### MSF - Searching for EternalRomance
+
+```shell-session
+search eternalromance
+```
+
+#### MSF - Specific Search
+
+```shell-session
+search type:exploit platform:windows cve:2021 rank:excellent microsoft
+```
+
+#### MSF - Module info
+
+```shell-session
+msf6 exploit(windows/smb/ms17_010_psexec) > info
+```
+
+
+
+
 
 
 

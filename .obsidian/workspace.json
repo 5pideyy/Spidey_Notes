@@ -123,7 +123,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69612c33e90a9bee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md"
+                "file": "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md"
               }
             }
           }
@@ -261,10 +273,12 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+    "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/transunion.co.za.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/NASA.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
     "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
     "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "PASTED IMAGES/Pasted image 20240730223012.png",
@@ -278,7 +292,6 @@
     "BUG BOUNTY/HowToHunt/CMS/AEM.md",
     "BUG BOUNTY/HowToHunt/CMS/Drupal.md",
     "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
-    "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
     "PASTED IMAGES/Pasted image 20240728222055.png",
     "PASTED IMAGES/Pasted image 20240728150113.png",
     "PASTED IMAGES/Pasted image 20240728002933.png",
