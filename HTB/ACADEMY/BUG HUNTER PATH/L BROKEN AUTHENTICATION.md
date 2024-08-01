@@ -136,3 +136,30 @@ include exit after header to mitigate
 ```
 
 
+# Authentication Bypass via Parameter Modification
+
+- check weather parameter is involved in authentication , how??
+- remove/change the parameter value and check the functionality ,redirects to /index.php => parameter invloved in authentication
+- brute the value to get higher priv
+- idor
+
+# Attacking Session Tokens
+
+- collect different session tokes and analyze
+
+```
+2c0c58b27c71a2ec5bf2b4b6e892b9f9
+2c0c58b27c71a2ec5bf2b4546092b9f9
+2c0c58b27c71a2ec5bf2b497f592b9f9
+2c0c58b27c71a2ec5bf2b48bcf92b9f9
+2c0c58b27c71a2ec5bf2b4735e92b9f9
+```
+
+- only characters are changed easy to brute
+
+- incremented session id
+
+- base64,hex,url encoded session
+
+
+
