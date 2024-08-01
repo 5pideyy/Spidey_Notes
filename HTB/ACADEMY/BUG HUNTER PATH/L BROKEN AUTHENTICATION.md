@@ -117,4 +117,6 @@ pradyun2005@htb[/htb]$ ffuf -w ./tokens.txt -u http://bf_2fa.htb/2fa.php -X POST
 
 #### Direct Access
 
-- we know that after successful auth , redirect to 
+- find where after succesful login redirects to /admin.php
+- access /admin.php directly without login page
+- 
