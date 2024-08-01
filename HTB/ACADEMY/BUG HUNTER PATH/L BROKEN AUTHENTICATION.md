@@ -119,4 +119,20 @@ pradyun2005@htb[/htb]$ ffuf -w ./tokens.txt -u http://bf_2fa.htb/2fa.php -X POST
 
 - find where after succesful login redirects to /admin.php
 - access /admin.php directly without login page
-- 
+- Does it redirect to index.php => modify response of http request 
+- `302 FOUND to 200 OK` In response that redirecting
+
+Why this happens ??
+
+```php
+if(!$_SESSION['active']) {
+	header("Location: index.php");
+}
+```
+
+include exit after header to mitigate
+```php
+	exit;
+```
+
+
