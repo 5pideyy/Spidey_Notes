@@ -25,7 +25,12 @@ whois <target>
 
 > [ICANN](https://www.icann.org/get-started) equires that accredited registrars enter the holder's contact information, the domain's creation, and expiration dates, and other information in the Whois database immediately after registering a domain
 
-
+- `Domain Name`
+- `Registrar`
+- `Registrant Contact
+- `Administrative Contact`
+- `Technical Contact`
+- `Creation and Expiration Dates`
 #### dns
 
 

@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
                 "mode": "source",
                 "source": false
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md"
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md"
               }
             }
           }
@@ -273,9 +273,9 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
     "jsnice.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
