@@ -27,7 +27,7 @@
 - Enumerate usernames using ffuf
 
 ```shell
-ffuf -w /opt/useful/SecLists/Usernames/xato-net-10-million-usernames.txt -u http://172.17.0.2/index.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username=FUZZ&password=invalid" -fr "Unknown username"
+ffuf -w /opt/seclists/Usernames/xato-net-10-million-usernames.txt -u http:// 94.237.49.32:36757/login.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username=FUZZ&password=admin" -fr "Unknown username"
 ```
 
 
@@ -162,4 +162,6 @@ include exit after header to mitigate
 - base64,hex,url encoded session
 
 
+
+gcnvvmcv4eqgm5fjc4ibt2crtq
 

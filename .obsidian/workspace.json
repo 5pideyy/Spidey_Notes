@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jsnice.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jsnice.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jsnice.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jsnice.md"
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md"
               }
             }
           }
@@ -273,9 +273,10 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
+    "jsnice.md",
     "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
     "CERTIFICATIONS/ejpt.pdf",
-    "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
@@ -287,7 +288,6 @@
     "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "PASTED IMAGES/Pasted image 20240730223012.png",
     "HTB/ACADEMY/PENETSTER PATH/LINUX PRIV ESC.md",
-    "jsnice.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Dowts.md",
     "BUG BOUNTY/HowToHunt/IDOR/CHEETSHEET.md",
