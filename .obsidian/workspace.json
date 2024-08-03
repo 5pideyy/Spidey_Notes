@@ -121,9 +121,11 @@
             "id": "7da6dfdcc47f0da2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf"
+                "file": "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -206,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf",
+                "file": "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf",
+                "file": "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf"
+                "file": "HTB/ACADEMY/PENETSTER PATH/A NMAP.md"
               }
             }
           }
@@ -271,13 +273,13 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/BUG HUNTER PATH/X WEB SERVICE & API ATTACKS.md",
     "HTB/ACADEMY/BUG HUNTER PATH/J SERVER SIDE ATTACKS.md",
     "jsnice.md",
     "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
     "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
-    "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
@@ -308,7 +310,6 @@
     "PASTED IMAGES/Pasted image 20240723230547.png",
     "BUG BOUNTY/HowToHunt/Host-Header/Host-Header.md",
     "BUG BOUNTY/HowToHunt/API_Testing/Reverse_Engineer_an_API.md",
-    "BUG BOUNTY/HowToHunt/IDOR/IDOR.md",
     "content/CERTIFICATIONS",
     "content/CTF/CTF WRITEUPS",
     "content/CTF",
