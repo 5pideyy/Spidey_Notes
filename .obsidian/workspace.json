@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/ROAD MAP.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/WEB FUZZING.md",
                 "mode": "source",
                 "source": false
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/ROAD MAP.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/WEB FUZZING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/ROAD MAP.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/WEB FUZZING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/ROAD MAP.md"
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/WEB FUZZING.md"
               }
             }
           }
@@ -273,6 +273,9 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/WEB FUZZING.md",
+    "BUG BOUNTY/ROAD MAP.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
     "CERTIFICATIONS/ejpt.pdf",
@@ -280,7 +283,6 @@
     "HTB/ACADEMY/BUG HUNTER PATH/J SERVER SIDE ATTACKS.md",
     "jsnice.md",
     "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
@@ -300,7 +302,6 @@
     "BUG BOUNTY/APACHE & NGINX.md",
     "BUG BOUNTY/HowToHunt/CMS/AEM.md",
     "BUG BOUNTY/HowToHunt/CMS/Drupal.md",
-    "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
     "PASTED IMAGES/Pasted image 20240728222055.png",
     "PASTED IMAGES/Pasted image 20240728150113.png",
     "PASTED IMAGES/Pasted image 20240728002933.png",
@@ -310,7 +311,6 @@
     "PASTED IMAGES/Pasted image 20240724001232.png",
     "PASTED IMAGES/Pasted image 20240723233054.png",
     "PASTED IMAGES/Pasted image 20240723230547.png",
-    "BUG BOUNTY/HowToHunt/Host-Header/Host-Header.md",
     "content/CERTIFICATIONS",
     "content/CTF/CTF WRITEUPS",
     "content/CTF",
