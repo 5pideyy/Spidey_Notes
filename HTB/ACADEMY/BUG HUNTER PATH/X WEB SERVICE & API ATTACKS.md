@@ -75,4 +75,13 @@ if args.target and args.option == "yes": # if the target option is set and args.
 ```shell-session
  ffuf -w "/home/htb-acxxxxx/Desktop/Useful Repos/SecLists/Discovery/Web-Content/common-api-endpoints-mazen160.txt" -u 'http://<TARGET IP>:3000/api/FUZZ'
 ```
+# Regular Expression Denial of Service (ReDoS)
+
+- user input processed by regx on server side
+- lower input in api lower time taken
+- higher input size time taken long
+
+regex to [regex101.com](https://regex101.com/) for an in-depth explanation. Then, submit the above regex to [https://jex.im/regulex/](https://jex.im/regulex/#!flags=&re=%5E(%5Ba-zA-Z0-9_.-%5D) for a visualization
+
+
 
