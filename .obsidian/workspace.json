@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
+                "file": "HTB/HTB_CPTS/Pro Labs/dante.md",
                 "mode": "source",
                 "source": false
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
+                "file": "HTB/HTB_CPTS/Pro Labs/dante.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
+                "file": "HTB/HTB_CPTS/Pro Labs/dante.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md"
+                "file": "HTB/HTB_CPTS/Pro Labs/dante.md"
               }
             }
           }
@@ -273,6 +273,7 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/Windows Privlege Esc.md",
     "HTB/SEASON6/RESOURCE.md",
@@ -302,7 +303,6 @@
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/30. Web Attacks/Web Attacks.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/31. Attacking Common Applications/Attacking Common Applications.md",
     "DHT11 DHT 22 LM35.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
     "PASTED IMAGES/Pasted image 20240804173411.png",
     "CERTIFICATIONS/ejpt.pdf",
     "PASTED IMAGES/Pasted image 20240730223012.png",
