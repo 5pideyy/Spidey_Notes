@@ -121,11 +121,9 @@
             "id": "7da6dfdcc47f0da2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "DHT11 DHT 22 LM35.md",
-                "mode": "source",
-                "source": false
+                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png"
               }
             }
           },
@@ -208,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DHT11 DHT 22 LM35.md",
+                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DHT11 DHT 22 LM35.md",
+                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DHT11 DHT 22 LM35.md"
+                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png"
               }
             }
           }
@@ -273,36 +271,37 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "BUG BOUNTY/HowToHunt/CheckList/recon-summary.png",
+    "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/checklist.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/BUG BOUNTY CHEET SHEET.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/transunion.co.za.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/NASA.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Dowts.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
+    "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+    "HTB/HTB_CPTS/Academy/05. Web Exploitation/23. Attacking Web Applications with Ffuf/Attacking Web Applications with Ffuf.md",
+    "HTB/HTB_CPTS/Academy/05. Web Exploitation/22. Using Web Proxies/Using Web Proxies.md",
+    "HTB/HTB_CPTS/Academy/09. Post-Engagement/35. Documentation & Reporting/Documentation & Reporting.md",
+    "HTB/HTB_CPTS/Academy/09. Post-Engagement/Post-Engagement.md",
+    "HTB/HTB_CPTS/Academy/HTB Academy.md",
+    "HTB/HTB_CPTS/Academy/10. Misc/Misc.md",
+    "HTB/HTB_CPTS/Academy/10. Misc/Secure Coding 101 - JavaScript/Secure Coding 101 - JavaScript.md",
+    "HTB/HTB_CPTS/Academy/10. Misc/Whitebox Pentesting 101/Whitebox Pentesting 101.md",
+    "HTB/HTB_CPTS/Academy/05. Web Exploitation/30. Web Attacks/Web Attacks.md",
+    "HTB/HTB_CPTS/Academy/05. Web Exploitation/31. Attacking Common Applications/Attacking Common Applications.md",
+    "HTB/HTB_CPTS/Academy/05. Web Exploitation/24. Login Brute Forcing/Login Brute Forcing.md",
+    "DHT11 DHT 22 LM35.md",
     "KIC PLAN.md",
     "jsnice.md",
     "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "HTB/ACADEMY/BUG HUNTER PATH/X WEB SERVICE & API ATTACKS.md",
     "PASTED IMAGES/Pasted image 20240804173411.png",
-    "HTB/ACADEMY/BUG HUNTER PATH/L BROKEN AUTHENTICATION.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/WEB FUZZING.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/K LOGIN BRUTE FORCING.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/J SERVER SIDE ATTACKS.md",
-    "BUG BOUNTY/ROAD MAP.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/I FILE UPLOAD.md",
-    "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
     "CERTIFICATIONS/ejpt.pdf",
-    "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/R SQL MAP.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
-    "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/transunion.co.za.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/NASA.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
-    "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
-    "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "PASTED IMAGES/Pasted image 20240730223012.png",
-    "HTB/ACADEMY/PENETSTER PATH/LINUX PRIV ESC.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Dowts.md",
-    "BUG BOUNTY/HowToHunt/IDOR/CHEETSHEET.md",
     "PASTED IMAGES/Pasted image 20240728222055.png",
     "PASTED IMAGES/Pasted image 20240728150113.png",
     "PASTED IMAGES/Pasted image 20240728002933.png",
@@ -318,7 +317,6 @@
     "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks",
     "public/HTB/HTB_CPTS/Academy/04. Exploitation",
     "public/HTB/HTB_CPTS/Academy",
-    "public/HTB/HTB_CPTS",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
