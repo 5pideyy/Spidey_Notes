@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KIC PLAN.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
                 "mode": "source",
                 "source": false
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KIC PLAN.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KIC PLAN.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KIC PLAN.md"
+                "file": "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md"
               }
             }
           }
@@ -273,6 +273,11 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
+    "HTB/HTB_CHEETSHEETS/Windows Privlege Esc.md",
+    "HTB/SEASON6/RESOURCE.md",
+    "HTB/SEASON6",
+    "KIC PLAN.md",
     "jsnice.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/24. Login Brute Forcing/Login Brute Forcing.md",
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
@@ -297,10 +302,7 @@
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/30. Web Attacks/Web Attacks.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/31. Attacking Common Applications/Attacking Common Applications.md",
     "DHT11 DHT 22 LM35.md",
-    "KIC PLAN.md",
     "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/X WEB SERVICE & API ATTACKS.md",
     "PASTED IMAGES/Pasted image 20240804173411.png",
     "CERTIFICATIONS/ejpt.pdf",
     "PASTED IMAGES/Pasted image 20240730223012.png",
@@ -317,7 +319,6 @@
     "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/images",
     "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks",
     "public/HTB/HTB_CPTS/Academy/04. Exploitation",
-    "public/HTB/HTB_CPTS/Academy",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
