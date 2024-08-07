@@ -6,7 +6,7 @@
 +Vs =>input 4V to 30V 
 Vout => produces analog voltage
 
-
+-55 to 150
 # DHT11
 - inside DHT11 =>NTC thermistor
 - digital output
