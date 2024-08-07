@@ -121,9 +121,11 @@
             "id": "7da6dfdcc47f0da2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png"
+                "file": "KIC PLAN.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -206,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
+                "file": "KIC PLAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
+                "file": "KIC PLAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/CheckList/mindmap.png"
+                "file": "KIC PLAN.md"
               }
             }
           }
@@ -271,6 +273,9 @@
   },
   "active": "7da6dfdcc47f0da2",
   "lastOpenFiles": [
+    "jsnice.md",
+    "HTB/HTB_CPTS/Academy/05. Web Exploitation/24. Login Brute Forcing/Login Brute Forcing.md",
+    "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
     "BUG BOUNTY/HowToHunt/CheckList/recon-summary.png",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/checklist.md",
@@ -291,10 +296,8 @@
     "HTB/HTB_CPTS/Academy/10. Misc/Whitebox Pentesting 101/Whitebox Pentesting 101.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/30. Web Attacks/Web Attacks.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/31. Attacking Common Applications/Attacking Common Applications.md",
-    "HTB/HTB_CPTS/Academy/05. Web Exploitation/24. Login Brute Forcing/Login Brute Forcing.md",
     "DHT11 DHT 22 LM35.md",
     "KIC PLAN.md",
-    "jsnice.md",
     "HTB/ACADEMY/BUG HUNTER PATH/M FILE INCLUSION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "HTB/ACADEMY/BUG HUNTER PATH/X WEB SERVICE & API ATTACKS.md",
@@ -308,8 +311,6 @@
     "PASTED IMAGES/Pasted image 20240727150935.png",
     "PASTED IMAGES/Pasted image 20240727145934.png",
     "PASTED IMAGES/Pasted image 20240727141631.png",
-    "PASTED IMAGES/Pasted image 20240724001232.png",
-    "PASTED IMAGES/Pasted image 20240723233054.png",
     "content/CERTIFICATIONS",
     "content/CTF/CTF WRITEUPS",
     "content/CTF",
