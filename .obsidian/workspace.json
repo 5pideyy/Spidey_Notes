@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+                "file": "NETWORKS/SSH WORKING.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+                "file": "NETWORKS/SSH WORKING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+                "file": "NETWORKS/SSH WORKING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md"
+                "file": "NETWORKS/SSH WORKING.md"
               }
             }
           }
@@ -283,8 +283,14 @@
   },
   "active": "afcea9b53036efbe",
   "lastOpenFiles": [
-    "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
+    "PASTED IMAGES/Pasted image 20240808185755.png",
+    "PASTED IMAGES/Pasted image 20240808185007.png",
+    "PASTED IMAGES/Pasted image 20240808183347.png",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
+    "NETWORKS/SSH WORKING.md",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+    "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/BUG BOUNTY CHEET SHEET.md",
     "BUG BOUNTY/HowToHunt/CheckList/recon-summary.png",
     "BUG BOUNTY/HowToHunt/CheckList/Web-Application-Pentesting-checklist.md",
@@ -298,7 +304,6 @@
     "HTB/ACADEMY/PENETSTER PATH/LINUX PRIV ESC.md",
     "HTB/HTB_CPTS/Pro Labs/dante.md",
     "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
-    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/Windows Privlege Esc.md",
     "HTB/SEASON6/RESOURCE.md",
     "HTB/SEASON6",
@@ -312,8 +317,6 @@
     "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/23. Attacking Web Applications with Ffuf/Attacking Web Applications with Ffuf.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/22. Using Web Proxies/Using Web Proxies.md",
-    "HTB/HTB_CPTS/Academy/09. Post-Engagement/35. Documentation & Reporting/Documentation & Reporting.md",
-    "HTB/HTB_CPTS/Academy/09. Post-Engagement/Post-Engagement.md",
     "PASTED IMAGES/Pasted image 20240804173411.png",
     "CERTIFICATIONS/ejpt.pdf",
     "PASTED IMAGES/Pasted image 20240730223012.png",
@@ -321,8 +324,6 @@
     "PASTED IMAGES/Pasted image 20240728222055.png",
     "PASTED IMAGES/Pasted image 20240728150113.png",
     "PASTED IMAGES/Pasted image 20240728002933.png",
-    "PASTED IMAGES/Pasted image 20240727150935.png",
-    "PASTED IMAGES/Pasted image 20240727145934.png",
     "content/CERTIFICATIONS",
     "content/CTF/CTF WRITEUPS",
     "content/CTF",
