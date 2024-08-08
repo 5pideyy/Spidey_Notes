@@ -41,6 +41,11 @@
 ```
 
 ![[Pasted image 20240808183347.png]]
+
+
+
+![[Pasted image 20240808210710.png]]
+
 ![[Pasted image 20240808185007.png]]
 
 ![[Pasted image 20240808185755.png]]
@@ -48,4 +53,13 @@
 
 ![[Pasted image 20240808205429.png]]
 ![[Pasted image 20240808205444.png]]
+
+![[Pasted image 20240808210209.png]]
+
+![[Pasted image 20240808211156.png]]
+no 2222 port running, no signserv in /var/www/
+![[Pasted image 20240808213219.png]]
+
+![[Pasted image 20240808213522.png]]
+
 ![[Pasted image 20240808192425.png]]
