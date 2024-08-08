@@ -138,3 +138,4 @@ crawley -headless -delay 0 -depth -1 -dirs only http://some-test.site
 |`CTRL+SHIFT+B`|Go to intruder|
 |`CTRL+U`|URL encode|
 |`CTRL+SHIFT+U`|URL decode|
+

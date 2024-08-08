@@ -42,6 +42,9 @@
 
 ![[Pasted image 20240808183347.png]]
 
+![[Pasted image 20240808225438.png]]
+
+![[Pasted image 20240808225959.png]]
 
 
 ![[Pasted image 20240808210710.png]]
@@ -63,3 +66,10 @@ no 2222 port running, no signserv in /var/www/
 ![[Pasted image 20240808213522.png]]
 
 ![[Pasted image 20240808192425.png]]
+
+
+got ca private and public key
+we generate rsa private and public key
+sign public key using cs private
+ssh using rsa private key
+
