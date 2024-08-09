@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/IDOR.md",
+                "file": "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/IDOR.md",
+                "file": "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/IDOR.md",
+                "file": "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/IDOR.md"
+                "file": "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md"
               }
             }
           }
@@ -283,11 +283,12 @@
   },
   "active": "afcea9b53036efbe",
   "lastOpenFiles": [
+    "BUG BOUNTY/MY WORK/RUNNER NOTES/Methodology.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/checklist.md",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/BUG BOUNTY CHEET SHEET.md",
-    "BUG BOUNTY/MY WORK/RUNNER NOTES/Methodology.md",
-    "BUG BOUNTY/MY WORK/IDOR.md",
     "NETWORKS/RESOURCE.md",
     "PASTED IMAGES/Pasted image 20240808230022.png",
     "PASTED IMAGES/Pasted image 20240808225959.png",
@@ -321,14 +322,12 @@
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Dowts.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/23. Attacking Web Applications with Ffuf/Attacking Web Applications with Ffuf.md",
-    "HTB/HTB_CPTS/Academy/05. Web Exploitation/22. Using Web Proxies/Using Web Proxies.md",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/RUNNER NOTES",
     "content/CERTIFICATIONS",
     "content/CTF/CTF WRITEUPS",
     "content/CTF",
     "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/images",
-    "public/HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",

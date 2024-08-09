@@ -29,7 +29,8 @@
   - [ ] `massdns -r resolvers.txt -t A -o S -w results.txt subdomains.txt`
   - [ ] `httprobe < subdomains.txt > live_subdomains.txt`
   - [ ] `httpx -l subdomains.txt -o live_hosts.txt`
-
+- [ ] `cat live_hosts.txt | waybackurls | tee -a urls.txt
+- [ ] cat urls.txt | httprobe | tee -a aliveurls.txt
 
   - [ ] `gau target.com | tee gau_urls.txt`
   - [ ] `hakrawler -url target.com -depth 2 -plain | tee hakrawler_output.txt`
@@ -76,6 +77,15 @@
 - [ ] `arjun -u https://target.com -oT arjun_output.txt`
 - [ ] `ParamSpider - Mining parameters from dark corners of Web Archives.`
 - [ ] `x8 - Hidden parameters discovery suite written in Rust.`
+
+```finding_js_files
+katana -u https://target.com -jc -d 2 | grep ".js$" | uniq | sort > js.txt
+```
+
+```extract_scrtkeys_from_js
+cat js.txt | while read url; do python3 SecretFinder.py -i $url -o cli >> secrets.txt; done
+```
+
 
 ### Phase 6: Post Enumeration
 - [ ] `gospider -s https://target.com -o gospider_output/`
