@@ -49,6 +49,12 @@
 
 
 ![[Pasted image 20240808210710.png]]
+[https://dmuth.medium.com/ssh-at-scale-cas-and-principals-b27edca3a5d](https://dmuth.medium.com/ssh-at-scale-cas-and-principals-b27edca3a5d "https://dmuth.medium.com/ssh-at-scale-cas-and-principals-b27edca3a5d")
+
+https://www.youtube.com/watch?v=Lqbtn0Gjnho&t=109s
+
+![[Pasted image 20240808192425.png]]
+
 
 ![[Pasted image 20240808185007.png]]
 

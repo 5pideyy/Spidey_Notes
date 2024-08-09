@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKS/SSH WORKING.md",
+                "file": "NETWORKS/RESOURCE.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKS/SSH WORKING.md",
+                "file": "NETWORKS/RESOURCE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKS/SSH WORKING.md",
+                "file": "NETWORKS/RESOURCE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKS/SSH WORKING.md"
+                "file": "NETWORKS/RESOURCE.md"
               }
             }
           }
@@ -287,7 +287,7 @@
     "PASTED IMAGES/Pasted image 20240808225959.png",
     "PASTED IMAGES/Pasted image 20240808225438.png",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
-    "NETWORKS/SSH WORKING.md",
+    "NETWORKS/RESOURCE.md",
     "PASTED IMAGES/Pasted image 20240808213522.png",
     "PASTED IMAGES/Pasted image 20240808213219.png",
     "PASTED IMAGES/Pasted image 20240808211156.png",
