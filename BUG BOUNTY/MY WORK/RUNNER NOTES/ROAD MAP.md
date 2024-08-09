@@ -86,6 +86,32 @@ katana -u https://target.com -jc -d 2 | grep ".js$" | uniq | sort > js.txt
 cat js.txt | while read url; do python3 SecretFinder.py -i $url -o cli >> secrets.txt; done
 ```
 
+Found KEYS => dont know What to do then https://github.com/streaak/keyhacks
+
+
+
+```find_urls_from_js
+python ~/Downloads/Tools/JSParser/handler.py
+
+and then visit http://localhost:8008/
+```
+
+```Find_Endpoints_from_js
+
+python ~/Downloads/Tools/LinkFinder/linkfinder.py -i https://example.com/1.js -o results.html
+
+```
+
+
+#### GOOGLE DORKING
+
+https://taksec.github.io/google-dorks-bug-bounty/
+https://dorks.faisalahmed.me/#
+https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/
+
+https://intelx.io/
+
+
 
 ### Phase 6: Post Enumeration
 - [ ] `gospider -s https://target.com -o gospider_output/`
@@ -152,3 +178,11 @@ cat js.txt | while read url; do python3 SecretFinder.py -i $url -o cli >> secret
 
 https://github.com/reddelexc/hackerone-reports/blob/master/tops_by_bug_type/TOPIDOR.md
 
+
+
+
+### RESOURCE
+
+https://gowsundar.gitbook.io/book-of-bugbounty-tips
+https://pentestbook.six2dez.com/
+https://gowthams.gitbook.io/bughunter-handbook
