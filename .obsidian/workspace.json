@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKS/RESOURCE.md",
+                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKS/RESOURCE.md",
+                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKS/RESOURCE.md",
+                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKS/RESOURCE.md"
+                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md"
               }
             }
           }
@@ -283,11 +283,14 @@
   },
   "active": "afcea9b53036efbe",
   "lastOpenFiles": [
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/checklist.md",
+    "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+    "NETWORKS/RESOURCE.md",
     "PASTED IMAGES/Pasted image 20240808230022.png",
     "PASTED IMAGES/Pasted image 20240808225959.png",
     "PASTED IMAGES/Pasted image 20240808225438.png",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
-    "NETWORKS/RESOURCE.md",
     "PASTED IMAGES/Pasted image 20240808213522.png",
     "PASTED IMAGES/Pasted image 20240808213219.png",
     "PASTED IMAGES/Pasted image 20240808211156.png",
@@ -295,7 +298,6 @@
     "PASTED IMAGES/Pasted image 20240808210209.png",
     "PASTED IMAGES/Pasted image 20240808205444.png",
     "PASTED IMAGES/Pasted image 20240808205429.png",
-    "PASTED IMAGES/Pasted image 20240808205332.png",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/SEASON6/RESOURCE.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
@@ -303,7 +305,6 @@
     "BUG BOUNTY/HowToHunt/CheckList/Web-Application-Pentesting-checklist.md",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/checklist.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "BUG BOUNTY/ROAD MAP.md",
     "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
@@ -319,7 +320,6 @@
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/NASA.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Dowts.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
-    "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/23. Attacking Web Applications with Ffuf/Attacking Web Applications with Ffuf.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/22. Using Web Proxies/Using Web Proxies.md",
     "CERTIFICATIONS/ejpt.pdf",
