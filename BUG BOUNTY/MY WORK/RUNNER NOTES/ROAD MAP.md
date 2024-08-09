@@ -16,43 +16,56 @@
 - [ ] `gf redirect > gf_redirects.txt`
 
 ### Phase 2: Subdomain Enumeration
-- [ ] `sublist3r -d target.com`
-- [ ] `amass enum -d target.com | tee subs.txt`
-- [ ] `assetfinder --subs-only target.com`
-- [ ] `findomain -t target.com`
-- [ ] `subfinder -dL domains.txt -o subs1.txt`
-- [ ] `cat subs1.txt | anew subs.txt`
-- [ ] `massdns -r resolvers.txt -t A -o S -w results.txt subdomains.txt`
-- [ ] `httprobe < subdomains.txt > live_subdomains.txt`
-- [ ] `httpx -l subdomains.txt -o live_hosts.txt`
-- [ ] `subfinder -d target.com -o subfinder_results.txt`
-- [ ] `gau target.com | tee gau_urls.txt`
-- [ ] `hakrawler -url target.com -depth 2 -plain | tee hakrawler_output.txt`
+
+  - [ ] `sublist3r -d target.com`
+  - [ ] `amass enum -d target.com | tee subs.txt`
+  - [ ] `assetfinder --subs-only target.com`
+  - [ ] `findomain -t target.com`
+  - [ ] `subfinder -d target.com -o subfinder_results.txt`
+  - [ ] `subfinder -dL domains.txt -o subs1.txt`
+  - [ ] `cat subs1.txt | anew subs.txt`
+
+
+  - [ ] `massdns -r resolvers.txt -t A -o S -w results.txt subdomains.txt`
+  - [ ] `httprobe < subdomains.txt > live_subdomains.txt`
+  - [ ] `httpx -l subdomains.txt -o live_hosts.txt`
+
+
+  - [ ] `gau target.com | tee gau_urls.txt`
+  - [ ] `hakrawler -url target.com -depth 2 -plain | tee hakrawler_output.txt`
 
 ### Phase 3: Vulnerability Scanning
-- [ ] `nmap -iL live_hosts.txt -oA nmap_scan`
-- [ ] `nuclei -l live_hosts.txt -t templates/`
-- [ ] `metabigor net --org target.com`
-- [ ] `metagoofil -d target.com -t doc,pdf,xls,docx,xlsx,ppt,pptx -l 100`
-- [ ] `theHarvester -d target.com -l 500 -b all`
-- [ ] `dnsenum target.com`
-- [ ] `spiderfoot -s target.com -o spiderfoot_report.html`
-- [ ] `arjun -u https://target.com -oT arjun_output.txt`
-- [ ] `subjack -w subdomains.txt -t 20 -o subjack_results.txt`
-- [ ] `waymore -u target.com -o waymore_results.txt`
-- [ ] `unfurl -u target.com -o unfurl_results.txt`
-- [ ] `dalfox file live_hosts.txt`
-- [ ] `cat subs.txt | httprobe | tee alive.txt`
-- [ ] `cat alive.txt | gau --blacklist png,jpg,jpeg,svg,img,woff1,woff2,woff3,eot,css | tee gaures.txt`
-- [ ] `cat alive.txt | hakrawler | grep -i “.js$” | tee js.txt`
-- [ ] `ffuf -u FUZZ.site.com -w subs.txt | tee brute.txt`
+
+  - [ ] `nmap -iL live_hosts.txt -oA nmap_scan`
+  - [ ] `nuclei -l live_hosts.txt -t templates/`
+
+
+  - [ ] `metabigor net --org target.com`
+  - [ ] `metagoofil -d target.com -t doc,pdf,xls,docx,xlsx,ppt,pptx -l 100`
+  - [ ] `theHarvester -d target.com -l 500 -b all`
+  - [ ] `dnsenum target.com`
+  - [ ] `spiderfoot -s target.com -o spiderfoot_report.html`
+
+
+  - [ ] `subjack -w subdomains.txt -t 20 -o subjack_results.txt`
+
+
+  - [ ] `waymore -u target.com -o waymore_results.txt`
+  - [ ] `unfurl -u target.com -o unfurl_results.txt`
+
+
+  - [ ] `cat subs.txt | httprobe | tee alive.txt`
+  - [ ] `cat alive.txt | gau --blacklist png,jpg,jpeg,svg,img,woff1,woff2,woff3,eot,css | tee gaures.txt`
+  - [ ] `cat alive.txt | hakrawler | grep -i “.js$” | tee js.txt`
+  - [ ] `dalfox file live_hosts.txt`
+
+
+  - [ ] `ffuf -u FUZZ.site.com -w subs.txt | tee brute.txt`
+
 
 ### Phase 4: Directory and File Searching
 - [ ] `feroxbuster -u https://target.com -e *`
 - [ ] `dirsearch -u target.com -e *`
-- [ ] `gf ssti | tee ssti_payloads.txt`
-- [ ] `gf lfi | tee lfi_payloads.txt`
-- [ ] `gf idor | tee idor_payloads.txt`
 - [ ] `dirb https://target.com/ do dirb_output.txt`
 - [ ] `wpscan --url target.com`
 
@@ -60,7 +73,7 @@
 - [ ] `parameth - This tool can be used to brute discover GET and POST parameters`
 - [ ] `param-miner - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.`
 - [ ] `ParamPamPam - This tool for brute discover GET and POST parameters.`
-- [ ] `Arjun - HTTP parameter discovery suite.`
+- [ ] `arjun -u https://target.com -oT arjun_output.txt`
 - [ ] `ParamSpider - Mining parameters from dark corners of Web Archives.`
 - [ ] `x8 - Hidden parameters discovery suite written in Rust.`
 
@@ -68,7 +81,6 @@
 - [ ] `gospider -s https://target.com -o gospider_output/`
 - [ ] `recon-ng -w workspace -i target.com`
 - [ ] `xray webscan --basic-crawler http://target.com`
-- [ ] `gf ssrf | tee ssrf_payloads.txt`
 - [ ] `shuffledns -d target.com -list resolvers.txt -o shuffledns_results.txt`
 - [ ] `dnsgen -f subdomains.txt | massdns -r resolvers.txt -t A -o S -w dnsgen_results.txt`
 - [ ] `mapcidr -silent -cidr target.com -o mapcidr_results.txt`
@@ -89,3 +101,44 @@
 - [ ] `dnsvalidator -f 100+ -r resolvers.txt -o validated_resolvers.txt`
 - [ ] `httpx -l live_subdomains.txt -mc 200 -title -tech-detect -o httpx_results.txt`
 - [ ] `cloud_enum -k target.com -l cloud_enum_results.txt`
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Useful Wordlists
+
+|**Command**|**Description**|
+|---|---|
+|`/opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt`|Directory/Page Wordlist|
+|`/opt/useful/SecLists/Discovery/Web-Content/web-extensions.txt`|Extensions Wordlist|
+|`/opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt`|Domain Wordlist|
+|`/opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt`|Parameters Wordlist|
+
+### Burp Suite Shortcuts
+
+|**Shortcut**|**Description**|
+|---|---|
+|`CTRL+R`|Send to repeater|
+|`CTRL+SHIFT+R`|Go to repeater|
+|`CTRL+I`|Send to intruder|
+|`CTRL+SHIFT+B`|Go to intruder|
+|`CTRL+U`|URL encode|
+|`CTRL+SHIFT+U`|URL decode|
+
+
+#### REPORTS
+
+
+[report dumps](https://pentester.land/writeups/?source=post_page-----849db2828c8--------------------------------)
+
+https://github.com/reddelexc/hackerone-reports/blob/master/tops_by_bug_type/TOPIDOR.md
+

@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
+                "file": "BUG BOUNTY/MY WORK/IDOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
+                "file": "BUG BOUNTY/MY WORK/IDOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
+                "file": "BUG BOUNTY/MY WORK/IDOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md"
+                "file": "BUG BOUNTY/MY WORK/IDOR.md"
               }
             }
           }
@@ -283,10 +283,11 @@
   },
   "active": "afcea9b53036efbe",
   "lastOpenFiles": [
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Methodology.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/ROAD MAP.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/checklist.md",
-    "BUG BOUNTY/CONFIDENTIAL/IDOR.md",
+    "BUG BOUNTY/MY WORK/RUNNER NOTES/checklist.md",
+    "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
+    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/BUG BOUNTY CHEET SHEET.md",
+    "BUG BOUNTY/MY WORK/RUNNER NOTES/Methodology.md",
+    "BUG BOUNTY/MY WORK/IDOR.md",
     "NETWORKS/RESOURCE.md",
     "PASTED IMAGES/Pasted image 20240808230022.png",
     "PASTED IMAGES/Pasted image 20240808225959.png",
@@ -301,7 +302,6 @@
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/SEASON6/RESOURCE.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/BUG BOUNTY CHEET SHEET.md",
     "BUG BOUNTY/HowToHunt/CheckList/Web-Application-Pentesting-checklist.md",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
@@ -323,7 +323,7 @@
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/23. Attacking Web Applications with Ffuf/Attacking Web Applications with Ffuf.md",
     "HTB/HTB_CPTS/Academy/05. Web Exploitation/22. Using Web Proxies/Using Web Proxies.md",
     "CERTIFICATIONS/ejpt.pdf",
-    "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES",
+    "BUG BOUNTY/MY WORK/RUNNER NOTES",
     "content/CERTIFICATIONS",
     "content/CTF/CTF WRITEUPS",
     "content/CTF",
