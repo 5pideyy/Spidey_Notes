@@ -140,6 +140,18 @@
             }
           },
           {
+            "id": "a3a9a820db274d1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ASSIGNMENT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "69612c33e90a9bee",
             "type": "leaf",
             "state": {
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
+                "file": "ASSIGNMENT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
+                "file": "ASSIGNMENT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md"
+                "file": "ASSIGNMENT.md"
               }
             }
           }
@@ -281,12 +293,17 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "afcea9b53036efbe",
+  "active": "a3a9a820db274d1f",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20240810225727.png",
+    "PASTED IMAGES/Pasted image 20240810225303.png",
+    "PASTED IMAGES/Pasted image 20240810225108.png",
+    "PASTED IMAGES/Pasted image 20240810225052.png",
+    "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
+    "ASSIGNMENT.md",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/Methodology.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
     "PASTED IMAGES/Pasted image 20240810144735.png",
-    "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
     "PASTED IMAGES/Pasted image 20240810121800.png",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
@@ -299,9 +316,6 @@
     "PASTED IMAGES/Pasted image 20240808225438.png",
     "PASTED IMAGES/Pasted image 20240808213522.png",
     "PASTED IMAGES/Pasted image 20240808213219.png",
-    "PASTED IMAGES/Pasted image 20240808211156.png",
-    "PASTED IMAGES/Pasted image 20240808210710.png",
-    "PASTED IMAGES/Pasted image 20240808210209.png",
     "HTB/SEASON6/RESOURCE.md",
     "BUG BOUNTY/HowToHunt/CheckList/Web-Application-Pentesting-checklist.md",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
@@ -321,7 +335,6 @@
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/NASA.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/Dowts.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/davel.md",
-    "HTB/HTB_CPTS/Academy/05. Web Exploitation/23. Attacking Web Applications with Ffuf/Attacking Web Applications with Ffuf.md",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/RUNNER NOTES",
     "content/CERTIFICATIONS",
