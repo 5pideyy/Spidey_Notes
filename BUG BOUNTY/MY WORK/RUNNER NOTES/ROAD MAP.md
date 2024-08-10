@@ -18,23 +18,24 @@
 
 ### Phase 2: Subdomain Enumeration
 
-  - [ ] `sublist3r -d target.com`
-  - [ ] `amass enum -d target.com | tee subs.txt`
-  - [ ] `assetfinder --subs-only target.com`
-  - [ ] `findomain -t target.com`
-  - [ ] `subfinder -d target.com -o subfinder_results.txt`
-  - [ ] `subfinder -dL domains.txt -o subs1.txt`
-  - [ ] `cat subs1.txt | anew subs.txt`
+- [ ] `sublist3r -d target.com`
+- [ ] `amass enum -d target.com | tee subs.txt`
+- [ ] `assetfinder --subs-only target.com | tee -a subs.txt`
+- [ ] `findomain -t target.com | tee -a subs.txt`
+- [ ] `subfinder -d target.com -o subfinder_results.txt`
+- [ ] `cat subfinder_results.txt | tee -a subs.txt`
+- [ ] `subfinder -dL domains.txt -o subs1.txt`
+- [ ] `cat subs1.txt | anew subs.txt`
 
+- [ ] `massdns -r resolvers.txt -t A -o S -w results.txt subs.txt`
+- [ ] `httprobe < results.txt > live_subdomains.txt`
+- [ ] `httpx -l live_subdomains.txt -o live_hosts.txt`
 
-  - [ ] `massdns -r resolvers.txt -t A -o S -w results.txt subdomains.txt`
-  - [ ] `httprobe < subdomains.txt > live_subdomains.txt`
-  - [ ] `httpx -l subdomains.txt -o live_hosts.txt`
-- [ ] `cat live_hosts.txt | waybackurls | tee -a urls.txt
-- [ ] cat urls.txt | httprobe | tee -a aliveurls.txt
+- [ ] `cat live_hosts.txt | waybackurls | tee -a urls.txt`
+- [ ] `cat urls.txt | httprobe | tee -a aliveurls.txt`
 
-  - [ ] `gau target.com | tee gau_urls.txt`
-  - [ ] `hakrawler -url target.com -depth 2 -plain | tee hakrawler_output.txt`
+- [ ] `gau target.com | tee gau_urls.txt`
+- [ ] `hakrawler -url target.com -depth 2 -plain | tee hakrawler_output.txt`
 
 ```
 cat SecLists/Discovery/DNS/dns-Jhaddix.txt | subgen -d DOMAIN.TLD | zdns A --name-servers 1.1.1.1 --threads 500 | jq -r "select(.data.answers[0].name) | .name"
@@ -147,7 +148,7 @@ https://intelx.io/
 
 
 
-
+Burp suitr proxy filter setting
 
 ```
 .*\.google\.com
