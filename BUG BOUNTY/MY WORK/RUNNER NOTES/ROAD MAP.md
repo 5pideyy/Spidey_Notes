@@ -149,7 +149,13 @@ https://intelx.io/
 
 
 
-
+```
+.*\.google\.com
+.*\.gstatic\.com
+.*\.googleapis\.com
+.*\.pki\.goog
+.*\.mozilla\..*
+```
 
 
 
@@ -193,3 +199,5 @@ https://gowsundar.gitbook.io/book-of-bugbounty-tips
 https://pentestbook.six2dez.com/
 https://gowthams.gitbook.io/bughunter-handbook
 
+
+==https://www.infosecmatter.com/bug-bounty-tips/ ==
