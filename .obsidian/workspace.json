@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/SEASON6/SEA.md",
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
                 "mode": "source",
                 "source": false
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/SEASON6/SEA.md",
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/SEASON6/SEA.md",
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/SEASON6/SEA.md"
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md"
               }
             }
           }
@@ -307,8 +307,9 @@
   },
   "active": "ec431a0ed93a2193",
   "lastOpenFiles": [
-    "U18CSE0023 Ethical Hacking and Network Defence.md",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "HTB/SEASON6/SEA.md",
+    "U18CSE0023 Ethical Hacking and Network Defence.md",
     "PASTED IMAGES/Pasted image 20240811000103.png",
     "ASSIGNMENT.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
@@ -340,7 +341,6 @@
     "PASTED IMAGES/Pasted image 20240810231139.png",
     "PASTED IMAGES/Pasted image 20240810230817.png",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
-    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "BUG BOUNTY/MY WORK/BUG CLASS",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/checklist.md",
