@@ -152,6 +152,18 @@
             }
           },
           {
+            "id": "ec431a0ed93a2193",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ASSIGNMENT_1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "69612c33e90a9bee",
             "type": "leaf",
             "state": {
@@ -164,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -230,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASSIGNMENT.md",
+                "file": "ASSIGNMENT_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASSIGNMENT.md",
+                "file": "ASSIGNMENT_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASSIGNMENT.md"
+                "file": "ASSIGNMENT_1.md"
               }
             }
           }
@@ -293,8 +305,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "a3a9a820db274d1f",
+  "active": "ec431a0ed93a2193",
   "lastOpenFiles": [
+    "ASSIGNMENT.md",
+    "ASSIGNMENT_1.md",
+    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+    "PASTED IMAGES/Pasted image 20240810235313.png",
+    "PASTED IMAGES/Pasted image 20240810235256.png",
+    "PASTED IMAGES/Pasted image 20240810235238.png",
+    "PASTED IMAGES/Pasted image 20240810235221.png",
     "PASTED IMAGES/Pasted image 20240810232922.png",
     "PASTED IMAGES/Pasted image 20240810232907.png",
     "PASTED IMAGES/Pasted image 20240810232657.png",
@@ -316,23 +335,16 @@
     "CTF/CTF CHEETSHEETS/BINARY/Cheetsheet.md",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/ROAD MAP.md",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/Methodology.md",
-    "ASSIGNMENT.md",
     "PASTED IMAGES/Pasted image 20240810231139.png",
     "PASTED IMAGES/Pasted image 20240810230817.png",
     "PASTED IMAGES/Pasted image 20240810230524.png",
-    "PASTED IMAGES/Pasted image 20240810225727.png",
-    "PASTED IMAGES/Pasted image 20240810225303.png",
-    "PASTED IMAGES/Pasted image 20240810225108.png",
-    "PASTED IMAGES/Pasted image 20240810225052.png",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
-    "PASTED IMAGES/Pasted image 20240810144735.png",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "BUG BOUNTY/MY WORK/BUG CLASS",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/checklist.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/BUG BOUNTY CHEET SHEET.md",
     "NETWORKS/RESOURCE.md",
-    "HTB/SEASON6/RESOURCE.md",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
     "HTB/SEASON6",
