@@ -192,3 +192,4 @@ https://github.com/reddelexc/hackerone-reports/blob/master/tops_by_bug_type/TOPI
 https://gowsundar.gitbook.io/book-of-bugbounty-tips
 https://pentestbook.six2dez.com/
 https://gowthams.gitbook.io/bughunter-handbook
+
