@@ -5,6 +5,7 @@
 - [ ] `whois target.com`
 - [ ] `nslookup target.com`
 - [ ] `dig target.com`
+- [ ] `curl http://ipinfo.io/<ip>`
 - [ ] `host -t ns target.com`
 - [ ] `host -t mx target.com`
 - [ ] `whatweb -i live_hosts.txt`
@@ -34,6 +35,11 @@
 
   - [ ] `gau target.com | tee gau_urls.txt`
   - [ ] `hakrawler -url target.com -depth 2 -plain | tee hakrawler_output.txt`
+
+```
+cat SecLists/Discovery/DNS/dns-Jhaddix.txt | subgen -d DOMAIN.TLD | zdns A --name-servers 1.1.1.1 --threads 500 | jq -r "select(.data.answers[0].name) | .name"
+```
+
 
 ### Phase 3: Vulnerability Scanning
 
