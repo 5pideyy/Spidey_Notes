@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASSIGNMENT_1.md",
+                "file": "HTB/SEASON6/SEA.md",
                 "mode": "source",
                 "source": false
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASSIGNMENT_1.md",
+                "file": "HTB/SEASON6/SEA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASSIGNMENT_1.md",
+                "file": "HTB/SEASON6/SEA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -282,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASSIGNMENT_1.md"
+                "file": "HTB/SEASON6/SEA.md"
               }
             }
           }
@@ -307,8 +307,10 @@
   },
   "active": "ec431a0ed93a2193",
   "lastOpenFiles": [
+    "U18CSE0023 Ethical Hacking and Network Defence.md",
+    "HTB/SEASON6/SEA.md",
+    "PASTED IMAGES/Pasted image 20240811000103.png",
     "ASSIGNMENT.md",
-    "ASSIGNMENT_1.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "PASTED IMAGES/Pasted image 20240810235313.png",
     "PASTED IMAGES/Pasted image 20240810235256.png",
@@ -337,14 +339,12 @@
     "BUG BOUNTY/MY WORK/RUNNER NOTES/Methodology.md",
     "PASTED IMAGES/Pasted image 20240810231139.png",
     "PASTED IMAGES/Pasted image 20240810230817.png",
-    "PASTED IMAGES/Pasted image 20240810230524.png",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "BUG BOUNTY/MY WORK/BUG CLASS",
     "BUG BOUNTY/MY WORK/RUNNER NOTES/checklist.md",
     "BUG BOUNTY/CONFIDENTIAL/RUNNER NOTES/BUG BOUNTY CHEET SHEET.md",
-    "NETWORKS/RESOURCE.md",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
     "HTB/SEASON6",

@@ -1,4 +1,3 @@
-### **U18CSE0023 Ethical Hacking and Network Defence**
 
 **Course Faculty**: Dr. J. Cynthia, Professor, CSE
 
@@ -37,6 +36,8 @@
 
 - **Task**: Launch Kali Linux in a virtual machine environment.
 - **Result**: Kali Linux initialized successfully, ready for reconnaissance tasks.
+- **Screenshot**:
+![[Pasted image 20240811000103.png]]
 
 ---
 
@@ -248,5 +249,5 @@
 #### **Team Contributions**
 
 - **VISHWA J - 22BAD116**: Responsible for Nmap scanning, service detection, and operating system fingerprinting.
-- **YOGESH C - 22BAD118**: Conducted DNS enumeration, IP lookup, and subdomain discovery.
+- **YOGESH C - 22BAD118**: Conducted DNS enumeration, IP lookup, and subdomain  discovery.
 - Handled Shodan exploration, WHOIS lookup, and analysis of results using Maltego.
