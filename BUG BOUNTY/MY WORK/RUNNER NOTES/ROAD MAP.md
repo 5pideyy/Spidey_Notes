@@ -135,6 +135,7 @@ https://intelx.io/
 - [ ] `subzer0 -d target.com`
 - [ ] `dnstwalk target.com`
 - [ ] `masscan -iL live_hosts.txt -p0-65535 -oX masscan_results.xml`
+- [ ] kxss
 - [ ] `xsstrike -u https://target.com/`
 - [ ] `byp4xx https://target.com/FUZZ`
 - [ ] `dnstwist -l subdomains.txt -resp-only -o dnsx_results.txt`
