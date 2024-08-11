@@ -28,8 +28,8 @@
 ## Phase 2: Subdomain Enumeration
 
 ### Subdomain Discovery Tools
-- [ ] `sublist3r -d target.com` - Enumerates subdomains using multiple sources.
-- [ ] `amass enum -d target.com | tee subs.txt` - Comprehensive subdomain enumeration.
+- [ ] `sublist3r -d target.com -o subs.txt` - Enumerates subdomains using multiple sources.
+- [ ] `amass enum -d target.com | tee -a subs.txt` - Comprehensive subdomain enumeration.
 - [ ] `assetfinder --subs-only target.com | tee -a subs.txt` - Finds subdomains via various APIs.
 - [ ] `findomain -t target.com | tee -a subs.txt` - Another subdomain enumeration tool.
 - [ ] `subfinder -d target.com -o subfinder_results.txt` - Finds subdomains using multiple sources.
@@ -152,12 +152,13 @@ assetfinder example.com | gau | egrep -v '(.css|.png|.jpeg|.jpg|.svg|.gif|.wolf)
 
 ### GOOGLE DORKS
 
-| https://taksec.github.io/google-dorks-bug-bounty/        |
-| -------------------------------------------------------- |
-| https://dorks.faisalahmed.me/#                           |
-| https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/ |
-| https://intelx.io/                                       |
-| https://inteltechniques.com/tools/index.html             |
+| https://taksec.github.io/google-dorks-bug-bounty/                                                                 |
+| ----------------------------------------------------------------------------------------------------------------- |
+| https://dorks.faisalahmed.me/#                                                                                    |
+| https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/                                                          |
+| https://intelx.io/                                                                                                |
+| https://inteltechniques.com/tools/index.html                                                                      |
+| [Appsecwiki](https://appsecwiki.com/?source=post_page-----7052da28445a--------------------------------#/frontend) |
 
 
 ## Phase 6: Post Enumeration
