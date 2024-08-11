@@ -27,6 +27,21 @@
 - [ ] `subfinder -dL domains.txt -o subs1.txt`
 - [ ] `cat subs1.txt | anew subs.txt`
 
+
+
+- [ ] Security Tails Subdomains 
+```
+curl -s --request GET --url https://api.securitytrails.com/v1/domain/target.com/subdomains?apikey=N-hfpe2Zx8hXPFz37l4NISQi6hl38-gh | jq '.subdomains[]' | sed 's/\"//g' >test.txt 2>/dev/null && sed "s/$/.target.com/" test.txt | sed 's/ //g' && rm test.txt
+```
+
+
+- [ ] RapidDns Subdomain function
+
+```Usage:rapiddns target
+rapiddns(){ curl -s "https://rapiddns.io/subdomain/\?full=1" \ | grep -oP '_blank">\K[^<]*' \ | grep -v http \ | sort -u }
+```
+
+
 - [ ] `massdns -r resolvers.txt -t A -o S -w results.txt subs.txt`
 - [ ] `httprobe < results.txt > live_subdomains.txt`
 - [ ] `httpx -l live_subdomains.txt -o live_hosts.txt`
@@ -35,6 +50,28 @@
 - [ ] `cat urls.txt | httprobe | tee -a aliveurls.txt`
 
 - [ ] `gau target.com | tee gau_urls.txt`
+- Finding Js Files
+	- [ ] `cat domains | httpx -silent | subjs | anew`
+	- [ ] `echo target.com | gau | grep '\.js$' | httpx -status-code -mc 200 -content-type | grep 'application/javascript'`
+	- [ ] Find Js `katana -u https://target.com -jc -d 2 | grep ".js$" | uniq | sort > js.txt`
+	- [ ] Extracting Secret keys from js `cat js.txt | while read url; do python3 SecretFinder.py -i $url -o cli >> secrets.txt; done
+
+	Found KEYS => dont know What to do then https://github.com/streaak/keyhacks
+
+
+	- [ ] finding urls from JS
+	```find_urls_from_js
+	python ~/Downloads/Tools/JSParser/handler.py
+	
+	and then visit http://localhost:8008/
+	```
+
+	- [ ] Finding Endpoints from js 	`python ~/Downloads/Tools/LinkFinder/linkfinder.py -i https://example.com/1.js -o results.html`
+	- [ ] Finding Api End points  
+```
+		cat file.js | grep -aoP "(?<=(\"|\'|\`))\/[a-zA-Z0-9_?&=\/\-\#\.]*(?=(\"|\'|\`))" | sort -u
+```
+
 - [ ] `hakrawler -url target.com -depth 2 -plain | tee hakrawler_output.txt`
 
 ```
@@ -85,30 +122,10 @@ cat SecLists/Discovery/DNS/dns-Jhaddix.txt | subgen -d DOMAIN.TLD | zdns A --nam
 - [ ] `ParamSpider - Mining parameters from dark corners of Web Archives.`
 - [ ] `x8 - Hidden parameters discovery suite written in Rust.`
 
-```finding_js_files
-katana -u https://target.com -jc -d 2 | grep ".js$" | uniq | sort > js.txt
+- [ ] Find Hidden GET parameters
 ```
-
-```extract_scrtkeys_from_js
-cat js.txt | while read url; do python3 SecretFinder.py -i $url -o cli >> secrets.txt; done
+assetfinder example.com | gau | egrep -v '(.css|.png|.jpeg|.jpg|.svg|.gif|.wolf)' | while read url; do vars=$(curl -s $url | grep -Eo "var [a-zA-Z0-9]+" | sed -e 's,'var','"$url"?',g' -e 's/ //g' | grep -v '.js' | sed 's/.*/&=xss/g'); echo -e "\e[1;33m$url\n\e[1;32m$vars"; done
 ```
-
-Found KEYS => dont know What to do then https://github.com/streaak/keyhacks
-
-
-
-```find_urls_from_js
-python ~/Downloads/Tools/JSParser/handler.py
-
-and then visit http://localhost:8008/
-```
-
-```Find_Endpoints_from_js
-
-python ~/Downloads/Tools/LinkFinder/linkfinder.py -i https://example.com/1.js -o results.html
-
-```
-
 
 #### GOOGLE DORKING
 
@@ -148,8 +165,26 @@ https://intelx.io/
 
 
 
+## Bypass Rate limits by adding X- HTTP headers
+```
+- X-Originating-IP: IP
+- X-Forwarded-For: IP
+- X-Remote-IP: IP
+- X-Remote-Addr: IP
+- X-Client-IP: IP
+- X-Host: IP
+- X-Forwared-Host: IP
+```
 
-Burp suitr proxy filter setting
+```
+- 192.168.0.0/16
+- 172.16.0.0/12
+- 127.0.0.0/8
+- 10.0.0.0/8
+```
+
+
+Burp suite  proxy filter setting
 
 ```
 .*\.google\.com
