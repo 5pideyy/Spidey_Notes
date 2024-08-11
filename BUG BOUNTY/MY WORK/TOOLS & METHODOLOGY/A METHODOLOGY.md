@@ -28,11 +28,11 @@
 ## Phase 2: Subdomain Enumeration
 
 ### Subdomain Discovery Tools
-- [ ] `sublist3r -d target.com -o subs.txt` - Enumerates subdomains using multiple sources.
-- [ ] `amass enum -d target.com | tee -a subs.txt` - Comprehensive subdomain enumeration.
-- [ ] `assetfinder --subs-only target.com | tee -a subs.txt` - Finds subdomains via various APIs.
-- [ ] `findomain -t target.com | tee -a subs.txt` - Another subdomain enumeration tool.
-- [ ] `subfinder -d target.com -o subfinder_results.txt` - Finds subdomains using multiple sources.
+- [ ] `sublist3r -d gleague.nba.com -o subs.txt` - Enumerates subdomains using multiple sources.
+- [ ] `amass enum -d gleague.nba.com | tee -a subs.txt` - Comprehensive subdomain enumeration.
+- [ ] `assetfinder --subs-only gleague.nba.com | tee -a subs.txt` - Finds subdomains via various APIs.
+- [ ] `findomain -t gleague.nba.com | tee -a subs.txt` - Another subdomain enumeration tool.
+- [ ] `subfinder -d gleague.nba.com -o subfinder_results.txt` - Finds subdomains using multiple sources.
 
 - **SecurityTrails Subdomains**:
     ```bash
