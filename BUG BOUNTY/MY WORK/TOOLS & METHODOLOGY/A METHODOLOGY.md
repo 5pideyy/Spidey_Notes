@@ -32,8 +32,7 @@
 - [ ] `amass enum -d gleague.nba.com | tee -a subs.txt` - Comprehensive subdomain enumeration.
 - [ ] `assetfinder --subs-only gleague.nba.com | tee -a subs.txt` - Finds subdomains via various APIs.
 - [ ] `findomain -t gleague.nba.com | tee -a subs.txt` - Another subdomain enumeration tool.
-- [ ] `subfinder -d gleague.nba.com -o subfinder_results.txt` - Finds subdomains using multiple sources.
-
+- [ ] `subfinder -d gleague.nba.com -o subfinder_results.txt -silent` - Finds subdomains using multiple sources.
 - **SecurityTrails Subdomains**:
     ```bash
     curl -s --request GET --url https://api.securitytrails.com/v1/domain/target.com/subdomains?apikey=API_KEY | jq '.subdomains[]' | sed 's/\"//g' >test.txt 2>/dev/null && sed "s/$/.target.com/" test.txt | sed 's/ //g' && rm test.txt
