@@ -164,6 +164,18 @@
             }
           },
           {
+            "id": "4a98f2e1179cfd53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "69612c33e90a9bee",
             "type": "leaf",
             "state": {
@@ -307,8 +319,9 @@
   },
   "active": "ec431a0ed93a2193",
   "lastOpenFiles": [
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/ROAD MAP.md",
+    "Untitled.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/ROAD MAP.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/Methodology.md",
@@ -342,7 +355,6 @@
     "CTF/CTF LEARNINGS/BINARY/BASICS/C User Input Validation Vulnerability.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics2.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics.md",
-    "CTF/CTF CHEETSHEETS/BINARY/GEF CHEETSHEET.md",
     "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
     "PASTED IMAGES/Pasted image 20240810231139.png",
     "PASTED IMAGES/Pasted image 20240810230817.png",
