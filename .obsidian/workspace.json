@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md"
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md"
               }
             }
           }
@@ -319,12 +319,15 @@
   },
   "active": "ec431a0ed93a2193",
   "lastOpenFiles": [
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+    "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
+    "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
+    "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
     "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "Untitled.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/ROAD MAP.md",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES",
@@ -354,7 +357,6 @@
     "CTF/CTF LEARNINGS/BINARY/BOF/Pwn 1.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
-    "CTF/CTF LEARNINGS/BINARY/BASICS/ROADMAP.md",
     "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
     "PASTED IMAGES/Pasted image 20240810231139.png",
     "PASTED IMAGES/Pasted image 20240810230817.png",
@@ -363,8 +365,6 @@
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
     "HTB/SEASON6",
     "CERTIFICATIONS/ejpt.pdf",
-    "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS",
-    "content/CERTIFICATIONS",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",

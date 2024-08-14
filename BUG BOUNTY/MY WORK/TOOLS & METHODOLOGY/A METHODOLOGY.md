@@ -49,6 +49,15 @@
 
 ### URL and JavaScript File Discovery
 
+
+
+
+```
+target="testphp.vulnweb.com"; (gau $target > gau_output.txt | lolcat -a -d 5 -s 20 && echo "Cooldown for 3 seconds after gau..." | lolcat -a -d 5 -s 20 && sleep 3 & waybackurls $target > waybackurls_output.txt | lolcat -a -d 5 -s 20 && echo "Cooldown for 3 seconds after waybackurls..." | lolcat -a -d 5 -s 20 && sleep 3 & katana -u $target --depth 3 > katana_output.txt | lolcat -a -d 5 -s 20 && echo "Cooldown for 3 seconds after katana..." | lolcat -a -d 5 -s 20 && sleep 3 & wait; cat gau_output.txt waybackurls_output.txt katana_output.txt | sort | uniq | tee results.txt | lolcat -a -d 5 -s 20)
+
+```
+
+
 - [ ] `cat live_hosts.txt | waybackurls | tee -a urls.txt` - Extracts URLs from Wayback Machine.
 - [ ] crawley
 ```
