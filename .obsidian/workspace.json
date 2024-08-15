@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md"
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
               }
             }
           }
@@ -319,8 +319,8 @@
   },
   "active": "ec431a0ed93a2193",
   "lastOpenFiles": [
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
     "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
