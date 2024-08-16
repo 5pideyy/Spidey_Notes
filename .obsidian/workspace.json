@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
                 "mode": "source",
                 "source": false
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md"
               }
             }
           }
@@ -319,6 +319,10 @@
   },
   "active": "ec431a0ed93a2193",
   "lastOpenFiles": [
+    "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
+    "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
@@ -335,8 +339,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/OneLiners.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY",
     "BUG BOUNTY/MY WORK/Untitled.md",
-    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
-    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "HTB/SEASON6/SEA.md",
     "U18CSE0023 Ethical Hacking and Network Defence.md",
     "PASTED IMAGES/Pasted image 20240811000103.png",
@@ -355,8 +357,6 @@
     "CTF/CTF LEARNINGS/BINARY/BOF/shellaeasy.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Pwn3.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Pwn 1.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
-    "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
     "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
     "PASTED IMAGES/Pasted image 20240810231139.png",
     "PASTED IMAGES/Pasted image 20240810230817.png",
