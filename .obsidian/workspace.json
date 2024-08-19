@@ -169,7 +169,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL INJECTION.md",
+                "file": "ETHICAL HACKING AND NETWORK DEFENCE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38f7fcc4862233f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -200,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -266,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL INJECTION.md",
+                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL INJECTION.md",
+                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL INJECTION.md"
+                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md"
               }
             }
           }
@@ -329,14 +341,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b861022dfcba1d79",
+  "active": "38f7fcc4862233f0",
   "lastOpenFiles": [
+    "ETHICAL HACKING AND NETWORK DEFENCE.md",
+    "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
     "PASTED IMAGES/Pasted image 20240819215445.png",
     "PASTED IMAGES/Pasted image 20240819215355.png",
     "PASTED IMAGES/Pasted image 20240819215136.png",
     "PASTED IMAGES/Pasted image 20240819214939.png",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
-    "SQL INJECTION.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
@@ -366,7 +379,6 @@
     "PASTED IMAGES/Pasted image 20240810235238.png",
     "PASTED IMAGES/Pasted image 20240810235221.png",
     "PASTED IMAGES/Pasted image 20240810232922.png",
-    "PASTED IMAGES/Pasted image 20240810232907.png",
     "CTF/CTF LEARNINGS/BINARY/FORMAT STRING VULNERABILITY/B Format Strings Vulnerability.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Warmup.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Vuln-Chat.md",
