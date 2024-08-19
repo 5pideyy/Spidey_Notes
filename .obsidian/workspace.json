@@ -164,6 +164,18 @@
             }
           },
           {
+            "id": "b861022dfcba1d79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL INJECTION.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4a98f2e1179cfd53",
             "type": "leaf",
             "state": {
@@ -188,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -254,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "SQL INJECTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "SQL INJECTION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md"
+                "file": "SQL INJECTION.md"
               }
             }
           }
@@ -317,14 +329,19 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ec431a0ed93a2193",
+  "active": "b861022dfcba1d79",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20240819215445.png",
+    "PASTED IMAGES/Pasted image 20240819215355.png",
+    "PASTED IMAGES/Pasted image 20240819215136.png",
+    "PASTED IMAGES/Pasted image 20240819214939.png",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+    "SQL INJECTION.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
     "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
@@ -350,16 +367,11 @@
     "PASTED IMAGES/Pasted image 20240810235221.png",
     "PASTED IMAGES/Pasted image 20240810232922.png",
     "PASTED IMAGES/Pasted image 20240810232907.png",
-    "PASTED IMAGES/Pasted image 20240810232657.png",
     "CTF/CTF LEARNINGS/BINARY/FORMAT STRING VULNERABILITY/B Format Strings Vulnerability.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Warmup.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Vuln-Chat.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/shellaeasy.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Pwn3.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Pwn 1.md",
     "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
-    "PASTED IMAGES/Pasted image 20240810231139.png",
-    "PASTED IMAGES/Pasted image 20240810230817.png",
     "BUG BOUNTY/MY WORK/BUG CLASS",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
