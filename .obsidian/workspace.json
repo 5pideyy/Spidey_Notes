@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ETHICAL HACKING AND NETWORK DEFENCE 1.md"
+                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md"
               }
             }
           }
@@ -343,8 +343,9 @@
   },
   "active": "38f7fcc4862233f0",
   "lastOpenFiles": [
-    "ETHICAL HACKING AND NETWORK DEFENCE.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
     "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
+    "ETHICAL HACKING AND NETWORK DEFENCE.md",
     "PASTED IMAGES/Pasted image 20240819215445.png",
     "PASTED IMAGES/Pasted image 20240819215355.png",
     "PASTED IMAGES/Pasted image 20240819215136.png",
@@ -360,7 +361,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
     "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "Untitled.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/ROAD MAP.md",
