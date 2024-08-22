@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
                 "mode": "source",
                 "source": false
               }
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md"
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md"
               }
             }
           }
@@ -343,6 +343,7 @@
   },
   "active": "38f7fcc4862233f0",
   "lastOpenFiles": [
+    "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
     "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
     "ETHICAL HACKING AND NETWORK DEFENCE.md",
@@ -361,7 +362,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
     "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "Untitled.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/ROAD MAP.md",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES",
