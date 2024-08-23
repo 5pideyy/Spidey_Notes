@@ -1,0 +1,2 @@
+
+AS LIKE HACKTHEBOX MACHINES , AT FIRST I STARTED RECON WITH PORT SCANNING USING NMAP `-p` , i found out 3 main open ports consist of graphql,apache, and another one runnig in it. upon inspecting each services , got `shocking` keyword since it also apache that may be shell shock vulnerability , fired up exploitdb and got 
