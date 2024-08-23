@@ -87,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
+                "file": "GREAT APPSEC INTERVIEW.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,36 +164,12 @@
             }
           },
           {
-            "id": "b861022dfcba1d79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ETHICAL HACKING AND NETWORK DEFENCE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "38f7fcc4862233f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4408c8099aebf9dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GREAT APPSEC INTERVIEW.md",
                 "mode": "source",
                 "source": false
               }
@@ -224,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -353,14 +329,28 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "4408c8099aebf9dd",
+  "active": "a0cdca89b9e35f79",
   "lastOpenFiles": [
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+    "KIC PLAN.md",
     "GREAT APPSEC INTERVIEW.md",
+    "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+    "HTB/SEASON6/SEA.md",
+    "HTB/SEASON6/RESOURCE.md",
+    "ETHICAL HACKING AND NETWORK DEFENCE.md",
+    "ASSIGNMENT.md",
+    "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
+    "HTB/ACADEMY/PENETSTER PATH/LINUX PRIV ESC.md",
+    "HTB/ACADEMY/PENETSTER PATH/C ATTACKING COMMON SERVICES.md",
+    "NETWORKS/PROTOCOL/DNS.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
+    "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
+    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+    "Untitled.md",
+    "PASTED IMAGES/2023-04-26_23-50.png",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "HTB/ACADEMY/BUG HUNTER PATH/C INFORMATION GATHERIING.md",
     "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
-    "ETHICAL HACKING AND NETWORK DEFENCE.md",
     "PASTED IMAGES/Pasted image 20240819215445.png",
     "PASTED IMAGES/Pasted image 20240819215355.png",
     "PASTED IMAGES/Pasted image 20240819215136.png",
@@ -375,26 +365,12 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
     "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
-    "Untitled.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/ROAD MAP.md",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/Methodology.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/OneLiners.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY",
-    "BUG BOUNTY/MY WORK/Untitled.md",
-    "HTB/SEASON6/SEA.md",
-    "U18CSE0023 Ethical Hacking and Network Defence.md",
     "PASTED IMAGES/Pasted image 20240811000103.png",
-    "ASSIGNMENT.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "PASTED IMAGES/Pasted image 20240810235313.png",
     "PASTED IMAGES/Pasted image 20240810235256.png",
     "PASTED IMAGES/Pasted image 20240810235238.png",
-    "PASTED IMAGES/Pasted image 20240810235221.png",
-    "PASTED IMAGES/Pasted image 20240810232922.png",
-    "CTF/CTF LEARNINGS/BINARY/FORMAT STRING VULNERABILITY/B Format Strings Vulnerability.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Warmup.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Vuln-Chat.md",
     "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
