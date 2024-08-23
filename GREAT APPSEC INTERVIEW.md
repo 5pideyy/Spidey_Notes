@@ -1,60 +1,81 @@
 
-AS LIKE HACKTHEBOX MACHINES , AT FIRST I STARTED RECON WITH PORT SCANNING USING NMAP `-p` , i found out 4 main open ports consist of graphql,apache runnig in it. 
+## Reconnaissance
 
-fired up dirsearch  tool to fuzz for directories in port 80, found intersting directories and files 
-- config.txt
-- swagger.json
-- resource/img
-- phpmyadmin
-- developer.json 
+1. **Port Scanning with Nmap**:
+    
+    - Scanned the target system for open ports using the `-p` option in Nmap.
+    - Discovered four main open ports, including:
+        - **GraphQL**
+        - **Apache**
+2. **Directory Fuzzing with Dirsearch**:
+    
+    - Conducted directory brute-forcing on port 80 using Dirsearch.
+    - Identified several interesting directories and files:
+        - `/config.txt`
+        - `/swagger.json`
+        - `/resource/img`
+        - `/phpmyadmin`
+        - `/developer.json`
+3. **Sitemap Building with Burp Suite**:
+    
+    - Used Burp Suite to manually explore the website and fill up the sitemap.
+    - This helped in keeping track of all discovered endpoints and resources.
 
-and then fired up burpsuite and walkthrough complete website to fill up the sitemap which can be easier to keep trackof
-### SSL cert
+## Vulnerabilities and Flags
 
-encrypted flag in ssl cert with zigzag encryption
+### 1. **SSL Certificate Flag**
 
-### SHELL SHOCK 
-upon inspecting each services , got `shocking` keyword since it also apache that may be shell shock vulnerability (command injection), a cgi endpoint found in comment of soruce code using exploit db and found flag in /follow dir
+- Discovered an encrypted flag within the SSL certificate.
+- Decrypted using a Zigzag encryption method to retrieve the flag.
 
+### 2. **Shellshock Vulnerability**
 
-### Flag what does the database do ?
+- Noticed the keyword `shocking` during service inspection, indicating a potential Shellshock vulnerability.
+- Identified a CGI endpoint in the source code.
+- Exploited using an exploit from Exploit-DB and found the flag in the `/follow` directory.
 
-- when visiting /config.txt 
-- ./IMPORTANTDATABSEHERE found
-- upon visiting this directory got the flag
+### 3. **Database Flag**
 
-### Directory listing
+- Accessed the `/config.txt` file which revealed a path to `./IMPORTANTDATABASEHERE`.
+- Navigated to this directory and retrieved the flag.
 
-- resource/img got directory listing which reveals `secret` directory has flag.html 
-- flag found in source code
+### 4. **Directory Listing**
 
+- Discovered directory listing enabled in `/resource/img`.
+- Found a `secret` directory containing `flag.html`.
+- Retrieved the flag from the source code.
 
-### phpmyadmin
+### 5. **PhpMyAdmin Access**
 
-- trying default creds in login page 
-- flag in users table (need to export to view full flag)
+- Attempted login to PhpMyAdmin with default credentials.
+- Successfully logged in and found a flag within the `users` table (export required to view the full flag).
 
+### 6. **API Flag**
 
+- Analyzed `/swagger.json` to obtain information about all API endpoints.
+- Retrieved user info via the API, which contained a flag.
 
-### API flag
+### 7. **Insecure Deserialization**
 
-- swagger.json gives information about all api endpoints
-- retriving user info give the flag
+- Accessed `shutdown.php` which set two cookies, one containing a file path (`cat /etc/flag/1.txt`) and another with a PHP cookie.
+- Modified the file path in the cookie and updated the string length to retrieve the flag.
 
+### 8. **SQL Injection (SQLi)**
 
-### Insecure deserialization
+- Discovered SQLi in `/API/users/complaintupdate.php`.
+- Dumped the entire database, finding two flags (SQLi and SSTI flags), along with encrypted passwords of various users, including admin and technician.
 
-- visiting shutdown.php 2 cookie is set one with file path cat /etc/flag/1.txt and php cookie(which has some file)
-- upon changing file to /etc/flag/1.txt and string length updated i got flag
+### 9. **JWT Flag**
 
+- Intercepted and modified the login request using Burp Suite.
+- Changed the encrypted password during intercept and obtained a JWT token for a technician.
+- Used the technician's JWT to access `/api/list_reading.php` and retrieved the flag.
 
-### SQLi
+### 10. **Error Flag**
 
-- found sqli in /API/users/complaintupdate.php
-- when i dumped the complete db where i found two flags sqli , and ssti flag as well encrypted password of admin,technitian and other users too
+- Navigated to a non-existing directory which revealed a flag in the error response.
 
+### 11. **Sensitive Information Disclosure**
 
-
-
-
-
+- The `/developer.json` file revealed an endpoint `/developer.php`, similar to `/index.php`.
+- Used Burp Suite's comparator to analyze the differences in source code, leading to the discovery of `sensitive.txt` containing a flag.
