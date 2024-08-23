@@ -106,6 +106,18 @@
             }
           },
           {
+            "id": "dd5c358b1ddeaada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "69ae2748d3d96bb3",
             "type": "leaf",
             "state": {
@@ -212,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "ps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "ps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "ps.md"
               }
             }
           }
@@ -341,10 +353,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b71cb29f22eb7ac6",
+  "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
-    "GREAT APPSEC INTERVIEW.md",
     "Untitled 1.md",
+    "ps.md",
+    "GREAT APPSEC INTERVIEW.md",
     "KIC PLAN.md",
     "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
@@ -376,7 +389,6 @@
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
     "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
-    "BUG BOUNTY/MY WORK/BUG CLASS/IDOR.md",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY",
     "PASTED IMAGES/Pasted image 20240811000103.png",
