@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API.md"
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md"
               }
             }
           }
@@ -150,8 +150,13 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20240825235643.png",
+    "PASTED IMAGES/Pasted image 20240825235604.png",
+    "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
+    "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
+    "BUG BOUNTY/MY WORK/BUG CLASS/API",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
-    "BUG BOUNTY/MY WORK/BUG CLASS/API.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
     "Untitled 1.md",
     "GREAT APPSEC INTERVIEW.md",
     "NETWORKS/PROTOCOL/DNS.md",
@@ -189,12 +194,8 @@
     "PASTED IMAGES/Pasted image 20240811000103.png",
     "PASTED IMAGES/Pasted image 20240810235313.png",
     "PASTED IMAGES/Pasted image 20240810235256.png",
-    "PASTED IMAGES/Pasted image 20240810235238.png",
     "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS",
-    "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
-    "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
-    "HTB/SEASON6",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
