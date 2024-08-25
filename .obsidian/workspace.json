@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf"
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf"
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
-    "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
+    "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "PASTED IMAGES/Pasted image 20240825235643.png",
     "PASTED IMAGES/Pasted image 20240825235604.png",
-    "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
     "Untitled 1.md",
