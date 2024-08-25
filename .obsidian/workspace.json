@@ -111,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
+                "file": "GREAT APPSEC INTERVIEW.md",
                 "mode": "source",
                 "source": false
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
+                "file": "GREAT APPSEC INTERVIEW.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
+                "file": "GREAT APPSEC INTERVIEW.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +330,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md"
+                "file": "GREAT APPSEC INTERVIEW.md"
               }
             }
           }
@@ -355,6 +355,14 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 1.md",
+    "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
+    "KIC PLAN.md",
+    "PRADYUN_R.md",
+    "ps.md",
+    "CTF/CTF LEARNINGS/BINARY/BOF/Pwn 1.md",
+    "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/Z Reversing Example(license).md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/Y MITIGATIONS.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/ROADMAP.md",
@@ -362,12 +370,7 @@
     "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics2.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/GOT.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/C User Input Validation Vulnerability.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Pwn 1.md",
-    "ps.md",
-    "Untitled 1.md",
     "GREAT APPSEC INTERVIEW.md",
-    "KIC PLAN.md",
     "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "HTB/SEASON6/SEA.md",
@@ -379,10 +382,7 @@
     "HTB/ACADEMY/PENETSTER PATH/C ATTACKING COMMON SERVICES.md",
     "NETWORKS/PROTOCOL/DNS.md",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
-    "Untitled.md",
     "PASTED IMAGES/2023-04-26_23-50.png",
-    "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
     "PASTED IMAGES/Pasted image 20240819215445.png",
     "PASTED IMAGES/Pasted image 20240819215355.png",
     "PASTED IMAGES/Pasted image 20240819215136.png",
