@@ -11,11 +11,9 @@
             "id": "dd5c358b1ddeaada",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
-                "mode": "source",
-                "source": false
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md"
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf"
               }
             }
           }
@@ -150,13 +148,13 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
+    "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
     "PASTED IMAGES/Pasted image 20240825235643.png",
     "PASTED IMAGES/Pasted image 20240825235604.png",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
-    "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
-    "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
     "Untitled 1.md",
     "GREAT APPSEC INTERVIEW.md",
     "NETWORKS/PROTOCOL/DNS.md",
@@ -193,7 +191,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY",
     "PASTED IMAGES/Pasted image 20240811000103.png",
     "PASTED IMAGES/Pasted image 20240810235313.png",
-    "PASTED IMAGES/Pasted image 20240810235256.png",
     "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS",
     "NETWORKS/PROTOCOL/Protocols.canvas",
