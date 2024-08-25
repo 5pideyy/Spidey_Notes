@@ -109,11 +109,9 @@
             "id": "dd5c358b1ddeaada",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "GREAT APPSEC INTERVIEW.md",
-                "mode": "source",
-                "source": false
+                "file": "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf"
               }
             }
           },
@@ -290,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GREAT APPSEC INTERVIEW.md",
+                "file": "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -307,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GREAT APPSEC INTERVIEW.md",
+                "file": "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -330,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GREAT APPSEC INTERVIEW.md"
+                "file": "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf"
               }
             }
           }
@@ -355,6 +353,8 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "GREAT APPSEC INTERVIEW.md",
+    "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
     "Untitled.md",
     "Untitled 1.md",
     "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
@@ -370,7 +370,6 @@
     "CTF/CTF LEARNINGS/BINARY/BASICS/A Assembly Basics2.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/GOT.md",
     "CTF/CTF LEARNINGS/BINARY/BASICS/C User Input Validation Vulnerability.md",
-    "GREAT APPSEC INTERVIEW.md",
     "BUG BOUNTY/HowToHunt/CMS/wordpress.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "HTB/SEASON6/SEA.md",
@@ -381,7 +380,6 @@
     "HTB/ACADEMY/PENETSTER PATH/LINUX PRIV ESC.md",
     "HTB/ACADEMY/PENETSTER PATH/C ATTACKING COMMON SERVICES.md",
     "NETWORKS/PROTOCOL/DNS.md",
-    "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "PASTED IMAGES/2023-04-26_23-50.png",
     "PASTED IMAGES/Pasted image 20240819215445.png",
     "PASTED IMAGES/Pasted image 20240819215355.png",
@@ -400,7 +398,6 @@
     "BUG BOUNTY/HowToHunt/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf",
     "BUG BOUNTY/HowToHunt/CheckList/Web_Application_Penetration_Testing_Checklist_by_Tushar_Verma.pdf",
     "HTB/SEASON6",
-    "CERTIFICATIONS/ejpt.pdf",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
