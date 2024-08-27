@@ -53,3 +53,11 @@
 - **Frequency:** DDoS attacks have been growing in frequency, with millions of attacks occurring each year globally.
 - **Scale:** Modern DDoS attacks can involve traffic volumes in the range of terabits per second (Tbps), making them highly disruptive.
 - **Cost:** The financial impact of a DDoS attack can be significant, including lost revenue, recovery costs, and damage to reputation. It is estimated that the average cost of a DDoS attack on an organization is in the millions of dollars.
+
+
+
+
+
+
+
+https://www.radware.com/blog/security/ddos/2019/11/how-to-recover-from-a-ddos-attack/
