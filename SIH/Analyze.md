@@ -65,3 +65,25 @@ https://www.radware.com/blog/security/ddos/2019/11/how-to-recover-from-a-ddos-at
 
 
 vddos https://vddos.voduy.com/
+
+
+
+
+
+
+| **Phase**                               | **Date/Time**               | **Tasks/Activities**                                                                                                    | **Deliverables**                                                   |
+| --------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Case Study and Existing Solutions**   | **Thursday (2 hours)**      | - Conduct research on existing DDoS protection solutions (e.g., AWS Shield, Azure DDoS Protection, Google Cloud Armor). | - List of existing solutions with pros, cons, and gaps identified. |
+|                                         |                             | - Start analyzing case studies of DDoS attacks on cloud-hosted websites.                                                | - Summary of key findings.                                         |
+| **Analysis and Requirement Gathering**  | **Friday (2 hours)**        | - Complete analysis of case studies.                                                                                    | - Detailed summary and lessons learned.                            |
+|                                         |                             | - Identify specific requirements and objectives for the tool(s) based on research.                                      | - Document outlining requirements and objectives for the project.  |
+| **Initial Architecture Design**         | **Saturday (2 hours)**      | - Draft initial cloud architecture that includes DDoS protection mechanisms.                                            | - Initial architecture diagram with key components identified.     |
+| **Ideation and Brainstorming**          | **Sunday, 3:00 PM - 4:30 PM | - Brainstorm and generate ideas for the tool(s) and architecture.                                                       | - List of potential features and approaches.                       |
+| **Detailed Architecture & Tool Design** | **Monday (2 hours)**        | - Finalize ideas from the brainstorming session and refine architecture.                                                | - Detailed architecture and tool design documentation.             |
+| **Prototype Development (Phase 1)**     | **Tuesday (2 hours)**       | - Start development of core components of the architecture and tool(s).                                                 | - Initial prototype with basic functionality for DDoS detection.   |
+| **Prototype Development (Phase 2)**     | **Wednesday (2 hours)**     | - Continue development, focusing on DDoS mitigation and recovery features.                                              | - Advanced prototype with core functionality.                      |
+| **Testing & Refinement**                | **Thursday (2 hours)**      | - Test the prototype for functionality, identify areas for improvement.                                                 | - List of bugs and improvements, start implementing fixes.         |
+| **Prototype Enhancement**               | **Friday (2 hours)**        | - Implement improvements based on Thursday's testing.                                                                   | - Enhanced prototype with improved functionality.                  |
+| **Final Testing & Optimization**        | **Saturday (2 hours)**      | - Conduct final testing, optimize recovery time, and address any remaining issues.                                      | - Finalized prototype ready for review.                            |
+| **Documentation & Presentation Prep**   | **Sunday (2 hours)**        | - Prepare final documentation and presentation materials for the project.                                               | - Complete documentation and presentation materials.               |
+| **Final Review and Submission**         | **Monday (2 hours)**        | - Review all materials, conduct a final walkthrough of the prototype, and submit the project.                           | - Final prototype submission before the deadline.                  |
