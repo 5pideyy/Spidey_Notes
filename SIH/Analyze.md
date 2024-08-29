@@ -87,3 +87,30 @@ vddos https://vddos.voduy.com/
 | **Final Testing & Optimization**        | **Saturday (2 hours)**      | - Conduct final testing, optimize recovery time, and address any remaining issues.                                      | - Finalized prototype ready for review.                            |
 | **Documentation & Presentation Prep**   | **Sunday (2 hours)**        | - Prepare final documentation and presentation materials for the project.                                               | - Complete documentation and presentation materials.               |
 | **Final Review and Submission**         | **Monday (2 hours)**        | - Review all materials, conduct a final walkthrough of the prototype, and submit the project.                           | - Final prototype submission before the deadline.                  |
+
+
+patterns for a DDoS attack
+
+1. Suspicious amounts of traffic originating from a single IP address or IP range
+2. A flood of traffic from users who share a single behavioral profile, such as device type, geolocation, or web browser version
+3.  An unexplained surge in requests to a single page or endpoint
+4.  Odd traffic patterns such as spikes at odd hours of the day or patterns that appear to be unnatural (e.g. a spike every 10 minutes)
+5. The tool developer should be creative to consider other signs also
+
+
+
+assumptions can be made for this problem statements
+
+
+1. Cloud is hosting a website and providing some services to its users.
+2.  The website should be always up and providing services to its users (high availability)
+3.  The attackers can flood the website directly or via other nodes (DDoS)
+4.  The attacker can also sabotage(அழிசெயல்) the link between a client and webserver.
+5.  The attack can come from outside or from within the cloud infrastructure
+
+
+A solution needs to be built by suitably designing the cloud architecture
+
+developing some tool (s) to automatically detect and recover from the DDoS attack
+
+solution should also demonstrate the automatic recovery from the attack.
