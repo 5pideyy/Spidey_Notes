@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIH/Analyze.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIH/Analyze.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIH/Analyze.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIH/Analyze.md"
+                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
               }
             }
           }
@@ -150,8 +150,9 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
-    "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "SIH/Analyze.md",
+    "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
     "SIH",
     "GREAT APPSEC INTERVIEW.md",
     "ps.md",
@@ -183,7 +184,6 @@
     "ETHICAL HACKING AND NETWORK DEFENCE.md",
     "ASSIGNMENT.md",
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
-    "HTB/ACADEMY/PENETSTER PATH/LINUX PRIV ESC.md",
     "PASTED IMAGES/2023-04-26_23-50.png",
     "PASTED IMAGES/Pasted image 20240819215445.png",
     "PASTED IMAGES/Pasted image 20240819215355.png",
