@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "NETWORKS/SUBNETTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "NETWORKS/SUBNETTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
+                "file": "NETWORKS/SUBNETTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md"
+                "file": "NETWORKS/SUBNETTING.md"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "NETWORKS/SUBNET.md",
+    "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "SIH/Analyze.md",
     "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
@@ -181,8 +183,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "HTB/SEASON6/SEA.md",
     "HTB/SEASON6/RESOURCE.md",
-    "ETHICAL HACKING AND NETWORK DEFENCE.md",
-    "ASSIGNMENT.md",
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
     "PASTED IMAGES/2023-04-26_23-50.png",
     "PASTED IMAGES/Pasted image 20240819215445.png",
