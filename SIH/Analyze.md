@@ -114,3 +114,20 @@ A solution needs to be built by suitably designing the cloud architecture
 developing some tool (s) to automatically detect and recover from the DDoS attack
 
 solution should also demonstrate the automatic recovery from the attack.
+
+
+
+![[Pasted image 20240904202539.png]]
+
+https://www.princeton.edu/~rblee/ELE572Papers/Fall04Readings/DDoSmirkovic.pdf
+
+ML PROTECTION https://sci-hub.se/https://ieeexplore.ieee.org/document/9183092
+
+
+**COMPLETE IDEA:** 
+
+![[Pasted image 20240904203954.png]]
+https://www.cs.cornell.edu/courses/cs619/2004fa/documents/Tech_Note_Mitigation.pdf
+
+![[Pasted image 20240904204108.png]]
+
