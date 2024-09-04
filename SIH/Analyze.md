@@ -131,3 +131,6 @@ https://www.cs.cornell.edu/courses/cs619/2004fa/documents/Tech_Note_Mitigation.p
 
 ![[Pasted image 20240904204108.png]]
 
+
+
+BenchMark Proof : https://www.cs.purdue.edu/homes/fahmy/papers/MilBench.pdf
