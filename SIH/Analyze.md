@@ -134,3 +134,13 @@ https://www.cs.cornell.edu/courses/cs619/2004fa/documents/Tech_Note_Mitigation.p
 
 
 BenchMark Proof : https://www.cs.purdue.edu/homes/fahmy/papers/MilBench.pdf
+
+
+
+
+Novelty: 
+1. ML based anomaly detection
+2. Dynamic adjustment of Proof-of-Work difficulty (Adaptive PoW difficulty)
+3. User friendly verification unlike Captcha 
+4. Distributed Proxy architecture
+5. 
