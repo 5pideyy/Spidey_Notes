@@ -143,4 +143,21 @@ Novelty:
 2. Dynamic adjustment of Proof-of-Work difficulty (Adaptive PoW difficulty)
 3. User friendly verification unlike Captcha 
 4. Distributed Proxy architecture
-5. 
+
+
+
+
+Cloud-Native Compatibility - proxy tool is containerized , easy deployment and scalability
+
+Machine Learning for DDoS Detection - to detect DDoS attack patterns is feasible continuously improved based on new attack patterns
+
+Proxy Architecture - proxy to filter and route traffic through it
+
+Auto-Scaling & Load Balancing - adds more proxy instances during traffic spikes & distributes evenly across multiple proxy instances
+
+
+False Positives/Negatives in Detection - ML model can incorrectly classify legitimate traffic as malicious (false positives)
+
+Latency and Performance Impact - Routing all incoming traffic through a proxy  introduce latency
+
+Cloud Resource Overhead - Running a proxy and ML-based analysis in the cloud consume more resource
