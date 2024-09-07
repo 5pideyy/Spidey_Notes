@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIH/Analyze.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIH/Analyze.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIH/Analyze.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIH/Analyze.md"
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md"
               }
             }
           }
@@ -150,12 +150,14 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "SIH/Analyze.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
     "U18CSE0023 Ethical Hacking and Network Defence.md",
     "Untitled.md",
     "KIC PLAN.md",
     "ETHICAL HACKING AND NETWORK DEFENCE.md",
     "NETWORKS/B SWITCH.md",
-    "SIH/Analyze.md",
     "PASTED IMAGES/Pasted image 20240904204108.png",
     "PASTED IMAGES/Pasted image 20240904203954.png",
     "PASTED IMAGES/Pasted image 20240904202539.png",
@@ -185,7 +187,6 @@
     "Untitled 1.md",
     "NETWORKS/PROTOCOL/DNS.md",
     "ETHICAL HACKING AND NETWORK DEFENCE 1.md",
-    "PRADYUN_R.md",
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
     "PASTED IMAGES/2023-04-26_23-50.png",
     "PASTED IMAGES/Pasted image 20240819215445.png",
@@ -195,7 +196,6 @@
     "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY",
-    "CTF/CTF CHEETSHEETS/BINARY/GDB Cheat Sheet.pdf",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
