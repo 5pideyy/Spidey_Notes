@@ -59,3 +59,7 @@ event.data : data that is send by postmessage
 https://medium.com/@youghourtaghannei/postmessage-xss-vulnerability-on-private-program-18e773e1a1ba
 
 With Some Bypass : https://medium.com/@armaanpathan/exploiting-dom-based-xss-via-misconfigured-postmessage-function-bfc794969a0a
+
+
+
+https://medium.com/@spideyyy/understanding-window-postmessage-and-its-xss-risks-5a96bcd90428
