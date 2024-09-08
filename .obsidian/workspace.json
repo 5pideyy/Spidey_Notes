@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md"
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md"
               }
             }
           }
@@ -172,10 +172,12 @@
   },
   "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
+    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md",
     "SIH/Analyze.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
@@ -203,7 +205,6 @@
     "GREAT APPSEC INTERVIEW.md",
     "ps.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
-    "BUG BOUNTY/MY WORK/BUG CLASS/API/BOLA &  BFLA.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
     "PASTED IMAGES/Pasted image 20240825235643.png",
     "PASTED IMAGES/Pasted image 20240825235604.png",
