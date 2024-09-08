@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "0ced91eb5d690722",
+            "id": "28ccc2e1116a052e",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf",
+                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf",
+                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf"
+                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md"
               }
             }
           }
@@ -171,11 +170,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "0ced91eb5d690722",
+  "active": "dd5c358b1ddeaada",
   "lastOpenFiles": [
+    "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
-    "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md",
     "SIH/Analyze.md",
