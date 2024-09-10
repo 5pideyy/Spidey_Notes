@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "davel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md"
+                "file": "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md"
               }
             }
           }
@@ -173,11 +174,13 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "dd5c358b1ddeaada",
+  "active": "d8e7903c0f4bc35f",
   "lastOpenFiles": [
+    "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
+    "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/OneLiners.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "CERTIFICATIONS/ejpt.pdf",
@@ -204,8 +207,6 @@
     "NETWORKS/D OSI , TCP MODEL.md",
     "NETWORKS/C ROUTER.md",
     "NETWORKS/A LINK.md",
-    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
-    "CTF/CTF LEARNINGS/BINARY/BOF/Getit.md",
     "SIH",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
