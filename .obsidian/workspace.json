@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS.md",
+                "file": "nova site.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
+                "file": "nova site.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS.md",
+                "file": "nova site.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS.md"
+                "file": "nova site.md"
               }
             }
           }
@@ -189,7 +189,7 @@
   "active": "b80e5baa0bfd84d2",
   "lastOpenFiles": [
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
-    "CSS.md",
+    "nova site.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
