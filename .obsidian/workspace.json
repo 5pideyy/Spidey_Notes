@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "HTB/ACADEMY/CWEE/Web Cache Poisoning.md"
               }
             }
           }
@@ -188,6 +188,9 @@
   },
   "active": "b80e5baa0bfd84d2",
   "lastOpenFiles": [
+    "Untitled.md",
+    "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
+    "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/CNSP.md",
     "nova site.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
@@ -204,7 +207,6 @@
     "SIH/Analyze.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
     "U18CSE0023 Ethical Hacking and Network Defence.md",
-    "Untitled.md",
     "KIC PLAN.md",
     "ETHICAL HACKING AND NETWORK DEFENCE.md",
     "NETWORKS/B SWITCH.md",
@@ -218,7 +220,6 @@
     "NETWORKS/G DATA CENTER IN NETWORKS.md",
     "NETWORKS/F TIER NETWORKS.md",
     "NETWORKS/E OSI WORKING...md",
-    "NETWORKS/D OSI , TCP MODEL.md",
     "SIH",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
@@ -233,7 +234,6 @@
     "PASTED IMAGES/Pasted image 20240819215136.png",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
     "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
-    "BUG BOUNTY/MY WORK/TECHNOLOGIES",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
