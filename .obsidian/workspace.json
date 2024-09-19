@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nova site.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nova site.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nova site.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nova site.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -188,8 +188,9 @@
   },
   "active": "b80e5baa0bfd84d2",
   "lastOpenFiles": [
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
+    "CERTIFICATIONS/CNSP.md",
     "nova site.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
@@ -218,7 +219,6 @@
     "NETWORKS/F TIER NETWORKS.md",
     "NETWORKS/E OSI WORKING...md",
     "NETWORKS/D OSI , TCP MODEL.md",
-    "NETWORKS/C ROUTER.md",
     "SIH",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
