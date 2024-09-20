@@ -54,7 +54,7 @@ How to check cached or not ?
 Nothing Worked out try  **Fat GET**
 
 
-try out X-Forwarded-Host:
+==try out X-Forwarded-Host: , X-Forwarded-Proto: http==
 
 ## Tools 
 
