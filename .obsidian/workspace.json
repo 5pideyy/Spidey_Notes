@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "impacts and benifits.md",
+                "file": "NETWORKS/SUBNETTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "impacts and benifits.md",
+                "file": "NETWORKS/SUBNETTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "impacts and benifits.md",
+                "file": "NETWORKS/SUBNETTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "impacts and benifits.md"
+                "file": "NETWORKS/SUBNETTING.md"
               }
             }
           }
@@ -199,8 +198,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "d8e7903c0f4bc35f",
+  "active": "b6a7a52d63a4cec0",
   "lastOpenFiles": [
+    "NETWORKS/SUBNET.md",
+    "202409222125.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
     "impacts and benifits.md",
     "PASTED IMAGES/Pasted image 20240919234643.png",
@@ -208,7 +210,6 @@
     "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/CNSP.md",
     "nova site.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
@@ -229,11 +230,9 @@
     "PASTED IMAGES/Pasted image 20240904203954.png",
     "PASTED IMAGES/Pasted image 20240904202539.png",
     "NETWORKS/SUBNETTING.md",
-    "NETWORKS/SUBNET.md",
     "NETWORKS/RESOURCE.md",
     "NETWORKS/H WAN MPLS.md",
     "NETWORKS/G DATA CENTER IN NETWORKS.md",
-    "NETWORKS/F TIER NETWORKS.md",
     "SIH",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
