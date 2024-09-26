@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
+                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
+                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
+                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md"
+                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md"
               }
             }
           }
@@ -224,11 +224,12 @@
   },
   "active": "b32f1d2474db1ef6",
   "lastOpenFiles": [
-    "PASTED IMAGES/Pasted image 20240926165933.png",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
+    "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md",
+    "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
+    "PASTED IMAGES/Pasted image 20240926165933.png",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/giraffe-notes.md",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md",
-    "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
     "CTF/CTF WRITEUPS/WEB/FLASK COOKIE.md",
     "SUBNET.md",
     "NETWORKS/SUBNETTING.md",
@@ -267,7 +268,6 @@
     "BUG BOUNTY/HowToHunt/CheckList/mindmap.png",
     "PASTED IMAGES/2023-04-26_23-50.png",
     "PASTED IMAGES/Pasted image 20240819215445.png",
-    "PASTED IMAGES/Pasted image 20240819215355.png",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
     "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
     "NETWORKS/PROTOCOL/Protocols.canvas",
