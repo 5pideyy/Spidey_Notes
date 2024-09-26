@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md",
+                "file": "impacts and benifits.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md",
+                "file": "impacts and benifits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md",
+                "file": "impacts and benifits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md"
+                "file": "impacts and benifits.md"
               }
             }
           }
@@ -224,9 +224,13 @@
   },
   "active": "b32f1d2474db1ef6",
   "lastOpenFiles": [
+    "GREAT APPSEC INTERVIEW.md",
+    "Choice list.md",
+    "ps.md",
+    "SIH/Analyze.md",
+    "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
-    "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md",
     "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
     "PASTED IMAGES/Pasted image 20240926165933.png",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/giraffe-notes.md",
@@ -250,10 +254,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/OneLiners.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "CERTIFICATIONS/ejpt.pdf",
-    "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
-    "HTB/ACADEMY/PENETSTER PATH/PIVOTING.md",
-    "BUG BOUNTY/MY WORK/BUG CLASS/XSS/POSTMESSAGE XSS.md",
-    "SIH/Analyze.md",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
     "PASTED IMAGES/Pasted image 20240904204108.png",
     "PASTED IMAGES/Pasted image 20240904203954.png",
