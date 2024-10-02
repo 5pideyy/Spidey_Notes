@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STATA.md",
+                "file": "testdisk.md",
                 "mode": "source",
                 "source": false
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STATA.md",
+                "file": "testdisk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STATA.md",
+                "file": "testdisk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STATA.md"
+                "file": "testdisk.md"
               }
             }
           }
@@ -248,8 +248,12 @@
   },
   "active": "ac0ea7986abb27f7",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20241002145015.png",
+    "PASTED IMAGES/Pasted image 20241002144958.png",
+    "PASTED IMAGES/Pasted image 20241002144933.png",
+    "PASTED IMAGES/Pasted image 20241002144918.png",
     "CTF/CTF CHEETSHEETS/CRYPTO/RSA.md",
-    "STATA.md",
+    "testdisk.md",
     "ETHICAL HACKING & NETWORK DEFENCE.md",
     "PASTED IMAGES/Pasted image 20240930164924.png",
     "PASTED IMAGES/Pasted image 20240930164922.png",
@@ -258,7 +262,6 @@
     "PASTED IMAGES/Pasted image 20240930164733.png",
     "PASTED IMAGES/Pasted image 20240930164704.png",
     "PASTED IMAGES/Pasted image 20240930164615.png",
-    "PASTED IMAGES/Pasted image 20240930164546.png",
     "impacts and benifits.md",
     "GREAT APPSEC INTERVIEW.md",
     "Choice list.md",
@@ -268,7 +271,6 @@
     "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
     "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
-    "PASTED IMAGES/Pasted image 20240926165933.png",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/giraffe-notes.md",
     "CTF/CTF WRITEUPS/WEB/FLASK COOKIE.md",
     "SUBNET.md",
@@ -277,14 +279,12 @@
     "202409222125.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
-    "PASTED IMAGES/Pasted image 20240919234643.png",
     "Untitled.md",
     "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/CNSP.md",
     "nova site.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/NASA - VDP.md",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/LABCORP - VDP.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
     "SIH",
