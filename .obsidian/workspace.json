@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REPORT TERRIER.md",
+                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REPORT TERRIER.md",
+                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "REPORT TERRIER.md",
+                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "REPORT TERRIER.md"
+                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md"
               }
             }
           }
@@ -260,12 +260,13 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
+    "REPORT TERRIER.md",
+    "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "PASTED IMAGES/Pasted image 20241003224831.png",
     "PASTED IMAGES/Pasted image 20241003224807.png",
     "PASTED IMAGES/Pasted image 20241003224733.png",
     "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
-    "REPORT TERRIER.md",
     "testdisk.md",
     "PASTED IMAGES/Pasted image 20241002145015.png",
     "PASTED IMAGES/Pasted image 20241002144958.png",
@@ -275,7 +276,6 @@
     "ETHICAL HACKING & NETWORK DEFENCE.md",
     "PASTED IMAGES/Pasted image 20240930164924.png",
     "PASTED IMAGES/Pasted image 20240930164922.png",
-    "PASTED IMAGES/Pasted image 20240930164857.png",
     "impacts and benifits.md",
     "GREAT APPSEC INTERVIEW.md",
     "Choice list.md",
