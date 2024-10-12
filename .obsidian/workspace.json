@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md"
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md"
               }
             }
           }
@@ -260,8 +260,9 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
-    "REPORT TERRIER.md",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
+    "REPORT TERRIER.md",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "PASTED IMAGES/Pasted image 20241003224831.png",
     "PASTED IMAGES/Pasted image 20241003224807.png",
@@ -296,7 +297,6 @@
     "Untitled.md",
     "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/CNSP.md",
-    "nova site.md",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
     "SIH",
