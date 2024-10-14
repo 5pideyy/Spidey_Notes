@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
+                "file": "IDCSS/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
+                "file": "IDCSS/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
+                "file": "IDCSS/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md"
+                "file": "IDCSS/Untitled.md"
               }
             }
           }
@@ -260,8 +260,10 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
-    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
+    "IDCSS/Untitled.md",
+    "IDCSS",
+    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
@@ -295,7 +297,6 @@
     "NETWORKS/SUBNETTING.md",
     "NETWORKS/SUBNET.md",
     "202409222125.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
@@ -305,7 +306,6 @@
     "BUG BOUNTY/MY WORK/BUG CLASS/API",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
     "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
-    "BUG BOUNTY/MY WORK/BUG BOUNTY PROGRAMS/Untitled",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
