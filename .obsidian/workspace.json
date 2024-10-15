@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDCSS/Untitled.md",
+                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDCSS/Untitled.md",
+                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDCSS/Untitled.md",
+                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDCSS/Untitled.md"
+                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md"
               }
             }
           }
@@ -260,8 +260,11 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
-    "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
+    "USEFULL.md",
     "IDCSS/Untitled.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
     "IDCSS",
     "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
@@ -294,9 +297,6 @@
     "CTF/CTF WRITEUPS/WEB/PATRIOT/giraffe-notes.md",
     "CTF/CTF WRITEUPS/WEB/FLASK COOKIE.md",
     "SUBNET.md",
-    "NETWORKS/SUBNETTING.md",
-    "NETWORKS/SUBNET.md",
-    "202409222125.md",
     "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
