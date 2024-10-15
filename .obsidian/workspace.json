@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
+                "file": "CTF GUIDE.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
+                "file": "CTF GUIDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
+                "file": "CTF GUIDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md"
+                "file": "CTF GUIDE.md"
               }
             }
           }
@@ -260,13 +260,13 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
+    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "USEFULL.md",
     "IDCSS/Untitled.md",
     "Untitled.md",
     "Untitled 1.md",
     "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
     "IDCSS",
-    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
