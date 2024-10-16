@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "b32f1d2474db1ef6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "impacts and benifits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c1e472e725e862ba",
             "type": "leaf",
             "state": {
@@ -126,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -260,8 +248,24 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
-    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
+    "INTRO.md",
+    "202409222125.md",
+    "ASSIGNMENT.md",
+    "Choice list.md",
+    "DHT11 DHT 22 LM35.md",
+    "ETHICAL HACKING & NETWORK DEFENCE.md",
+    "impacts and benifits.md",
+    "PRADYUN_R.md",
+    "jsnice.md",
+    "KIC PLAN.md",
+    "REPORT TERRIER.md",
     "USEFULL.md",
+    "SUBNET.md",
+    "testdisk.md",
+    "win services.md",
+    "CTF GUIDE.md",
+    "ps.md",
+    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "IDCSS/Untitled.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -270,33 +274,17 @@
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
-    "REPORT TERRIER.md",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "PASTED IMAGES/Pasted image 20241003224831.png",
     "PASTED IMAGES/Pasted image 20241003224807.png",
     "PASTED IMAGES/Pasted image 20241003224733.png",
     "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
-    "testdisk.md",
     "PASTED IMAGES/Pasted image 20241002145015.png",
     "PASTED IMAGES/Pasted image 20241002144958.png",
     "PASTED IMAGES/Pasted image 20241002144933.png",
     "PASTED IMAGES/Pasted image 20241002144918.png",
-    "CTF/CTF CHEETSHEETS/CRYPTO/RSA.md",
-    "ETHICAL HACKING & NETWORK DEFENCE.md",
     "PASTED IMAGES/Pasted image 20240930164924.png",
     "PASTED IMAGES/Pasted image 20240930164922.png",
-    "impacts and benifits.md",
-    "GREAT APPSEC INTERVIEW.md",
-    "Choice list.md",
-    "ps.md",
-    "SIH/Analyze.md",
-    "CTF/CTF WRITEUPS/WEB/PATRIOT/open-seasame.md",
-    "CTF/CTF WRITEUPS/WEB/PATRIOT/blob.md",
-    "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
-    "CTF/CTF CHEETSHEETS/WEB/Flask Cookie Deflating.md",
-    "CTF/CTF WRITEUPS/WEB/PATRIOT/giraffe-notes.md",
-    "CTF/CTF WRITEUPS/WEB/FLASK COOKIE.md",
-    "SUBNET.md",
     "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
