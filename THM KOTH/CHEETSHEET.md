@@ -1,6 +1,6 @@
 NMAP:
 ```
-nmap -p- --min-rate 10000 
+nmap -p- --min-rate 10000 # 10.10.147.185
 ```
 
 ```
