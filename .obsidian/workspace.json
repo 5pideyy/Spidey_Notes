@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF GUIDE.md",
+                "file": "THM KOTH/CHEETSHEET.md",
                 "mode": "source",
                 "source": false
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF GUIDE.md",
+                "file": "THM KOTH/CHEETSHEET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF GUIDE.md",
+                "file": "THM KOTH/CHEETSHEET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF GUIDE.md"
+                "file": "THM KOTH/CHEETSHEET.md"
               }
             }
           }
@@ -248,6 +248,9 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
+    "CTF GUIDE.md",
+    "THM KOTH/CHEETSHEET.md",
+    "THM KOTH",
     "INTRO.md",
     "202409222125.md",
     "ASSIGNMENT.md",
@@ -263,7 +266,6 @@
     "SUBNET.md",
     "testdisk.md",
     "win services.md",
-    "CTF GUIDE.md",
     "ps.md",
     "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "IDCSS/Untitled.md",
@@ -278,7 +280,6 @@
     "PASTED IMAGES/Pasted image 20241003224831.png",
     "PASTED IMAGES/Pasted image 20241003224807.png",
     "PASTED IMAGES/Pasted image 20241003224733.png",
-    "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
     "PASTED IMAGES/Pasted image 20241002145015.png",
     "PASTED IMAGES/Pasted image 20241002144958.png",
     "PASTED IMAGES/Pasted image 20241002144933.png",
@@ -293,7 +294,6 @@
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API",
     "BUG BOUNTY/MY WORK/TECHNOLOGIES/API.pdf",
-    "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
