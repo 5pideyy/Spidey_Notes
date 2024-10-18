@@ -85,7 +85,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM KOTH/CHEETSHEET.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23906234899a35c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OBSIDIAN CHEETSHEET.md",
                 "mode": "source",
                 "source": false
               }
@@ -180,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM KOTH/CHEETSHEET.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM KOTH/CHEETSHEET.md",
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM KOTH/CHEETSHEET.md"
+                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md"
               }
             }
           }
@@ -248,8 +260,12 @@
   },
   "active": "4d5fb53e8e412766",
   "lastOpenFiles": [
-    "CTF GUIDE.md",
+    "OBSIDIAN CHEETSHEET.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md",
+    "PASTED IMAGES/Pasted image 20241018173908.png",
+    "REPORT TERRIER.md",
     "THM KOTH/CHEETSHEET.md",
+    "CTF GUIDE.md",
     "THM KOTH",
     "INTRO.md",
     "202409222125.md",
@@ -261,7 +277,6 @@
     "PRADYUN_R.md",
     "jsnice.md",
     "KIC PLAN.md",
-    "REPORT TERRIER.md",
     "USEFULL.md",
     "SUBNET.md",
     "testdisk.md",
@@ -269,13 +284,10 @@
     "ps.md",
     "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "IDCSS/Untitled.md",
-    "Untitled.md",
     "Untitled 1.md",
     "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
     "IDCSS",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
-    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
-    "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "PASTED IMAGES/Pasted image 20241003224831.png",
     "PASTED IMAGES/Pasted image 20241003224807.png",
@@ -285,7 +297,6 @@
     "PASTED IMAGES/Pasted image 20241002144933.png",
     "PASTED IMAGES/Pasted image 20241002144918.png",
     "PASTED IMAGES/Pasted image 20240930164924.png",
-    "PASTED IMAGES/Pasted image 20240930164922.png",
     "HTB/ACADEMY/CWEE",
     "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
