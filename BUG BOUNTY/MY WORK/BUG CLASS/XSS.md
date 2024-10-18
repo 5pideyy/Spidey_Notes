@@ -29,9 +29,18 @@ onerror="x='ale';z='r';y='t';p='`XSS`';new constructor.constructor`zzz${`${x}${z
 ```
 
 
+[==UPPER CASE FILTER EXISTS?==](https://master-sec.medium.com/bypass-uppercase-filters-like-a-pro-xss-advanced-methods-daf7a82673ce)
+
+["'()[]\%; FILTER EXISTS?](https://ibb.co/5krL3sv)
+
+
+
+
 
 
 
 > [!IMPORTANT]
 https://tinyxss.terjanq.me/
 https://gbhackers.com/top-500-important-xss-cheat-sheet/
+https://web.archive.org/web/20200831091720/https://ghostbin.co/paste/qo23j
+https://x.com/xsspayloads
