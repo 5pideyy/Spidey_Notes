@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EPARC MANUAL.md",
+                "file": "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EPARC MANUAL"
+              "title": "DELETED FORK DATA STILL ACCESSIBLE!"
             }
           },
           {
@@ -334,8 +334,11 @@
   },
   "active": "7237c47a6f410a83",
   "lastOpenFiles": [
-    "HTB/AD/RESOURCES.md",
+    "CTF/CTF WRITEUPS/FORENSICS/ZIP CRACK USING KPA.md",
+    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
+    "CTF/CTF WRITEUPS/writeup.md",
     "EPARC MANUAL.md",
+    "HTB/AD/RESOURCES.md",
     "THM KOTH/CHEETSHEET.md",
     "AMBA.md",
     "HTB/AD",
@@ -362,9 +365,6 @@
     "jsnice.md",
     "KIC PLAN.md",
     "SUBNET.md",
-    "testdisk.md",
-    "win services.md",
-    "ps.md",
     "IDCSS",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "PASTED IMAGES/Pasted image 20241003224831.png",
