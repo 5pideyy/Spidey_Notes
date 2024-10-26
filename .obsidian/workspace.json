@@ -134,6 +134,20 @@
             }
           },
           {
+            "id": "7237c47a6f410a83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EPARC MANUAL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EPARC MANUAL"
+            }
+          },
+          {
             "id": "23906234899a35c6",
             "type": "leaf",
             "state": {
@@ -174,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -318,10 +332,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "89a48293e7de61c9",
+  "active": "7237c47a6f410a83",
   "lastOpenFiles": [
-    "THM KOTH/CHEETSHEET.md",
     "HTB/AD/RESOURCES.md",
+    "EPARC MANUAL.md",
+    "THM KOTH/CHEETSHEET.md",
     "AMBA.md",
     "HTB/AD",
     "HTB/Untitled.md",
@@ -350,7 +365,6 @@
     "testdisk.md",
     "win services.md",
     "ps.md",
-    "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "IDCSS",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "PASTED IMAGES/Pasted image 20241003224831.png",
