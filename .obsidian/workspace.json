@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM KOTH/CHEETSHEET.md",
+                "file": "HTB/HTB_CPTS/HTB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHEETSHEET"
+              "title": "HTB"
             }
           },
           {
@@ -348,9 +348,10 @@
   },
   "active": "828f1c4dd818bf8e",
   "lastOpenFiles": [
+    "HTB/HTB_CPTS/Pro Labs/dante.md",
+    "THM KOTH/CHEETSHEET.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
-    "THM KOTH/CHEETSHEET.md",
     "CTF/CTF WRITEUPS/FORENSICS/STEGNO CHEETSHEET.md",
     "UNIT 4.md",
     "PASTED IMAGES/Pasted image 20241027185531.png",
@@ -384,7 +385,6 @@
     "ASSIGNMENT.md",
     "Choice list.md",
     "DHT11 DHT 22 LM35.md",
-    "ETHICAL HACKING & NETWORK DEFENCE.md",
     "IDCSS",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "HTB/ACADEMY/CWEE",
