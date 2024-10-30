@@ -242,16 +242,7 @@ When we use OSINT, we can divide our core information results into three categor
 | Locations | Public Domain Records | Internal Leaks |
 | Staff | Domain Structure | Breaches |
 | Contact Information | Cloud Storage |\
- |
-| Business Records | Email Addresses |\
- |
-| Services | Third-Parties |\
- |
-| Social Networks | Compounded Social Networks |\
- |
-|\
- | Technologies in Use |\
- |
+
 
 In this methodology, we take a point from the information categories (`Core Elements`) and search for the relevant information for it through the different `information resources`.
 
@@ -260,7 +251,6 @@ Theoretically, the reverse procedure can be used too. We could filter out the di
 During OSINT, we will come across many different resources, which contain information not only for one category but also for others. Therefore we should have at least `two separate browsers` open.
 
 * * * * *
-
 ### Workflow
 --------
 
@@ -743,8 +733,8 @@ On [LinkedIn](https://www.linkedin.com), we can also enter specific keywords in 
 
 Finally, we have filtered out our potential targets very well and have specific ones to focus our attention. All business and social networks will be covered in a later section. Other valuable sources for employees and job positions are:
 
-| | | | | |
-| --- | --- | --- | --- | --- |
+|                              |                                    |                                  |                                        |                                          |
+| ---------------------------- | ---------------------------------- | -------------------------------- | -------------------------------------- | ---------------------------------------- |
 | [Xing](https://www.xing.com) | [Monster](https://www.monster.com) | [Indeed](https://www.indeed.com) | [Glassdoor](https://www.glassdoor.com) | [TrustPilot](https://www.trustpilot.com) |
 
 However, to make it a little bit clearer how effective OSINT can be and how much data people disclose, check out the following video:
