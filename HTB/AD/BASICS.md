@@ -88,6 +88,12 @@ UPNSuffixes           : {}
 ```
 
 
+- each domain has its own database and its own Domain Controllers
+- **users of a domain in the forest can also access to the other domains**
+
+
+### Functional Modes
+
 
 
 

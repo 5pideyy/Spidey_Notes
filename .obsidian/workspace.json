@@ -4,151 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "272bcbb7d29aff53",
+        "id": "c78f06bd1ad71323",
         "type": "tabs",
         "children": [
           {
-            "id": "dd5c358b1ddeaada",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "A METHODOLOGY"
-            }
-          },
-          {
-            "id": "b80e5baa0bfd84d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Web Cache Poisoning"
-            }
-          },
-          {
-            "id": "b6a7a52d63a4cec0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKS/SUBNETTING.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SUBNETTING"
-            }
-          },
-          {
-            "id": "efa127824082698e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "domdom"
-            }
-          },
-          {
-            "id": "c1e472e725e862ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/CTF CHEETSHEETS/CRYPTO/RSA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RSA"
-            }
-          },
-          {
-            "id": "ac0ea7986abb27f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "E JAVA DEOBFUSCATION"
-            }
-          },
-          {
-            "id": "4d5fb53e8e412766",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "XSS"
-            }
-          },
-          {
-            "id": "1b89ff76b0490cdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF GUIDE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CTF GUIDE"
-            }
-          },
-          {
-            "id": "89a48293e7de61c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/AD/RESOURCES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RESOURCES"
-            }
-          },
-          {
-            "id": "7237c47a6f410a83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DELETED FORK DATA STILL ACCESSIBLE!"
-            }
-          },
-          {
-            "id": "828f1c4dd818bf8e",
+            "id": "9c5462116f859c2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,47 +22,21 @@
             }
           },
           {
-            "id": "23906234899a35c6",
+            "id": "a7b57f3da15691f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OBSIDIAN CHEETSHEET.md",
+                "file": "HTB/HTB_CPTS/Academy/01. Pre-Engagement/08. Introduction to Active Directory/Introduction to Active Directory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OBSIDIAN CHEETSHEET"
-            }
-          },
-          {
-            "id": "146fc0da77f8c90b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Y HACKING WORDPRESS"
-            }
-          },
-          {
-            "id": "28ccc2e1116a052e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CERTIFICATIONS/ejpt.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ejpt"
+              "title": "Introduction to Active Directory"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,10 +180,23 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "828f1c4dd818bf8e",
+  "active": "a7b57f3da15691f8",
   "lastOpenFiles": [
-    "HTB/AD/RESOURCES.md",
+    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/03a. Introduction to Windows Command Line/Introduction to Windows Command Line.md",
     "HTB/AD/BASICS.md",
+    "CERTIFICATIONS/ejpt.pdf",
+    "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
+    "OBSIDIAN CHEETSHEET.md",
+    "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
+    "HTB/AD/RESOURCES.md",
+    "CTF GUIDE.md",
+    "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md",
+    "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
+    "CTF/CTF CHEETSHEETS/CRYPTO/RSA.md",
+    "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
+    "NETWORKS/SUBNETTING.md",
+    "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "HTB/HTB_CPTS/Academy/02. Information Gathering/11. Footprinting/Footprinting.md",
     "THM KOTH/CHEETSHEET.md",
     "HTB/HTB_CPTS/Academy/10. Misc/Whitebox Pentesting 101/Whitebox Pentesting 101.md",
@@ -362,18 +209,6 @@
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/08. Introduction to Active Directory/Introduction to Active Directory.md",
     "HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/Active Directory Enumeration & Attacks.md",
     "HTB/HTB_CPTS/Academy/02. Information Gathering/13. OSINT - Corporate Recon/OSINT - Corporate Recon.md",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/12. Information Gathering - Web Edition/Information Gathering - Web Edition.md",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/Info Gathering.md",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/10b. DNS Enumeration Python/DNS Enumeration Using Python.md",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/10a. Introduction to Python 3/Introduction to Python 3.md",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/10. Network Enumeration with Nmap/Network Enumeration with Nmap.md",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/03. Windows Fundamentals/Windows Fundamentals.md",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/01b. Setting Up/Setting Up.md",
-    "HTB/HTB_CPTS/Academy/01. Pre-Engagement/01a. Penetration Testing Process/Penetration Testing Process.md",
-    "HTB/HTB_CPTS/Challenges/Misc/Triangles.md",
-    "HTB/HTB_CPTS/Challenges/Misc/Sigma Technology.md",
-    "HTB/HTB_CPTS/Challenges/Misc/Query.md",
-    "HTB/HTB_CPTS/Challenges/Misc/MisDIRection.md",
     "PASTED IMAGES/Pasted image 20241027185531.png",
     "PASTED IMAGES/Pasted image 20241027185432.png",
     "PASTED IMAGES/Pasted image 20241027185404.png",
@@ -388,7 +223,6 @@
     "IDCSS",
     "PASTED IMAGES/Pasted image 20241003224904.png",
     "HTB/ACADEMY/CWEE",
-    "CERTIFICATIONS/ejpt.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
     "SIH",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
