@@ -89,10 +89,14 @@ UPNSuffixes           : {}
 
 
 - each domain has its own database and its own Domain Controllers
-- **users of a domain in the forest can also access to the other domains**
+- users of a domain in the forest can also access to the other domains within forest
 
 
-### Functional Modes
+### Trusts
+
+- users can access to other domains in the same forests via Trust (a connection)
+- a kind of authentication/authorization connection
+- 
 
 
 
