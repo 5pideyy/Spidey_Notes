@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/AD/BASICS.md",
+                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BASICS"
+              "title": "STABLE SHELL TTY"
             }
           },
           {
@@ -181,9 +181,9 @@
   },
   "active": "9c5462116f859c2f",
   "lastOpenFiles": [
+    "HTB/AD/BASICS.md",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/08. Introduction to Active Directory/Introduction to Active Directory.md",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/03a. Introduction to Windows Command Line/Introduction to Windows Command Line.md",
-    "HTB/AD/BASICS.md",
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "OBSIDIAN CHEETSHEET.md",
