@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
+                "file": "CTF/CTF CHEETSHEETS/REV/GITHUB INFO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STABLE SHELL TTY"
+              "title": "GITHUB INFO"
             }
           },
           {
@@ -181,6 +181,8 @@
   },
   "active": "9c5462116f859c2f",
   "lastOpenFiles": [
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
+    "CTF/CTF CHEETSHEETS/REV/GITHUB INFO.md",
     "HTB/AD/BASICS.md",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/08. Introduction to Active Directory/Introduction to Active Directory.md",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/03a. Introduction to Windows Command Line/Introduction to Windows Command Line.md",
@@ -206,8 +208,6 @@
     "HTB/HTB_CPTS/Academy/06. Post-Exploitation/33. Windows Privilege Escalation/Windows Privilege Escalation.md",
     "HTB/HTB_CPTS/Academy/06. Post-Exploitation/Post-Exploitation.md",
     "HTB/HTB_CPTS/Academy/06. Post-Exploitation/32. Linux Privilege Escalation/Linux Privilege Escalation.md",
-    "HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/Active Directory Enumeration & Attacks.md",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/13. OSINT - Corporate Recon/OSINT - Corporate Recon.md",
     "PASTED IMAGES/Pasted image 20241027185531.png",
     "PASTED IMAGES/Pasted image 20241027185432.png",
     "PASTED IMAGES/Pasted image 20241027185404.png",
