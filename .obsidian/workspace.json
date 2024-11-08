@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOVA GOALS.md",
+                "file": "HTB/AD/BASICS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NOVA GOALS"
+              "title": "BASICS"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "0f9db30a3f16a989",
   "lastOpenFiles": [
-    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "NOVA GOALS.md",
+    "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
     "INTRO.md",
     "AMBA.md",
     "CTF GUIDE.md",

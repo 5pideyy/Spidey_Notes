@@ -18,7 +18,7 @@
 
  **Domain name**
 
-- Each domain has a DNS nam
+- Each domain has a DNS name
 - name of the domain is the same as their web site `contoso.com`
 
 ```powershell
