@@ -129,11 +129,32 @@ UserPrincipalName : anakin@contoso.local
 
 ##### User Secrets
 
-- windows creates two hashes LM & NT for a password when set (P@ssword123)
-- LM is disabled by default because of weakness , NT is calculated in Modern systems 
-- either one of LM or NT is enough to login or to crack the password
-- LM & NT are stored in SAM and in NTDS (DC database)
-- 
+
+#### LM/NT Hashes
+
+- **Hash Creation and Use**:
+    
+    - Windows generates two hashes (LM and NT) when a password is set.
+    -  **LM is disabled by default** in modern systems due to its weakness.
+    -  **NT hashes are calculated and used** by default in modern Windows systems.
+- **Login Authentication**:
+    
+    -  Either **LM or NT hash alone is sufficient** to authenticate, provided LM is enabled.
+    - LM hashes are weak and can be cracked easily if available.
+- **Storage**:
+    
+    -  Both LM and NT hashes, when calculated, are stored in the **SAM** (for local accounts) and **NTDS** (for domain accounts on Domain Controllers).
+    -  Hashes in SAM are in the format `<username>:<RID>:<LM Hash>:<NT Hash>:::`.
+    -  `aad3b435b51404eeaad3b435b51404ee` represents the LM hash of an **empty string** and often appears when LM is disabled.
+
+#### Kerberos Keys
+
+![[Pasted image 20241110163048.png]]
+
+
+
+
+
 
 
 
