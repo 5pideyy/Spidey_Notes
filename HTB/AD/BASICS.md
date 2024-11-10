@@ -95,9 +95,36 @@ UPNSuffixes           : {}
 ### Trusts
 
 - users can access to other domains in the same forests via Trust (a connection)
-- a kind of authentication/authorization connection
-- 
+- a kind of authentication/authorization connection (using kerbros , LM )
 
+
+
+### Users
+
+- key points for using Active Directory is the users management
+- stored as a objects in the central [database](https://zer1t0.gitlab.io/posts/attacking_ad/#database)
+
+### User properties
+
+- fetched using Username or SID can be used to iden user
+- user SID = Domain SID + user RID
+
+
+```powershell
+PS C:\Users\Anakin> Get-ADUser Anakin
+
+
+DistinguishedName : CN=Anakin,CN=Users,DC=contoso,DC=local
+Enabled           : True
+GivenName         : Anakin
+Name              : Anakin
+ObjectClass       : user
+ObjectGUID        : 58ab0512-9c96-4e97-bf53-019e86fd3ed7
+SamAccountName    : anakin
+SID               : S-1-5-21-1372086773-2238746523-2939299801-1103
+Surname           :
+UserPrincipalName : anakin@contoso.local
+```
 
 
 
