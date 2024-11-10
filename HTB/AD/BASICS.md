@@ -104,7 +104,7 @@ UPNSuffixes           : {}
 - key points for using Active Directory is the users management
 - stored as a objects in the central [database](https://zer1t0.gitlab.io/posts/attacking_ad/#database)
 
-### User properties
+#### User properties
 
 - fetched using Username or SID can be used to iden user
 - user SID = Domain SID + user RID
@@ -126,6 +126,14 @@ Surname           :
 UserPrincipalName : anakin@contoso.local
 ```
 
+
+##### User Secrets
+
+- windows creates two hashes LM & NT for a password when set (P@ssword123)
+- LM is disabled by default because of weakness , NT is calculated in Modern systems 
+- either one of LM or NT is enough to login or to crack the password
+- LM & NT are stored in SAM and in NTDS (DC database)
+- 
 
 
 
