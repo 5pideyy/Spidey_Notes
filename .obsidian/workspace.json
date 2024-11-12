@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/AD/KERBEROS AUTH.md",
+                "file": "HTB/AD/BASICS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KERBEROS AUTH"
+              "title": "BASICS"
             }
           },
           {
@@ -224,8 +224,13 @@
   },
   "active": "e1a84d40daceb110",
   "lastOpenFiles": [
-    "HTB/AD/BASICS.md",
     "HTB/AD/KERBEROS AUTH.md",
+    "PASTED IMAGES/Pasted image 20241112173823.png",
+    "PASTED IMAGES/Pasted image 20241112173811.png",
+    "PASTED IMAGES/Pasted image 20241112173554.png",
+    "PASTED IMAGES/Pasted image 20241112173450.png",
+    "PASTED IMAGES/Pasted image 20241112173306.png",
+    "HTB/AD/BASICS.md",
     "HTB/AD/RESOURCES.md",
     "NOVA GOALS.md",
     "HTB/HTB_CPTS/Academy/07. Lateral Movement/Lateral Movement.md",
@@ -238,10 +243,6 @@
     "PASTED IMAGES/Pasted image 20241110200835.png",
     "PASTED IMAGES/Pasted image 20241110200554.png",
     "PASTED IMAGES/Pasted image 20241110194614.png",
-    "PASTED IMAGES/Pasted image 20241110194510.png",
-    "PASTED IMAGES/Pasted image 20241110194321.png",
-    "PASTED IMAGES/Pasted image 20241110194126.png",
-    "PASTED IMAGES/Pasted image 20241110163048.png",
     "CTF/CTF WRITEUPS/FORENSICS/DELETED FORK DATA STILL ACCESSIBLE!.md",
     "CTF/CTF WRITEUPS/FORENSICS/HG same as GIT.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/CHISEL.md",
@@ -259,8 +260,6 @@
     "CTF/CTF CHEETSHEETS/CRYPTO/RSA.md",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
     "NETWORKS/SUBNETTING.md",
-    "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
-    "PASTED IMAGES/Pasted image 20241027185531.png",
     "HTB/AD",
     "THM KOTH",
     "IDCSS",

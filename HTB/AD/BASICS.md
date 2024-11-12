@@ -194,5 +194,22 @@ The command completed successfully
 ```
 
 
+
+
+- now DC database contains sensitive info ==ATTACKER TARGET==
+
+
+#### Domain database dumping
+
+
+**LOCAL**
+
+- get administrator of the domain  -> log in on the domain controller
+- use  [ntdsutil](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc753343(v=ws.11)) or [vssadmin](https://docs.microsoft.com/en-gb/windows-server/administration/windows-commands/vssadmin) to dump 
+
+**Remote**
+
 - 
+
+
 
