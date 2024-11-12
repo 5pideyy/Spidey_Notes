@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git lost.md",
+                "file": "NOVA GOALS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git lost"
+              "title": "NOVA GOALS"
             }
           },
           {
@@ -222,10 +222,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8fc2af40511fda44",
+  "active": "e1a84d40daceb110",
   "lastOpenFiles": [
-    "Pasted.md",
+    "HTB/HTB_CPTS/Academy/07. Lateral Movement/Lateral Movement.md",
+    "CTF/CTF CHEETSHEETS/REV/GITHUB INFO.md",
     "git lost.md",
+    "Pasted.md",
     "see.md",
     "PASTED IMAGES/Pasted image 20241110201055.png",
     "PASTED IMAGES/Pasted image 20241110201026.png",
@@ -245,7 +247,6 @@
     "AMBA.md",
     "CTF GUIDE.md",
     "HTB/HTB_CHEETSHEETS/POST EXPLOITATION/STABLE SHELL TTY.md",
-    "CTF/CTF CHEETSHEETS/REV/GITHUB INFO.md",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/08. Introduction to Active Directory/Introduction to Active Directory.md",
     "HTB/HTB_CPTS/Academy/01. Pre-Engagement/03a. Introduction to Windows Command Line/Introduction to Windows Command Line.md",
     "CERTIFICATIONS/ejpt.pdf",
@@ -259,7 +260,6 @@
     "NETWORKS/SUBNETTING.md",
     "HTB/ACADEMY/CWEE/Web Cache Poisoning.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
-    "HTB/HTB_CPTS/Academy/02. Information Gathering/11. Footprinting/Footprinting.md",
     "PASTED IMAGES/Pasted image 20241027185531.png",
     "HTB/AD",
     "THM KOTH",
