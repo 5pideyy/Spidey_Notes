@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/1earvyrf#WIaKgX0OfIfF5w7Nra2hCmY8G++7e168GYf2tFDrn24
+share_updated: 2024-11-12T18:10:39+05:30
+---
 
 ## **WHAT IS AD?**
 
@@ -127,7 +131,7 @@ UserPrincipalName : anakin@contoso.local
 ```
 
 
-##### User Secrets
+# User Secrets
 
 
 #### LM/NT Hashes
@@ -149,6 +153,8 @@ UserPrincipalName : anakin@contoso.local
 
 #### Kerberos Keys
 
+- [KERB AUTH FLOW](obsidian://open?vault=Spidey_Notes&file=HTB%2FAD%2FKERBEROS%20AUTH)
+
 ![[Pasted image 20241110163048.png]]
 
 
@@ -156,9 +162,9 @@ UserPrincipalName : anakin@contoso.local
 
 
 
-### Domain Controllers
+# Domain Controllers - DISCOVERY
 
-- **central server of a domain**
+- central server of a domain
 - Database file `C:\Windows\NTDS\ntds.dit`
 - discovering DC is important in AD
 - How to discover DC ?
@@ -209,7 +215,47 @@ The command completed successfully
 
 **Remote**
 
-- 
+- this case too needs admin access means password or hash
+- with the [mimikatz lsadump::dsync](https://github.com/gentilkiwi/mimikatz/wiki/module-~-lsadump#dcsync)
+-  [impacket secretsdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py) script
+
+
+
+# Windows computers - DISCOVERY
+
+- LDAP OPEN ? HAVING LDAP CREDS ?
+
+```powershell
+ ldapsearch -H ldap://192.168.100.2 -x -LLL -W -D "anakin@contoso.local" -b "dc=contoso,dc=local" "(objectclass=computer)" "DNSHostName" "OperatingSystem"
+Enter LDAP Password: 
+dn: CN=DC01,OU=Domain Controllers,DC=contoso,DC=local
+operatingSystem: Windows Server 2019 Standard Evaluation
+dNSHostName: dc01.contoso.local
+
+dn: CN=WS01-10,CN=Computers,DC=contoso,DC=local
+operatingSystem: Windows 10 Enterprise
+dNSHostName: ws01-10.contoso.local
+
+dn: CN=WS02-7,CN=Computers,DC=contoso,DC=local
+operatingSystem: Windows 7 Professional
+dNSHostName: WS02-7.contoso.local
+
+dn: CN=SRV01,CN=Computers,DC=contoso,DC=local
+operatingSystem: Windows Server 2019 Standard Evaluation
+dNSHostName: srv01.contoso.local
+```
+
+- NBNS (port 137) open , no creds needed !
+	- [nbtscan](http://www.unixwiz.net/tools/nbtscan.html) or nmap [nbtstat](https://nmap.org/nsedoc/scripts/nbstat.html) script
+
+```powershell
+$ nbtscan 192.168.100.0/24
+192.168.100.2   CONTOSO\DC01                    SHARING DC
+192.168.100.7   CONTOSO\WS02-7                  SHARING
+192.168.100.10  CONTOSO\WS01-10                 SHARING
+*timeout (normal end of scan)
+```
+
 
 
 
