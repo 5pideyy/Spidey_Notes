@@ -156,5 +156,14 @@ UserPrincipalName : anakin@contoso.local
 
 
 
+### Domain Controllers
 
+- **central server of a domain**
+- Database file `C:\Windows\NTDS\ntds.dit`
+- discovering DC is important in AD
+- How to discover DC ?
+	- **DNS query asking for the LDAP servers** 
+	```
+	 nslookup -q=srv _ldap._tcp.dc._msdcs.contoso.local
+```
 
