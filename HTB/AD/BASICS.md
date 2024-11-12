@@ -163,7 +163,36 @@ UserPrincipalName : anakin@contoso.local
 - discovering DC is important in AD
 - How to discover DC ?
 	- **DNS query asking for the LDAP servers** 
-	```
-	 nslookup -q=srv _ldap._tcp.dc._msdcs.contoso.local
+
+	 ```powershell
+	PS C:\Users\Anakin> nslookup -q=srv _ldap._tcp.dc._msdcs.contoso.local
+	Server:  UnKnown
+	Address:  192.168.100.2
+	
+	_ldap._tcp.dc._msdcs.contoso.local      SRV service location:
+	          priority       = 0
+	          weight         = 100
+	          port           = 389
+	          svr hostname   = dc01.contoso.local
+	_ldap._tcp.dc._msdcs.contoso.local      SRV service location:
+	          priority       = 0
+	          weight         = 100
+	          port           = 389
+	          svr hostname   = dc02.contoso.local
+	dc01.contoso.local      internet address = 192.168.100.2
+	dc02.contoso.local      internet address = 192.168.100.3
 ```
+
+- using nltest
+
+```powershell
+PS C:\Users\Anakin> nltest /dclist:contoso.local
+Get list of DCs in domain 'contoso.local' from '\\dc01.contoso.local'.
+    dc01.contoso.local [PDC]  [DS] Site: Default-First-Site-Name
+    dc02.contoso.local        [DS] Site: Default-First-Site-Name
+The command completed successfully
+```
+
+
+- 
 
