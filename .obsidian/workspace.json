@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/AD/BASICS.md",
+                "file": "HTB/AD/WINDOWS FUNDAMENTALS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BASICS"
+              "title": "WINDOWS FUNDAMENTALS"
             }
           },
           {
@@ -224,8 +224,9 @@
   },
   "active": "e1a84d40daceb110",
   "lastOpenFiles": [
-    "HTB/AD/KERBEROS AUTH.md",
     "HTB/AD/BASICS.md",
+    "HTB/AD/WINDOWS FUNDAMENTALS.md",
+    "HTB/AD/KERBEROS AUTH.md",
     "PASTED IMAGES/Pasted image 20241112173823.png",
     "PASTED IMAGES/Pasted image 20241112173811.png",
     "PASTED IMAGES/Pasted image 20241112173554.png",

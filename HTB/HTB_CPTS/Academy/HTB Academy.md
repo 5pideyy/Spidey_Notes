@@ -71,7 +71,7 @@ HTB Academy is cybersecurity learning the HTB way! An effort to gather everythin
 [[Web Requests]]
 [[Web Service & API Attacks]]
 [[Whitebox Pentesting 101]]
-[[Windows Fundamentals]]
+[[HTB/HTB_CPTS/Academy/01. Pre-Engagement/03. Windows Fundamentals/Windows Fundamentals]]
 [[Windows Privilege Escalation]]
 
 # References
