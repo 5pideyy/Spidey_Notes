@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/AD/WINDOWS FUNDAMENTALS.md",
+                "file": "HTB/AD/FILE SYSTEMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WINDOWS FUNDAMENTALS"
+              "title": "FILE SYSTEMS"
             }
           },
           {
@@ -224,8 +224,9 @@
   },
   "active": "e1a84d40daceb110",
   "lastOpenFiles": [
-    "HTB/AD/BASICS.md",
     "HTB/AD/WINDOWS FUNDAMENTALS.md",
+    "HTB/AD/FILE SYSTEMS.md",
+    "HTB/AD/BASICS.md",
     "HTB/AD/KERBEROS AUTH.md",
     "PASTED IMAGES/Pasted image 20241112173823.png",
     "PASTED IMAGES/Pasted image 20241112173811.png",
@@ -260,7 +261,6 @@
     "HTB/ACADEMY/BUG HUNTER PATH/E JAVA DEOBFUSCATION.md",
     "CTF/CTF CHEETSHEETS/CRYPTO/RSA.md",
     "CTF/CTF WRITEUPS/WEB/PATRIOT/domdom.md",
-    "NETWORKS/SUBNETTING.md",
     "HTB/AD",
     "THM KOTH",
     "IDCSS",
