@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOVA GOALS.md",
+                "file": "THM KOTH/CHEETSHEET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NOVA GOALS"
+              "title": "CHEETSHEET"
             }
           },
           {
@@ -238,6 +238,7 @@
   },
   "active": "8acf1c158d553701",
   "lastOpenFiles": [
+    "NOVA GOALS.md",
     "SERVICES AND PROCESS.md",
     "HTB/AD/FILE SYSTEMS.md",
     "HTB/AD/RESOURCES.md",
@@ -249,7 +250,6 @@
     "PASTED IMAGES/Pasted image 20241112173554.png",
     "PASTED IMAGES/Pasted image 20241112173450.png",
     "PASTED IMAGES/Pasted image 20241112173306.png",
-    "NOVA GOALS.md",
     "HTB/HTB_CPTS/Academy/07. Lateral Movement/Lateral Movement.md",
     "CTF/CTF CHEETSHEETS/REV/GITHUB INFO.md",
     "git lost.md",
