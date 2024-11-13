@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SERVICES AND PROCESS.md",
+                "file": "NOVA GOALS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SERVICES AND PROCESS"
+              "title": "NOVA GOALS"
             }
           },
           {
@@ -238,8 +238,8 @@
   },
   "active": "8acf1c158d553701",
   "lastOpenFiles": [
-    "HTB/AD/FILE SYSTEMS.md",
     "SERVICES AND PROCESS.md",
+    "HTB/AD/FILE SYSTEMS.md",
     "HTB/AD/RESOURCES.md",
     "HTB/AD/WINDOWS FUNDAMENTALS.md",
     "HTB/AD/BASICS.md",

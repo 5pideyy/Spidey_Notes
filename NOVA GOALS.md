@@ -37,3 +37,10 @@
 **Annual Events**: Arrange two to three workshops or CTFs each year to improve teamwork, develop new members, and improve abilities.
 
 - **Recruiting Approach**: Evaluate team requirements every year to target a variety of
+
+
+
+
+
+
+
