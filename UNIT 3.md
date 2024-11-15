@@ -24,3 +24,6 @@
 
 # UNIT 2
 
+# SUPER HETRODYNE
+
+![[Pasted image 20241115173851.png]]
