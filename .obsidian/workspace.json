@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNIT 4.md",
+                "file": "UNIT 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UNIT 4"
+              "title": "UNIT 3"
             }
           },
           {
@@ -266,6 +266,7 @@
   },
   "active": "ad747e1b231ba940",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20241115163422.png",
     "Untitled.md",
     "USEFULL.md",
     "NOVA GOALS.md",
@@ -302,7 +303,6 @@
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "OBSIDIAN CHEETSHEET.md",
-    "BUG BOUNTY/MY WORK/BUG CLASS/XSS.md",
     "HTB/AD",
     "THM KOTH",
     "IDCSS",
