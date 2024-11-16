@@ -27,3 +27,7 @@
 # SUPER HETRODYNE
 
 ![[Pasted image 20241115173851.png]]
+
+# FIlter method 
+
+![[Pasted image 20241116093617.png]]
