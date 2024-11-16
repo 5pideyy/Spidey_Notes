@@ -35,3 +35,32 @@ Successfully processed 1 files; Failed processing 0 files
 - using iclas we can set and change permissions
 
 
+
+
+#### Current Location
+
+Linux : `pwd`
+windows : `Get-Location`
+
+#### List in dir
+
+Linux : `ls`
+Windows : `Get-ChildItem `
+
+#### Move to a New Directory
+
+Linux : `cd /home`
+Windows : `Set-Location .\Documents\`
+
+#### Display Contents of a File
+
+Linux  : `cat README.md`
+Windows : `Get-Content Readme.md  `
+
+#### History
+
+Linux : `history`
+windows : `Get-History`
+
+
+

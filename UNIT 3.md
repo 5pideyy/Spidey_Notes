@@ -32,3 +32,13 @@
 ![[Pasted image 20241116093617.png]]
 
 ![[Pasted image 20241116100907.png]]
+
+
+
+
+parzikusti@gufum.com
+
+parzikusti gufum
+
+parzikusti@gufum.com
+

@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNIT 3.md",
+                "file": "HTB/AD/WINDOWS FUNDAMENTALS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UNIT 3"
+              "title": "WINDOWS FUNDAMENTALS"
             }
           },
           {
@@ -266,8 +266,8 @@
   },
   "active": "ad747e1b231ba940",
   "lastOpenFiles": [
-    "HTB/HTB_CPTS/Pro Labs/dante.md",
     "UNIT 3.md",
+    "HTB/HTB_CPTS/Pro Labs/dante.md",
     "PASTED IMAGES/Pasted image 20241116100907.png",
     "PASTED IMAGES/Pasted image 20241116093617.png",
     "PASTED IMAGES/Pasted image 20241115173851.png",
