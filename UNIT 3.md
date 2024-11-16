@@ -1,7 +1,6 @@
 # ARM STRONG
 
 
-
 ![[Pasted image 20241027155837.png]]
 
 # BALANCED
@@ -31,3 +30,5 @@
 # FIlter method 
 
 ![[Pasted image 20241116093617.png]]
+
+![[Pasted image 20241116100907.png]]
