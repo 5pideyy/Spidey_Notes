@@ -1,0 +1,2 @@
+- SPN -> service principal name assigned to each service in AD , use to locate the service in the domain
+- SERVICE ACCOUNT CREDS -> 

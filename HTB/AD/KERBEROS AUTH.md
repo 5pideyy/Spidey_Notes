@@ -3,7 +3,7 @@
 
 # Working 
 
-![[Pasted image 20241117133058.png]]
+![[Kerberos.png]]
 
 #### **Step 1: Login and Initial Authentication**
 
