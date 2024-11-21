@@ -1,7 +1,3 @@
----
-share_link: https://share.note.sx/3fcsyx8b#Q77DSBXwM8wK6amSdQwn1lqOUVA8t6thypakxI73qs8
-share_updated: 2024-11-10T20:32:08+05:30
----
 
 ---
 
