@@ -165,12 +165,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EPARC.md",
+                "file": "EPARC/UNIT 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EPARC"
+              "title": "UNIT 4"
             }
           },
           {
@@ -348,12 +348,18 @@
   },
   "active": "9b97f7d152270c29",
   "lastOpenFiles": [
+    "EPARC/UNIT 3.md",
+    "EPARC/UNIT 5.md",
+    "EPARC.md",
+    "EPARC/UNIT 4.md",
+    "EPARC/UNIT 2.md",
+    "EPARC/UNIT 1.md",
+    "EPARC",
     "PASTED IMAGES/Pasted image 20241126114200.png",
     "PASTED IMAGES/Pasted image 20241126113850.png",
     "PASTED IMAGES/Pasted image 20241126113822.png",
     "PASTED IMAGES/Pasted image 20241126113706.png",
     "EPARC MANUAL.md",
-    "EPARC.md",
     "PASTED IMAGES/Pasted image 20241126105157.png",
     "antenna.md",
     "PASTED IMAGES/Pasted image 20241123212914.png",
@@ -361,7 +367,6 @@
     "PASTED IMAGES/Pasted image 20241123212719.png",
     "PASTED IMAGES/Pasted image 20241123212643.png",
     "PASTED IMAGES/Pasted image 20241123212617.png",
-    "PASTED IMAGES/Pasted image 20241123212523.png",
     "git lost.md",
     "Untitled 1.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
@@ -380,10 +385,6 @@
     "UNIT 3.md",
     "HTB/HTB_CPTS/Pro Labs/dante.md",
     "Untitled.md",
-    "USEFULL.md",
-    "NOVA GOALS.md",
-    "SERVICES AND PROCESS.md",
-    "HTB/HTB_CPTS/Academy/07. Lateral Movement/Lateral Movement.md",
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/AD",
     "THM KOTH",
@@ -393,7 +394,6 @@
     "SIH",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "BUG BOUNTY/MY WORK/BUG CLASS/API/API.pdf",
-    "BUG BOUNTY/MY WORK/BUG CLASS/API",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
