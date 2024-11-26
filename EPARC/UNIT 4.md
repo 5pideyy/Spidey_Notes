@@ -1,6 +1,6 @@
 ---
 share_link: https://share.note.sx/tz5nqped#Ks9gyaoYAfk4wyXHSRjmtCsKZgtnfmdu6naV1RDpQRc
-share_updated: 2024-11-26T15:32:41+05:30
+share_updated: 2024-11-26T16:39:29+05:30
 ---
 
 
@@ -146,3 +146,30 @@ Secondary storage refers to non-volatile storage devices used to store data and 
 - **Virtual Memory Overhead**: Excessive use of virtual memory (page faults) can degrade performance as data is swapped in and out of disk storage.
 
 ---
+
+
+### ==Influences of Instruction Sets==:
+
+1. **CISC (Complex Instruction Set Computing)**:
+    
+    - **Example**: x86, Intel's 8086 and modern Intel/AMD processors.
+    - **Characteristics**:
+        - Large instruction set, with instructions that can perform multiple tasks.
+        - Variable-length instructions, which can make fetching and decoding more complex.
+        - Emphasis on reducing the number of instructions in a program.
+    - **Influences**:
+        - **Higher Code Density**: Since instructions are more complex, fewer instructions are required for performing complex tasks.
+        - **Complex Decoding**: The processor needs to handle a variety of instructions, which can lead to a more complex control unit.
+        - **Potential for Slower Execution**: Due to the complexity of instructions, not all CISC processors execute instructions in a single clock cycle.
+2. **RISC (Reduced Instruction Set Computing)**:
+    
+    - **Example**: ARM, MIPS, PowerPC.
+    - **Characteristics**:
+        - Smaller set of simple instructions, with each instruction typically taking one clock cycle.
+        - Fixed-length instructions.
+        - More reliance on software optimization for complex tasks.
+    - **Influences**:
+        - **Faster Execution**: RISC instructions are designed to be executed in a single cycle, which can lead to higher performance in certain types of applications, especially when the instruction set is optimized for specific tasks.
+        - **Pipeline Efficiency**: Simpler instructions make it easier to implement efficient pipelines with less risk of pipeline stalls.
+        - **Larger Program Size**: RISC programs often require more instructions to perform the same tasks as CISC programs, leading to potentially larger code sizes.
+        - **Easier to Optimize**: Compilers can more easily optimize RISC code, leading to efficient use of the processor’s resources.
