@@ -173,3 +173,15 @@ Secondary storage refers to non-volatile storage devices used to store data and 
         - **Pipeline Efficiency**: Simpler instructions make it easier to implement efficient pipelines with less risk of pipeline stalls.
         - **Larger Program Size**: RISC programs often require more instructions to perform the same tasks as CISC programs, leading to potentially larger code sizes.
         - **Easier to Optimize**: Compilers can more easily optimize RISC code, leading to efficient use of the processor’s resources.
+
+## Data Hazards
+
+![[Pasted image 20241126175620.png]]
+
+- operand forwarding , retrives data from buffer
+- data dependency : output of I2 depends on output of I1
+
+![[Pasted image 20241126175813.png]]
+
+
+RAW : read in I1 after the writing in I2

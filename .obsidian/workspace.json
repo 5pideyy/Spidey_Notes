@@ -165,12 +165,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EPARC/UNIT 3.md",
+                "file": "EPARC/UNIT 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UNIT 3"
+              "title": "UNIT 4"
             }
           },
           {
@@ -348,9 +348,11 @@
   },
   "active": "9b97f7d152270c29",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20241126175813.png",
+    "PASTED IMAGES/Pasted image 20241126175620.png",
+    "EPARC/UNIT 3.md",
     "EPARC/UNIT 4.md",
     "PASTED IMAGES/Pasted image 20241126153207.png",
-    "EPARC/UNIT 3.md",
     "EPARC/UNIT 5.md",
     "EPARC/UNIT 2.md",
     "EPARC/UNIT 1.md",
@@ -366,7 +368,6 @@
     "PASTED IMAGES/Pasted image 20241123212914.png",
     "PASTED IMAGES/Pasted image 20241123212812.png",
     "PASTED IMAGES/Pasted image 20241123212719.png",
-    "PASTED IMAGES/Pasted image 20241123212643.png",
     "git lost.md",
     "Untitled 1.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
