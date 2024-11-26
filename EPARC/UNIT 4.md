@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/tz5nqped#Ks9gyaoYAfk4wyXHSRjmtCsKZgtnfmdu6naV1RDpQRc
+share_updated: 2024-11-26T15:32:41+05:30
+---
 
 
 ### **==Types of Memory==:**
@@ -32,7 +36,7 @@ The **memory hierarchy** organizes memory types by speed, size, and proximity to
     - An extension of RAM, implemented using a portion of secondary storage (like the hard disk), used to run larger programs than the physical RAM can handle.
 
 ---
-
+![[Pasted image 20241126153207.png]]
 ### **==ROM (Read-Only Memory)==**:
 
 **ROM** is non-volatile memory, meaning it retains its data even when the system is powered off. It is used to store firmware or other essential programs that do not need to change.

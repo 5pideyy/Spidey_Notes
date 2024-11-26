@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/1mjkdugm#//NHitAeZp7j5R2/2GWDh1s3vSMjSm5IATTdPl1ajF0
+share_updated: 2024-11-26T15:26:04+05:30
+---
 
 
 ![[Pasted image 20241126113706.png]]
