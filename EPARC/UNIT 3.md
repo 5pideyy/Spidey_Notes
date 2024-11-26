@@ -265,7 +265,8 @@ MOV PC, LR      ; Return from subroutine by moving LR to PC
 ```
 
 ```
-BEQ label       ; Branch to label if the previous result was equal (zero flag set)BNE label       ; Branch to label if the previous result was not equal (zero flag clear)
+BEQ label       ; Branch to label if the previous result was equal (zero flag set)
+BNE label       ; Branch to label if the previous result was not equal (zero flag clear)
 ```
 
 ```

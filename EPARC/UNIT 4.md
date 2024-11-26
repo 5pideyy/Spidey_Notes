@@ -185,3 +185,20 @@ Secondary storage refers to non-volatile storage devices used to store data and 
 
 
 RAW : read in I1 after the writing in I2
+
+
+
+## STRUCTURAL HAZARDS
+
+![[Pasted image 20241126180147.png]]
+- I1 and I4 accessing bus to write and Fetch repectively
+- soln: hardvard
+
+
+## Control Hazards
+
+![[Pasted image 20241126180537.png]]
+
+- happens cuz of Branching
+- I1 has branching statement of 2000 address 
+- during ex of I1 it should fetch 2000 addess's instriction , we can see already I2,I3 has decode and fretch in queue ,flush needed
