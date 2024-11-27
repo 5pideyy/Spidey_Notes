@@ -1,6 +1,7 @@
 ---
 share_link: https://share.note.sx/tz5nqped#Ks9gyaoYAfk4wyXHSRjmtCsKZgtnfmdu6naV1RDpQRc
 share_updated: 2024-11-26T16:39:29+05:30
+aliases:
 ---
 
 
