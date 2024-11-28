@@ -174,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -318,8 +318,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e06d951bd7af3d02",
+  "active": "62b8b4114f1c4e89",
   "lastOpenFiles": [
+    "ML/UNIT 3.md",
+    "ML/UNIT 2.md",
     "PASTED IMAGES/Pasted image 20241128144625.png",
     "PASTED IMAGES/Pasted image 20241128144606.png",
     "PASTED IMAGES/Pasted image 20241128144548.png",
@@ -330,9 +332,6 @@
     "PASTED IMAGES/Pasted image 20241128144342.png",
     "PASTED IMAGES/Pasted image 20241128144324.png",
     "PASTED IMAGES/Pasted image 20241128144255.png",
-    "ML/UNIT 2.md",
-    "ML/UNIT 3.md",
-    "PASTED IMAGES/Pasted image 20241128114846.png",
     "ML/UNIT 1.md",
     "git lost.md",
     "ML",
