@@ -137,12 +137,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/UNIT 2.md",
+                "file": "ML/UNIT 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UNIT 2"
+              "title": "UNIT 3"
             }
           },
           {
@@ -320,17 +320,20 @@
   },
   "active": "e06d951bd7af3d02",
   "lastOpenFiles": [
-    "PASTED IMAGES/Pasted image 20241128114846.png",
-    "PASTED IMAGES/Pasted image 20241128114734.png",
-    "PASTED IMAGES/Pasted image 20241128114639.png",
-    "PASTED IMAGES/Pasted image 20241128114133.png",
-    "PASTED IMAGES/Pasted image 20241128114035.png",
-    "PASTED IMAGES/Pasted image 20241128113957.png",
-    "PASTED IMAGES/Pasted image 20241128113917.png",
-    "PASTED IMAGES/Pasted image 20241128113853.png",
-    "PASTED IMAGES/Pasted image 20241128113816.png",
-    "ML/UNIT 1.md",
+    "PASTED IMAGES/Pasted image 20241128144625.png",
+    "PASTED IMAGES/Pasted image 20241128144606.png",
+    "PASTED IMAGES/Pasted image 20241128144548.png",
+    "PASTED IMAGES/Pasted image 20241128144529.png",
+    "PASTED IMAGES/Pasted image 20241128144516.png",
+    "PASTED IMAGES/Pasted image 20241128144412.png",
+    "PASTED IMAGES/Pasted image 20241128144359.png",
+    "PASTED IMAGES/Pasted image 20241128144342.png",
+    "PASTED IMAGES/Pasted image 20241128144324.png",
+    "PASTED IMAGES/Pasted image 20241128144255.png",
     "ML/UNIT 2.md",
+    "ML/UNIT 3.md",
+    "PASTED IMAGES/Pasted image 20241128114846.png",
+    "ML/UNIT 1.md",
     "git lost.md",
     "ML",
     "EPARC/UNIT 3.md",
@@ -339,8 +342,6 @@
     "EPARC/UNIT 5.md",
     "EPARC/UNIT 4.md",
     "AMBA.md",
-    "PASTED IMAGES/Pasted image 20241126182040.png",
-    "PASTED IMAGES/Pasted image 20241126180537.png",
     "EPARC.md",
     "EPARC",
     "EPARC MANUAL.md",
@@ -357,7 +358,6 @@
     "HTB/AD/FILE SYSTEMS.md",
     "HTB/AD/SPN & SERVICE CREDS.md",
     "HTB/AD/RESOURCES.md",
-    "HTB/AD/KERBEROS AUTH.md",
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/AD",
     "THM KOTH",
