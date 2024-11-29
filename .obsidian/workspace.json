@@ -134,6 +134,18 @@
             }
           },
           {
+            "id": "7a0ed84e91913569",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "PASTED IMAGES/Pasted image 20241129093429.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241129093429"
+            }
+          },
+          {
             "id": "e06d951bd7af3d02",
             "type": "leaf",
             "state": {
@@ -322,8 +334,12 @@
   },
   "active": "62b8b4114f1c4e89",
   "lastOpenFiles": [
-    "ML/UNIT 2.md",
+    "PASTED IMAGES/Pasted image 20241129093556.png",
+    "PASTED IMAGES/Pasted image 20241129093429.png",
     "ML/UNIT 3.md",
+    "PASTED IMAGES/Pasted image 20241129093355.png",
+    "PASTED IMAGES/Pasted image 20241129093340.png",
+    "ML/UNIT 2.md",
     "PASTED IMAGES/Pasted image 20241128144625.png",
     "PASTED IMAGES/Pasted image 20241128144606.png",
     "PASTED IMAGES/Pasted image 20241128144548.png",
@@ -331,9 +347,6 @@
     "PASTED IMAGES/Pasted image 20241128144516.png",
     "PASTED IMAGES/Pasted image 20241128144412.png",
     "PASTED IMAGES/Pasted image 20241128144359.png",
-    "PASTED IMAGES/Pasted image 20241128144342.png",
-    "PASTED IMAGES/Pasted image 20241128144324.png",
-    "PASTED IMAGES/Pasted image 20241128144255.png",
     "ML/UNIT 1.md",
     "git lost.md",
     "ML",
