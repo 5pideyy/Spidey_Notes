@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/TOOLSET.md",
+                "file": "CTF/CTF WRITEUPS/WEB/REDIRECTION USING GOOGLE (HTTPS use).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TOOLSET"
+              "title": "REDIRECTION USING GOOGLE (HTTPS use)"
             }
           }
         ],
@@ -334,6 +334,8 @@
   },
   "active": "6ba66f72b0aef34d",
   "lastOpenFiles": [
+    "CTF/CTF LEARNINGS/WEB/Untitled.md",
+    "CTF/CTF WRITEUPS/WEB/REDIRECTION USING GOOGLE (HTTPS use).md",
     "CTF/TOOLSET.md",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
@@ -370,8 +372,6 @@
     "HTB/ACADEMY/PENETSTER PATH/F ATTACKING COMMON APPLICATIONS.md",
     "HTB/ACADEMY/PENETSTER PATH/C ATTACKING COMMON SERVICES.md",
     "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
-    "HTB/AD/BASICS.md",
-    "HTB/AD/KERBEROSTING.md",
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/AD",
     "THM KOTH",
