@@ -27,3 +27,14 @@ Hints: Follow the rules of logic:Think critically about each puzzle.
 2. Keep exploring: Every dead-end might hold a clue for the next step.
 
 Good luck, and may the AMaze guide you to victory!
+
+
+
+
+| Username   | Password          | Email                   |
+| ---------- | ----------------- | ----------------------- |
+| rickc137   | letsgetschwifty!! | rick@openpaths.org      |
+| evilmorty  | mortyrocks123     | morty@openpaths.org     |
+| rickprime  | ki11diane         | theogrick@openpaths.org |
+| bethsmith  | horsewhisperer    | beth@openpaths.org      |
+| jerrysmith | iamimportant!     | jerry@openpaths.org     |
