@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF WRITEUPS/WEB/REDIRECTION USING GOOGLE (HTTPS use).md",
+                "file": "HTB/HTB_CPTS/Academy/04. Exploitation/19. Attacking Common Services/Attacking Common Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REDIRECTION USING GOOGLE (HTTPS use)"
+              "title": "Attacking Common Services"
             }
           }
         ],
@@ -219,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hydra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -240,7 +240,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -334,8 +335,14 @@
   },
   "active": "6ba66f72b0aef34d",
   "lastOpenFiles": [
-    "CTF/CTF LEARNINGS/WEB/Untitled.md",
+    "HTB/FORTRESS/JET.md",
+    "HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/Active Directory Enumeration & Attacks.md",
+    "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
+    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+    "CTF/EY DSCI/Amaze.md",
     "CTF/CTF WRITEUPS/WEB/REDIRECTION USING GOOGLE (HTTPS use).md",
+    "CTF/EY DSCI",
+    "CTF/CTF LEARNINGS/WEB/Untitled.md",
     "CTF/TOOLSET.md",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/ACADEMY/PENETSTER PATH/A NMAP.md",
@@ -366,12 +373,7 @@
     "EPARC MANUAL.md",
     "antenna.md",
     "Untitled 1.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "STRUCTURE.md",
-    "HTB/HTB_CHEETSHEETS/WINDOWS.md",
-    "HTB/ACADEMY/PENETSTER PATH/F ATTACKING COMMON APPLICATIONS.md",
-    "HTB/ACADEMY/PENETSTER PATH/C ATTACKING COMMON SERVICES.md",
-    "HTB/ACADEMY/PENETSTER PATH/B FILE TRANSFER.md",
     "CERTIFICATIONS/ejpt.pdf",
     "HTB/AD",
     "THM KOTH",
@@ -379,7 +381,6 @@
     "HTB/ACADEMY/CWEE",
     "BUG BOUNTY/MY WORK/BUG CLASS/XSS",
     "SIH",
-    "BUG BOUNTY/MY WORK/BUG CLASS/API/API GUIDE.pdf",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "Untitled.canvas",
