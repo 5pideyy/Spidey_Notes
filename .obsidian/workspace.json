@@ -207,12 +207,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
+                "file": "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHEETSHEET"
+              "title": "NEXT JS DIR"
             }
           }
         ],
@@ -362,9 +362,11 @@
   },
   "active": "8257b519a105dbe9",
   "lastOpenFiles": [
+    "BUG BOUNTY/MY WORK/BOUG BOUNTY PROGRAM/BOOKBEAT.md",
+    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
+    "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
     "HTB/ACADEMY/BUG HUNTER PATH/A INTRO TO WEB APPLICATION.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
-    "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
     "HTB/HTB_CHEETSHEETS/Enumeration/NMAP SCANING.md",
     "HTB/HTB_CHEETSHEETS/Enumeration/Directory Enumeration.md",
     "HTB/HTB_CHEETSHEETS/Enumeration/RUST SCAN.md",
@@ -387,9 +389,7 @@
     "HTB/HTB_CPTS/Academy/04. Exploitation/21. Active Directory Enumeration & Attacks/Active Directory Enumeration & Attacks.md",
     "HTB/ACADEMY/PENETSTER PATH/H METASPLOIT.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
-    "CTF/CTF WRITEUPS/WEB/REDIRECTION USING GOOGLE (HTTPS use).md",
     "CTF/EY DSCI",
-    "CTF/TOOLSET.md",
     "PASTED IMAGES/Pasted image 20241129093556.png",
     "PASTED IMAGES/Pasted image 20241129093429.png",
     "PASTED IMAGES/Pasted image 20241129093355.png",
