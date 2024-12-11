@@ -16,13 +16,13 @@ nmap 10.10.11.47 -p22,80 -sCV
 ### Directory fuzzing
 
 ```shell
-ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -u http://94.237.52.198:53050/FUZZ
+ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -u http://northwesternmutual.com/FUZZ
 ```
 
 ### Extension Fuzzing
 
 ```shell
-ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://SERVER_IP:PORT/blog/indexFUZZ
+ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://northwesternmutual.com/blog/indexFUZZ
 ```
 
 ### Page Fuzzing
@@ -34,12 +34,12 @@ ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:F
 #### Subdomain fuzzing
 
 ```shell
-ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.linkvortex.htb/
+ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.northwesternmutual.com/
 ```
 
 #### VHOST Fuzzing
 ```shell
-ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://linkvortex.htb/ -H 'Host: FUZZ.linkvortex.htb'
+ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://northwesternmutual.com/ -H 'Host: FUZZ.northwesternmutual.com'
 ```
 
 
