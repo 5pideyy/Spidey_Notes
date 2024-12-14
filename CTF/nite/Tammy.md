@@ -1,0 +1,9 @@
+```
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Sat, 14 Dec 2024 06:46:51 GMT
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch
+
+{"ok":true,"data":[{"_id":"675d278c03e1671372c453e8","title":"Dramatic","description":"Always a scene!","userId":"675d278c03e1671372c453e3","date":"2024-12-14T06:37:00.322Z","isPrivate":false,"createdAt":"2024-12-14T06:37:00.323Z","updatedAt":"2024-12-14T06:37:00.323Z","__v":0},{"_id":"675d278c03e1671372c453ec","title":"Narc","description":"16/12 beach","userId":"675d278c03e1671372c453e3","date":"2024-12-14T06:37:00.336Z","isPrivate":false,"createdAt":"2024-12-14T06:37:00.337Z","updatedAt":"2024-12-14T06:37:00.337Z","__v":0},{"_id":"675d278c03e1671372c453f0","title":"Smort","description":"Too much smort","userId":"675d278c03e1671372c453e3","date":"2024-12-14T06:37:00.346Z","isPrivate":false,"createdAt":"2024-12-14T06:37:00.347Z","updatedAt":"2024-12-14T06:37:00.347Z","__v":0},{"_id":"675d278c03e1671372c453f4","title":"Bipooooooool","description":"Beach xo","userId":"675d278c03e1671372c453e3","date":"2024-12-14T06:37:00.355Z","isPrivate":false,"createdAt":"2024-12-14T06:37:00.356Z","updatedAt":"2024-12-14T06:37:00.356Z","__v":0},{"_id":"675d278c03e1671372c453f8","title":"Dreamy","description":"as hell!","userId":"675d278c03e1671372c453e3","date":"2024-12-14T06:37:00.391Z","isPrivate":false,"createdAt":"2024-12-14T06:37:00.392Z","updatedAt":"2024-12-14T06:37:00.392Z","__v":0},{"_id":"675d278c03e1671372c453fc","title":"TantRuMzzz","description":"🥁 Drumroll 🥁","userId":"675d278c03e1671372c453e3","date":"2024-12-14T06:37:00.400Z","isPrivate":false,"createdAt":"2024-12-14T06:37:00.401Z","updatedAt":"2024-12-14T06:37:00.401Z","__v":0},{"_id":"675d278c03e1671372c45400","title":"TaMMy's","description":"Tammm-Mummy","userId":"675d278c03e1671372c453e3","date":"2024-12-14T06:37:00.409Z","isPrivate":false,"createdAt":"2024-12-14T06:37:00.410Z","updatedAt":"2024-12-14T06:37:00.410Z","__v":0}]}
+
+```
