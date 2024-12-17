@@ -205,14 +205,12 @@
             "id": "8257b519a105dbe9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CTF/nite/0oguth.md",
-                "mode": "source",
-                "source": false
+                "file": "PASTED IMAGES/Pasted image 20241217120045.png"
               },
-              "icon": "lucide-file",
-              "title": "0oguth"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241217120045"
             }
           }
         ],
@@ -362,13 +360,14 @@
   },
   "active": "8257b519a105dbe9",
   "lastOpenFiles": [
-    "PASTED IMAGES/Pasted image 20241217124556.png",
-    "PASTED IMAGES/Pasted image 20241217124407.png",
-    "PASTED IMAGES/Pasted image 20241217123951.png",
-    "PASTED IMAGES/Pasted image 20241217120440.png",
+    "PASTED IMAGES/Pasted image 20241129093556.png",
     "PASTED IMAGES/Pasted image 20241217120045.png",
+    "PASTED IMAGES/Pasted image 20241217120440.png",
+    "PASTED IMAGES/Pasted image 20241217123951.png",
+    "PASTED IMAGES/Pasted image 20241217124407.png",
+    "PASTED IMAGES/Pasted image 20241217124556.png",
     "THM KOTH/CHEETSHEET.md",
-    "CTF/nite/0oguth.md",
+    "CTF/nite/niteCTF 2024 - The Oogle and Ooguth.md",
     "GREAT APPSEC INTERVIEW.md",
     "CTF/nite/Tammy.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
@@ -395,12 +394,10 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "CTF/EY DSCI/Amaze.md",
     "CTF/EY DSCI",
-    "PASTED IMAGES/Pasted image 20241129093556.png",
     "PASTED IMAGES/Pasted image 20241129093429.png",
     "PASTED IMAGES/Pasted image 20241129093355.png",
     "PASTED IMAGES/Pasted image 20241129093340.png",
     "PASTED IMAGES/Pasted image 20241128144625.png",
-    "PASTED IMAGES/Pasted image 20241128144606.png",
     "ML",
     "EPARC",
     "CERTIFICATIONS/ejpt.pdf",
