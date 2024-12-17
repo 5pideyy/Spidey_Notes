@@ -207,12 +207,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM KOTH/CHEETSHEET.md",
+                "file": "CTF/nite/OOg.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHEETSHEET"
+              "title": "OOg"
             }
           }
         ],
@@ -362,10 +362,11 @@
   },
   "active": "8257b519a105dbe9",
   "lastOpenFiles": [
+    "THM KOTH/CHEETSHEET.md",
+    "CTF/nite/OOg.md",
     "GREAT APPSEC INTERVIEW.md",
     "CTF/nite/Tammy.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
-    "THM KOTH/CHEETSHEET.md",
     "CTF/nite",
     "BUG BOUNTY/01-domains.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/NEXT JS DIR.md",
@@ -389,7 +390,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "CTF/EY DSCI/Amaze.md",
     "CTF/CTF WRITEUPS/writeup.md",
-    "HTB/HTB_CPTS/Academy/04. Exploitation/19. Attacking Common Services/Attacking Common Services.md",
     "CTF/EY DSCI",
     "PASTED IMAGES/Pasted image 20241129093556.png",
     "PASTED IMAGES/Pasted image 20241129093429.png",
