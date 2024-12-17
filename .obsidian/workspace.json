@@ -207,12 +207,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/nite/OOg.md",
+                "file": "CTF/nite/0oguth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OOg"
+              "title": "0oguth"
             }
           }
         ],
@@ -362,8 +362,13 @@
   },
   "active": "8257b519a105dbe9",
   "lastOpenFiles": [
+    "PASTED IMAGES/Pasted image 20241217124556.png",
+    "PASTED IMAGES/Pasted image 20241217124407.png",
+    "PASTED IMAGES/Pasted image 20241217123951.png",
+    "PASTED IMAGES/Pasted image 20241217120440.png",
+    "PASTED IMAGES/Pasted image 20241217120045.png",
     "THM KOTH/CHEETSHEET.md",
-    "CTF/nite/OOg.md",
+    "CTF/nite/0oguth.md",
     "GREAT APPSEC INTERVIEW.md",
     "CTF/nite/Tammy.md",
     "HTB/ACADEMY/BUG HUNTER PATH/D ATTACKING WEB APPLICATION WITH FUFF.md",
@@ -389,7 +394,6 @@
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
     "CTF/EY DSCI/Amaze.md",
-    "CTF/CTF WRITEUPS/writeup.md",
     "CTF/EY DSCI",
     "PASTED IMAGES/Pasted image 20241129093556.png",
     "PASTED IMAGES/Pasted image 20241129093429.png",
@@ -397,10 +401,6 @@
     "PASTED IMAGES/Pasted image 20241129093340.png",
     "PASTED IMAGES/Pasted image 20241128144625.png",
     "PASTED IMAGES/Pasted image 20241128144606.png",
-    "PASTED IMAGES/Pasted image 20241128144548.png",
-    "PASTED IMAGES/Pasted image 20241128144529.png",
-    "PASTED IMAGES/Pasted image 20241128144516.png",
-    "PASTED IMAGES/Pasted image 20241128144412.png",
     "ML",
     "EPARC",
     "CERTIFICATIONS/ejpt.pdf",
