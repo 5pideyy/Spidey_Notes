@@ -1,0 +1,2 @@
+-  NoSQL syntax injection - break nosql syntax and execute query 
+-  Operator injection - abuse nosql operatoors
