@@ -205,12 +205,14 @@
             "id": "8257b519a105dbe9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "PASTED IMAGES/Pasted image 20241217120045.png"
+                "file": "EPARC MANUAL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241217120045"
+              "icon": "lucide-file",
+              "title": "EPARC MANUAL"
             }
           }
         ],
@@ -360,8 +362,12 @@
   },
   "active": "8257b519a105dbe9",
   "lastOpenFiles": [
-    "PASTED IMAGES/Pasted image 20241129093556.png",
+    "git lost.md",
+    "MANOJ.md",
+    "EPARC.md",
+    "PASTED IMAGES/Pasted image 20241218174853.png",
     "PASTED IMAGES/Pasted image 20241217120045.png",
+    "PASTED IMAGES/Pasted image 20241129093556.png",
     "PASTED IMAGES/Pasted image 20241217120440.png",
     "PASTED IMAGES/Pasted image 20241217123951.png",
     "PASTED IMAGES/Pasted image 20241217124407.png",
@@ -388,16 +394,13 @@
     "CTF/CTF LEARNINGS/WEB/ROADMAP.md",
     "CTF/CTF LEARNINGS/WEB/Prototype Pollution.md",
     "CTF/CTF LEARNINGS/WEB/Insecure Deserialisation.md",
-    "MANOJ.md",
     "Untitled 2.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
     "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/A METHODOLOGY.md",
-    "CTF/EY DSCI/Amaze.md",
     "CTF/EY DSCI",
     "PASTED IMAGES/Pasted image 20241129093429.png",
     "PASTED IMAGES/Pasted image 20241129093355.png",
     "PASTED IMAGES/Pasted image 20241129093340.png",
-    "PASTED IMAGES/Pasted image 20241128144625.png",
     "ML",
     "EPARC",
     "CERTIFICATIONS/ejpt.pdf",
