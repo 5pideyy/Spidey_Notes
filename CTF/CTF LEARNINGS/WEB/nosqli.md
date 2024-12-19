@@ -94,7 +94,7 @@ this would display unreleased object
 
 ### Injecting into query operators
 
-- if the server query is
+1) if the server query is
 `{"username":"wiener"}
 
 here we can control wiener input
@@ -106,7 +106,16 @@ here we can control wiener input
 
 
 
+doesn't work
 
+1. Convert the request method from `GET` to `POST`.
+2. Change the `Content-Type` header to `application/json`.
+3. Add JSON to the message body.
+4. Inject query operators in the JSON.
+
+
+
+		
 
 
 
