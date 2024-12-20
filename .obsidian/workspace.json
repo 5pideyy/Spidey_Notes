@@ -207,12 +207,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF LEARNINGS/WEB/nosqli.md",
+                "file": "CTF/CTF LEARNINGS/WEB/NoSQL Injection Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nosqli"
+              "title": "NoSQL Injection Notes"
             }
           }
         ],
@@ -365,7 +365,7 @@
     "PASTED IMAGES/Pasted image 20241220192620.png",
     "FUZZ STRINGS.md",
     "CTF/CTF WRITEUPS/writeup.md",
-    "CTF/CTF LEARNINGS/WEB/nosqli.md",
+    "CTF/CTF LEARNINGS/WEB/NoSQL Injection Notes.md",
     "CTF/CTF WRITEUPS/WEB/git lost.md",
     "EPARC MANUAL.md",
     "MANOJ.md",
