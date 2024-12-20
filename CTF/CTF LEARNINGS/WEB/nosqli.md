@@ -96,15 +96,19 @@ this would display unreleased object
 
 1) if the server query is
 `{"username":"wiener"}
+- this queries with the user name = wiener , if data returned from server it returns in response
 
 here we can control wiener input
 
-`{"username":{"$ne":"invalid"}}` ==> username != invalid which is true
+`{"username":{"$ne":"invalid"}}` ==> `username != invalid `which is true
+- this queries the username != invalid which queries every username except invalue
 
 
 2) `username=wiener` becomes `username[$ne]=invalid`
 
 
+3) `{"username":{"$in":["admin","administrator","superadmin"]},"password":{"$ne":""}}`
+- this queries data if  username `["admin","administrator","superadmin"]` in db
 
 doesn't work
 
