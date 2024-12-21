@@ -173,7 +173,7 @@ Stored XSS
 
 ## Which header can be used to protect against clickjacking attacks?
 
-X-Frame-Options
+==X-Frame-Options==
 
 Content-Security-Policy
 
@@ -189,7 +189,7 @@ XML Injection
 
 SQL Injection
 
-NoSQL Injection
+==NoSQL Injection==
 
 LDAP Injection
 
@@ -199,7 +199,7 @@ LDAP Injection
 
 To inject malicious scripts
 
-To force users to perform unintended actions
+==To force users to perform unintended actions==
 
 To exploit input validation flaws
 
@@ -213,7 +213,7 @@ script-src 'none'
 
 script-src 'self'
 
-script-src 'unsafe-inline'
+==script-src 'unsafe-inline'==
 
 script-src 'strict-dynamic'
 
@@ -225,7 +225,7 @@ Sensitive Data Exposure
 
 Security Misconfiguration
 
-Cross-Origin Resource Sharing Exploitation
+==Cross-Origin Resource Sharing Exploitation==
 
 Injection
 
@@ -235,7 +235,7 @@ Injection
 
 SQL Injection
 
-XSS
+==XSS==
 
 CSRF
 
@@ -247,7 +247,7 @@ File Inclusion
 
 HttpOnly
 
-Secure
+==Secure==
 
 SameSite
 
@@ -259,7 +259,7 @@ Domain
 
 Prevents cookie theft
 
-Enforces HTTPS connections
+==Enforces HTTPS connections==
 
 Restricts inline JavaScript
 
@@ -273,7 +273,7 @@ High cost
 
 Lack of scalability
 
-Data leakage between tenants
+==Data leakage between tenants==
 
 Insufficient storage
 
@@ -283,7 +283,7 @@ Insufficient storage
 
 Using plain-text communication
 
-Authentication and access control
+==Authentication and access control==
 
 Relying on client-side validation only
 
@@ -295,7 +295,7 @@ Disabling logging
 
 Firewalls
 
-Hypervisors
+==Hypervisors==
 
 Load balancers
 
@@ -307,7 +307,7 @@ Routers
 
 Increased hardware efficiency
 
-Monitoring and enforcing cloud security policies
+==Monitoring and enforcing cloud security policies==
 
 Reducing cloud storage costs
 
@@ -319,7 +319,7 @@ Eliminating data backup requirements
 
 Outdated hardware
 
-Unofficial use of cloud services by employees
+==Unofficial use of cloud services by employees==
 
 Undocumented APIs
 
@@ -331,7 +331,7 @@ External security threats
 
 Lack of scalability
 
-Privilege escalation
+==Privilege escalation==
 
 Poor data integrity
 
@@ -367,7 +367,7 @@ Uncontrolled data replication
 
 Wireshark
 
-AWS CloudTrail
+==AWS CloudTrail==
 
 SQLmap
 
@@ -391,7 +391,7 @@ Private cloud with no VMs
 
 Encrypting data
 
-Generating unique fixed-size outputs
+==Generating unique fixed-size outputs==
 
 Key exchange
 
@@ -405,7 +405,7 @@ Securing digital signatures
 
 160 bits
 
-256 bits
+==256 bits==
 
 512 bits
 
@@ -415,7 +415,7 @@ Securing digital signatures
 
 128 bits
 
-2048 bits
+==2048 bits==
 
 512 bits
 
@@ -427,7 +427,7 @@ Securing digital signatures
 
 It requires large keys
 
-It exposes data patterns
+==It exposes data patterns==
 
 It is computationally expensive
 
@@ -441,7 +441,7 @@ AES
 
 MD5
 
-RSA
+==RSA==
 
 DES
 
@@ -451,7 +451,7 @@ DES
 
 To make the password easier to remember
 
-To prevent rainbow table attacks
+==To prevent rainbow table attacks==
 
 To shorten the hashing process
 
@@ -465,7 +465,7 @@ To encrypt messages
 
 To ensure data confidentiality
 
-To provide a unique representation of data
+==To provide a unique representation of data==
 
 To generate encryption keys
 
@@ -477,7 +477,7 @@ Longer key sizes
 
 Faster encryption speeds
 
-Strong security with smaller key sizes
+==Strong security with smaller key sizes==
 
 Compatibility with hashing algorithms
 
@@ -489,7 +489,7 @@ MD5
 
 SHA-256
 
-AES
+==AES==
 
 SHA-1
 
@@ -499,7 +499,7 @@ SHA-1
 
 Weak Credentials
 
-Default Account with Default Password
+==Default Account with Default Password==
 
 Using HTTPS
 
@@ -515,7 +515,7 @@ Credential Harvesting
 
 Identity Theft
 
-All of the above
+==All of the above==
 
 ##### Q43
 
@@ -523,7 +523,7 @@ All of the above
 
 Apache
 
-AWS
+==AWS==
 
 Nginx
 
