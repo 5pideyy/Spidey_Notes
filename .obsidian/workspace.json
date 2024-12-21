@@ -221,12 +221,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFOSEC.md",
+                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INFOSEC"
+              "title": "D FOOTPRINTING"
             }
           }
         ],
@@ -376,8 +376,8 @@
   },
   "active": "23a62644173b476b",
   "lastOpenFiles": [
-    "CTF/CTF LEARNINGS/WEB/NoSQL Injection Notes.md",
     "INFOSEC.md",
+    "CTF/CTF LEARNINGS/WEB/NoSQL Injection Notes.md",
     "PASTED IMAGES/Pasted image 20241220192620.png",
     "FUZZ STRINGS.md",
     "CTF/CTF WRITEUPS/writeup.md",
