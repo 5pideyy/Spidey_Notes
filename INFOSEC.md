@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/av0r4xil#xJUPCYgWov6GK7smRnSlxkcNsJBeU1WEPqpuGecgzLw
+share_updated: 2024-12-21T18:37:31+05:30
+---
 
 # MCQ
 
@@ -345,7 +349,7 @@ Firewall rules
 
 Access keys
 
-Multi-factor authentication
+==Multi-factor authentication==
 
 IP whitelisting
 
@@ -355,7 +359,7 @@ IP whitelisting
 
 A DDoS attack on a cloud service
 
-Moving workloads to public cloud temporarily
+==Moving workloads to public cloud temporarily==
 
 A physical failure in a data center
 
@@ -379,7 +383,7 @@ Metasploit
 
 Computing without a physical server
 
-Automatic scaling without provisioning servers
+==Automatic scaling without provisioning servers==
 
 A public cloud deployment model
 
@@ -537,7 +541,7 @@ Inefficient
 
 process encrpytion in batches
 
-Small block size for encryption
+==Small block size for encryption==
 
 None
 
@@ -549,7 +553,7 @@ Insecure deserialization
 
 XML external entity
 
-Sensitive data exposure
+==Sensitive data exposure==
 
 None of the above
 
@@ -559,7 +563,7 @@ None of the above
 
 Brute force attack
 
-Juice jacking attack
+==Juice jacking attack==
 
 USB attack
 
@@ -575,7 +579,7 @@ Infrastructure
 
 Malware
 
-Tactics, Techniques, and Procedures
+==Tactics, Techniques, and Procedures==
 
 ##### Q48
 
@@ -587,7 +591,7 @@ Windows Run
 
 Disk Partition
 
-All of the above
+==All of the above==
 
 ##### Q49
 
@@ -595,7 +599,7 @@ All of the above
 
 WPA
 
-WPA2
+==WPA2==
 
 WPS
 
@@ -607,7 +611,7 @@ Both WPA and WPS
 
 System Encryption for Linux
 
-Security-Enhanced Linux
+==Security-Enhanced Linux==
 
 Software Execution Layer in Linux
 
@@ -621,7 +625,7 @@ Injection
 
 Insecure Design
 
-Insecure API Management
+==Insecure API Management==
 
 Broken Authentication
 
@@ -629,7 +633,7 @@ Broken Authentication
 
 ## Identify the term used to describe unmanaged API being actively used?
 
-Shadow API
+==Shadow API==
 
 Abandoned API
 
@@ -645,7 +649,7 @@ Shadow API
 
 Abandoned API
 
-Zombie API
+==Zombie API==
 
 Orphan API
 
@@ -655,7 +659,7 @@ Orphan API
 
 Quantum Encryption
 
-Fully Homomorphic Encryption
+==Fully Homomorphic Encryption==
 
 Federal Information Processing Standard
 
@@ -669,7 +673,7 @@ SAML
 
 DES
 
-Kerberos
+==Kerberos==
 
 TACACS
 
@@ -681,7 +685,7 @@ SMTP
 
 Telnet
 
-IPsec
+==IPsec==
 
 Radius
 
@@ -689,7 +693,7 @@ Radius
 
 ## Which of the following term is used to describe the ability of systems to rapidly adopt new encryption standard based on evolving threat landscape?
 
-Crypto-agility
+==Crypto-agility==
 
 Crypto-fragility
 
@@ -703,7 +707,7 @@ Crypto-Delineation
 
 Hardware Crypto Module
 
-Hardware Security Module
+==Hardware Security Module==
 
 Hardware Client Module
 
@@ -713,7 +717,7 @@ Hardware Cert Module
 
 ## The process of an individual providing authentication credentials to directly log into an application or system account is called?
 
-Interactive Login
+==Interactive Login==
 
 Failed Login
 
@@ -731,74 +735,7 @@ Option B: Not allowing Special char
 
 None
 
-Both A and B
-
-Submit Quiz
-
-© 2024 Synchrony & CCoE - Cybersecurity Centre of Excellence
+==Both A and B==
 
 
 
-# Answers
-
-- **Network Layer**
-- **L2TP**
-- **Class A**
-- **Resolve IP addresses to MAC addresses**
-- **AppLocker**
-- **FileVault**
-- **Controlled Folder Access**
-- **lastb**
-- **Encrypt hard drives**
-- **SIP (System Integrity Protection)**
-- **Time Machine**
-- **Reflected XSS**
-- **CSRF attacks**
-- **X-Frame-Options**
-- **NoSQL Injection**
-- **To force users to perform unintended actions**
-- **script-src 'unsafe-inline'**
-- **Cross-Origin Resource Sharing Exploitation**
-- **XSS**
-- **Secure**
-- **Enforces HTTPS connections**
-- **Data leakage between tenants**
-- **Authentication and access control**
-- **Hypervisors**
-- **Monitoring and enforcing cloud security policies**
-- **Unofficial use of cloud services by employees**
-- **Privilege escalation**
-- **Multi-factor authentication**
-- **Moving workloads to public cloud temporarily**
-- **AWS CloudTrail**
-- **Automatic scaling without provisioning servers**
-- **Generating unique fixed-size outputs**
-- **256 bits**
-- **2048 bits**
-- **It exposes data patterns**
-- **RSA**
-- **To prevent rainbow table attacks**
-- **To provide a unique representation of data**
-- **Strong security with smaller key sizes**
-- **AES**
-- **Default Account with Default Password**
-- **All of the above**
-- **AWS**
-- **Small block size for encryption**
-- **Sensitive data exposure**
-- **Juice jacking attack**
-- **Tactics, Techniques, and Procedures**
-- **All of the above**
-- **WPA2**
-- **Security-Enhanced Linux**
-- **Insecure API Management**
-- **Shadow API**
-- **Zombie API**
-- **Fully Homomorphic Encryption**
-- **Kerberos**
-- **IPsec**
-- **Crypto-agility**
-- **Hardware Security Module**
-- **Interactive Login**
-- **Both A and B**
-- 
