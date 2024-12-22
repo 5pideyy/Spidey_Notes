@@ -75,3 +75,9 @@ jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore ~/.android/debug
 
 
 
+# CHECK LOGS OF A ANDROID 
+
+```bash
+adb logcat --pid=`adb shell pidof -s com.cymetrics.demo`
+```
+

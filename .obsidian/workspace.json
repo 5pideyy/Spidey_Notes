@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/AndroidManifest.md",
+                "file": "Android/Basic reversing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AndroidManifest"
+              "title": "Basic reversing"
             }
           },
           {
@@ -362,8 +362,8 @@
   },
   "active": "6ba66f72b0aef34d",
   "lastOpenFiles": [
-    "Android/Basic reversing.md",
     "Android/AndroidManifest.md",
+    "Android/Basic reversing.md",
     "Android/apks/ClashOfLights.apk",
     "Android/apks/MinesweeperMods.apk",
     "Android/apks/HDWallpaper.apk",
