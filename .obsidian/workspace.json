@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Basic reversing.md",
+                "file": "Android/apks/Frida & objection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic reversing"
+              "title": "Frida & objection"
             }
           },
           {
@@ -362,8 +362,9 @@
   },
   "active": "6ba66f72b0aef34d",
   "lastOpenFiles": [
-    "Android/AndroidManifest.md",
     "Android/Basic reversing.md",
+    "Android/apks/Frida & objection.md",
+    "Android/AndroidManifest.md",
     "Android/apks/ClashOfLights.apk",
     "Android/apks/MinesweeperMods.apk",
     "Android/apks/HDWallpaper.apk",
@@ -399,7 +400,6 @@
     "CTF/CTF LEARNINGS/WEB/NoSQL Injection Notes.md",
     "FUZZ STRINGS.md",
     "EPARC.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "PASTED IMAGES/Pasted image 20241220192620.png",
     "PASTED IMAGES/Pasted image 20241218174853.png",
     "PASTED IMAGES/Pasted image 20241217120045.png",

@@ -68,11 +68,38 @@ apktool b <folder of app>
 ```
 
 - Signing the APK
-
+	-  align and sign, before it can be installed on the phone.
+	- Align is for performance considerations, and sign is for security.
+		generate a new signature:
 ```
-jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore ~/.android/debug.keystore -storepass android ~/application/dist/application.apk androiddebugkey
+keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
 ```
+- 123456 when asked for a password , other fields blank
 
+
+- remove the old version + build + align + sign + install:
+
+```bash
+# compile.sh
+
+# remove old app
+adb uninstall com.cymetrics.demo
+
+# remove old apk
+rm -f demoapp2.apk
+rm -f demoapp2-final.apk
+rm -f demoapp2-aligned.apk
+
+# build
+apktool b --use-aapt2 demoapp -o demoapp2.apk
+
+# align
+zipalign -v -p 4 demoapp2.apk demoapp2-aligned.apk
+
+# sign
+apksigner sign --ks my-release-key.jks --ks-pass pass:123456 --out demoapp2-final.apk demoapp2-aligned.apk
+adb install demoapp2-final.apk
+```
 
 
 # CHECK LOGS OF A ANDROID 
