@@ -9,4 +9,7 @@
 - list all runnig apps using frida
 
 ```
+frida-ps -Ua
 ```
+
+
