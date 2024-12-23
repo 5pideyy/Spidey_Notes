@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/apks/Frida & objection.md",
+                "file": "Android/AndroidManifest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frida & objection"
+              "title": "AndroidManifest"
             }
           },
           {
