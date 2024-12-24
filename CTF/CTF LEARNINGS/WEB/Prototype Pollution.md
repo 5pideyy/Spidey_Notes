@@ -103,4 +103,42 @@ function Module(name, author, tier) {
 
 var webAttacks = new Module("Web Attacks", "21y4d", 2)
 ```
-- here 
+- here  what if we create of modify a new property in `__proto__` 
+
+![[Pasted image 20241224200140.png]]
+
+
+## Real life Exmaple
+
+- comment section to add comment to modules using json
+
+```json
+{"comment": "Great module."}
+```
+
+
+- this is processed using 
+
+```javascript
+// helper to determine if recursion is required
+function isObject(obj) {
+	return typeof obj === 'function' || typeof obj === 'object';
+}
+
+// merge source with target
+function merge(target, source) {
+	for (let key in source) {
+		if (isObject(target[key]) && isObject(source[key])) {
+			merge(target[key], source[key]);
+		} else {
+			target[key] = source[key];
+		}
+	}
+	return target;
+}
+```
+
+![[Pasted image 20241224200739.png]]
+
+![[Pasted image 20241224200744.png]]
+
