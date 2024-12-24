@@ -142,3 +142,11 @@ function merge(target, source) {
 
 ![[Pasted image 20241224200744.png]]
 
+- function is vulnerable to `prototype pollution`
+
+```json
+{"__proto__": {"poc": "pwned"}}
+```
+
+![[Pasted image 20241224211700.png]]
+
