@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/apks/Frida & objection.md",
+                "file": "Android/apks/Ceritificate pinning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frida & objection"
+              "title": "Ceritificate pinning"
             }
           },
           {
@@ -362,10 +362,10 @@
   },
   "active": "6ba66f72b0aef34d",
   "lastOpenFiles": [
+    "Android/apks/Frida & objection.md",
     "Android/apks/Ceritificate pinning.md",
     "Android/apks/BASICS OF APK.md",
     "Android/AndroidManifest.md",
-    "Android/apks/Frida & objection.md",
     "Android/Basic reversing.md",
     "Android/apks/ClashOfLights.apk",
     "Android/apks/MinesweeperMods.apk",
