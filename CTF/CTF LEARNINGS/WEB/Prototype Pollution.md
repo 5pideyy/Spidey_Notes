@@ -150,3 +150,24 @@ function merge(target, source) {
 
 ![[Pasted image 20241224211700.png]]
 
+# Vulnerablity
+
+
+- ==prototype pollution occurs  when cloning / merging / modifying objects created==
+- ==start with package.json and check for any ,merger functions used and check for vuln==
+- ==controlled input is created as object or updated in object check for prototype pollution==
+
+
+
+## Reasearch 
+
+- https://blog.s1r1us.ninja/research/PP
+# TOOLS
+
+ [DOM Invader](https://portswigger.net/burp/documentation/desktop/tools/dom-invader)
+
+[GADGETS](https://github.com/BlackFan/client-side-prototype-pollution )
+
+[PPSCAn](https://github.com/msrkp/PPScan)
+
+[selenium bot](https://blog.s1r1us.ninja/research/PP#h.nk720ax4pdn0)

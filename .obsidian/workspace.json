@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF LEARNINGS/WEB/Prototype Pollution.md",
+                "file": "CTF/CTF LEARNINGS/WEB/ROADMAP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prototype Pollution"
+              "title": "ROADMAP"
             }
           },
           {
@@ -362,6 +362,11 @@
   },
   "active": "6ba66f72b0aef34d",
   "lastOpenFiles": [
+    "CTF/CTF LEARNINGS/WEB/UNSEEN SQL INJECTION.md",
+    "CTF/CTF LEARNINGS/WEB/Untitled.md",
+    "CTF/CTF LEARNINGS/WEB/Untitled 1.md",
+    "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
+    "CTF/CTF LEARNINGS/WEB/Prototype Pollution.md",
     "PASTED IMAGES/Pasted image 20241224211700.png",
     "PASTED IMAGES/Pasted image 20241224200744.png",
     "PASTED IMAGES/Pasted image 20241224200739.png",
@@ -370,7 +375,6 @@
     "PASTED IMAGES/Pasted image 20241224193144.png",
     "PASTED IMAGES/Pasted image 20241224193031.png",
     "PASTED IMAGES/Pasted image 20241224192931.png",
-    "CTF/CTF LEARNINGS/WEB/Untitled 1.md",
     "Android/apks/Ceritificate pinning.md",
     "Android/apks/Frida & objection.md",
     "Android/apks/BASICS OF APK.md",
@@ -405,10 +409,6 @@
     "see.md",
     "Pasted.md",
     "NOVA GOALS.md",
-    "MANOJ.md",
-    "BUG BOUNTY/MY WORK/TOOLS & METHODOLOGY/checklist.md",
-    "PASTED IMAGES/Pasted image 20241220192620.png",
-    "CTF/CTF LEARNINGS/WEB/Untitled.canvas",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
