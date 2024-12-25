@@ -34,12 +34,12 @@ ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:F
 #### Subdomain fuzzing
 
 ```shell
-ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.northwesternmutual.com/
+ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.10.10.11.48/
 ```
 
 #### VHOST Fuzzing
 ```shell
-ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://northwesternmutual.com/ -H 'Host: FUZZ.northwesternmutual.com'
+ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://underpass.htb/ -H 'Host: FUZZ.underpass.htb'
 ```
 
 
