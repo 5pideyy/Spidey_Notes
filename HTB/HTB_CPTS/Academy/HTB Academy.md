@@ -33,7 +33,7 @@ HTB Academy is cybersecurity learning the HTB way! An effort to gather everythin
 [[File Inclusion]]
 [[File Transfers]]
 [[File Upload Attacks]]
-[[Footprinting]]
+[[HTB/HTB_CPTS/Academy/02. Information Gathering/11. Footprinting/Footprinting]]
 [[Getting Started]]
 [[Hacking Wordpress]]
 [[Information Gathering - Web Edition]]
