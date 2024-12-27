@@ -25,6 +25,20 @@ for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreig
 ```shell-session
 for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreight.com | cut -d" " -f4 >> ip-addresses.txt;done
 
-for i in $(cat ip-addresses.txt);do shodan host $i;done
+	for i in $(cat ip-addresses.txt);do shodan host $i;done
 ```
+
+#### Cloud resource
+
+- AWS google dork
+```
+intext:<company name> inurl:amazonaws.com
+```
+
+- Azure
+```
+intext: <company name> inurl:blob.core.windows.net
+```
+
+[domain.glass](https://domain.glass/)
 
