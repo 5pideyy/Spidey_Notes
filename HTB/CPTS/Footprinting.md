@@ -42,3 +42,12 @@ intext: <company name> inurl:blob.core.windows.net
 
 [domain.glass](https://domain.glass/)
 
+
+## DNS
+
+- SOA responsible for operation of domain
+
+```shell-session
+dig soa www.inlanefreight.com
+```
+

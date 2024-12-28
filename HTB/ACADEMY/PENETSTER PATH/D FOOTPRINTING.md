@@ -1415,12 +1415,12 @@ cat /etc/bind/db.10.129.14
 
 ## Dangerous Settings
 
-|**Option**|**Description**|
-|---|---|
-|`allow-query`|Defines which hosts are allowed to send requests to the DNS server.|
-|`allow-recursion`|Defines which hosts are allowed to send recursive requests to the DNS server.|
-|`allow-transfer`|Defines which hosts are allowed to receive zone transfers from the DNS server.|
-|`zone-statistics`|Collects statistical data of zones.|
+| **Option**        | **Description**                                                                |
+| ----------------- | ------------------------------------------------------------------------------ |
+| `allow-query`     | Defines which hosts are allowed to send requests to the DNS server.            |
+| `allow-recursion` | Defines which hosts are allowed to send recursive requests to the DNS server.  |
+| `allow-transfer`  | Defines which hosts are allowed to receive zone transfers from the DNS server. |
+| `zone-statistics` | Collects statistical data of zones.                                            |
 
 ---
 
