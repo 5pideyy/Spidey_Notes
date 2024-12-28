@@ -45,9 +45,39 @@ intext: <company name> inurl:blob.core.windows.net
 
 ## DNS
 
+
+
+### SERVER CONFIG
+- `named.conf.local`
+- `named.conf.options`
+- `named.conf.log`
+##### Local DNS Configuration
+```shell-session
+root@bind9:~# cat /etc/bind/named.conf.local
+
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+zone "domain.com" {
+    type master;
+    file "/etc/bind/db.domain.com";
+    allow-update { key rndc-key; };
+};
+```
+
+
+
+
 - SOA responsible for operation of domain
 
 ```shell-session
 dig soa www.inlanefreight.com
 ```
 
+ using this get the nameserver ip 
+
+  - 
