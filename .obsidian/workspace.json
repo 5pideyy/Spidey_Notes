@@ -193,12 +193,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/CPTS/Footprinting.md",
+                "file": "HTB/CPTS/INFORMATION GATHERING WEB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Footprinting"
+              "title": "INFORMATION GATHERING WEB"
             }
           },
           {
@@ -376,9 +376,10 @@
   },
   "active": "353cd41c52700e2c",
   "lastOpenFiles": [
+    "HTB/CPTS/Footprinting.md",
+    "HTB/CPTS/INFORMATION GATHERING WEB.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "Untitled.md",
-    "HTB/CPTS/Footprinting.md",
     "PASTED IMAGES/Pasted image 20241226184300.png",
     "HTB/CPTS",
     "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
