@@ -16,7 +16,7 @@ nmap 10.10.11.47 -p22,80 -sCV
 ### Directory fuzzing
 
 ```shell
-ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -u http://northwesternmutual.com/FUZZ
+ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -u http://heal.htb/FUZZ
 ```
 
 ### Extension Fuzzing
@@ -34,12 +34,12 @@ ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:F
 #### Subdomain fuzzing
 
 ```shell
-ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.10.10.11.48/
+ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.heal.htb/
 ```
 
 #### VHOST Fuzzing
 ```shell
-ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://underpass.htb/ -H 'Host: FUZZ.underpass.htb'
+ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://heal.htb/ -H 'Host: FUZZ.heal.htb'
 ```
 
 

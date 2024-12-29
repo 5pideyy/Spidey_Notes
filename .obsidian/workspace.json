@@ -193,12 +193,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/CPTS/INFORMATION GATHERING WEB.md",
+                "file": "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INFORMATION GATHERING WEB"
+              "title": "CHEETSHEET"
             }
           },
           {
@@ -376,8 +376,8 @@
   },
   "active": "353cd41c52700e2c",
   "lastOpenFiles": [
-    "HTB/CPTS/Footprinting.md",
     "HTB/CPTS/INFORMATION GATHERING WEB.md",
+    "HTB/CPTS/Footprinting.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "Untitled.md",
     "PASTED IMAGES/Pasted image 20241226184300.png",
