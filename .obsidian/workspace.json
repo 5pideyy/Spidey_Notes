@@ -193,12 +193,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/CPTS/PASSWORD ATTACKS.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PASSWORD ATTACKS"
+              "title": "Untitled"
             }
           },
           {
@@ -376,11 +376,11 @@
   },
   "active": "353cd41c52700e2c",
   "lastOpenFiles": [
+    "HTB/CPTS/PASSWORD ATTACKS.md",
+    "Untitled.md",
     "PASTED IMAGES/Auth_process1.webp",
     "HTB/CPTS/INFORMATION GATHERING WEB.md",
-    "HTB/CPTS/PASSWORD ATTACKS.md",
     "HTB/SERVICES AND PROCESS.md",
-    "Untitled.md",
     "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
     "HTB/CPTS/Footprinting.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
@@ -414,7 +414,6 @@
     "Android/apks/Mediacode.apk",
     "Android/apks/ThaiCamera.apk",
     "Android/apks",
-    "PASTED IMAGES/Pasted image 20241221190246.png",
     "GREAT APPSEC INTERVIEW.md",
     "CTF GUIDE.md",
     "INFOSEC.md",
