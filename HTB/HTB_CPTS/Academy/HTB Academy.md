@@ -52,7 +52,7 @@ HTB Academy is cybersecurity learning the HTB way! An effort to gather everythin
 [[Login Brute Forcing]]
 [[Network Enumeration with Nmap]]
 [[OSINT - Corporate Recon]]
-[[Password Attacks]]
+[[HTB/HTB_CPTS/Academy/04. Exploitation/18. Password Attacks/Password Attacks]]
 [[Penetration Testing Process]]
 [[Pivoting, Tunneling & Port Forwarding]]
 [[Secure Coding 101 - JavaScript]]
