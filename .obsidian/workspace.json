@@ -193,7 +193,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/CPTS/PASSWORD ATTACKS.md",
+                "file": "HTB/CPTS/PASSWORD ATTACKS/PASSWORD ATTACKS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PASSWORD ATTACKS"
+            }
+          },
+          {
+            "id": "5772d9d17be678fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/CPTS/PASSWORD ATTACKS/PASSWORD ATTACKS.md",
                 "mode": "source",
                 "source": false
               },
@@ -230,7 +244,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -374,13 +388,21 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "353cd41c52700e2c",
+  "active": "5772d9d17be678fe",
   "lastOpenFiles": [
+    "HTB/HTB_CPTS/Academy/04. Exploitation/19. Attacking Common Services/Attacking Common Services.md",
+    "HTB/CPTS/PASSWORD ATTACKS/Attacking SAM.md",
+    "HTB/CPTS/PASSWORD ATTACKS/PASSWORD ATTACKS.md",
+    "HTB/CPTS/PASSWORD ATTACKS/Attacking LSASS.md",
+    "HTB/CPTS/PASSWORD ATTACKS/Password Mutations.md",
+    "HTB/CPTS/PASSWORD ATTACKS",
+    "OBSIDIAN CHEETSHEET.md",
+    "Untitled.md",
+    "PRADYUN_R.md",
+    "SMB SERVER IN ATTACKER.md",
     "PASTED IMAGES/Pasted image 20250104173810.png",
     "PASTED IMAGES/lsassexe_diagram.webp",
     "HTB/CPTS/INFORMATION GATHERING WEB.md",
-    "HTB/CPTS/PASSWORD ATTACKS.md",
-    "Untitled.md",
     "PASTED IMAGES/Auth_process1.webp",
     "HTB/SERVICES AND PROCESS.md",
     "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
@@ -400,7 +422,6 @@
     "PASTED IMAGES/Pasted image 20241224200140.png",
     "PASTED IMAGES/Pasted image 20241224194425.png",
     "PASTED IMAGES/Pasted image 20241224193144.png",
-    "PASTED IMAGES/Pasted image 20241224193031.png",
     "Android/apks/Ceritificate pinning.md",
     "Android/apks/Frida & objection.md",
     "Android/apks/BASICS OF APK.md",
@@ -414,15 +435,8 @@
     "Android/apks/FotaProvider.apk",
     "Android/apks/Mediacode.apk",
     "Android/apks/ThaiCamera.apk",
-    "Android/apks",
     "GREAT APPSEC INTERVIEW.md",
     "CTF GUIDE.md",
-    "INFOSEC.md",
-    "INTRO.md",
-    "OBSIDIAN CHEETSHEET.md",
-    "PRADYUN_R.md",
-    "win services.md",
-    "USEFULL.md",
     "NETWORKS/PROTOCOL/Protocols.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
