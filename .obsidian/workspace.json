@@ -207,12 +207,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/INFOSEC/rewind.md",
+                "file": "CTF/INFOSEC/Secure bank.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rewind"
+              "title": "Secure bank"
             }
           },
           {
@@ -390,20 +390,19 @@
   },
   "active": "5772d9d17be678fe",
   "lastOpenFiles": [
+    "CTF/INFOSEC/SNAP FROM URL.md",
+    "CTF/INFOSEC/rewind.md",
     "PASTED IMAGES/Pasted image 20250112105508.png",
     "CTF/INFOSEC/Secure bank.md",
-    "CTF/INFOSEC/rewind.md",
     "PASTED IMAGES/Pasted image 20250111180914.png",
     "PASTED IMAGES/Pasted image 20250111180857.png",
     "PASTED IMAGES/Pasted image 20250111154223.png",
     "PASTED IMAGES/Pasted image 20250111140903.png",
     "PASTED IMAGES/Pasted image 20250111140821.png",
-    "CTF/INFOSEC/SNAP FROM URL.md",
     "PASTED IMAGES/image (3).png",
     "PASTED IMAGES/image (2).png",
     "PASTED IMAGES/image (1) 1.png",
     "PASTED IMAGES/image (1).png",
-    "PASTED IMAGES/image.png",
     "CTF/CTF WRITEUPS/WEB/POLITICAL WIRTEUP.md",
     "CTF/INFOSEC",
     "CTF/TOOLSET.md",
