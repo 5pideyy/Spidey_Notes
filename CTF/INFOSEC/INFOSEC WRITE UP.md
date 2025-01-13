@@ -331,5 +331,136 @@ print(conn.recvline().decode())
 
 ## SECURE BANK (300 points)
 
+- we are given with an apk file and an instance that takes into a web immeidately after deployed
+-  usually when i get apk in CTF initially i perform static analysis using `jadx-gui` and [decompiler](https://www.decompiler.com/) ,yeah you can use what ever decompile process that works for you . 
+- immediately after decompiling my eye will be into `AndroidManifest.xml` , from there i can see the permissions and  , i can see around 7 activities that the apk performs . yeah now lets go through them
+
+### ACTIVITY
+##### MESSAGE 
+
+```java
+public class Messages extends AppCompatActivity {  
+    TextView msg;  
+  
+    protected void onCreate(Bundle bundle) {  
+        super.onCreate(bundle);  
+        setContentView(R.layout.activity_messages);  
+        TextView textView = (TextView) findViewById(R.id.messageText);  
+        this.msg = textView;  
+        textView.setText("Stay tuned for upcoming features!!");  
+    }  
+}
+```
+
+- nothing intresting , it just sets the text "Stay tuned for upcoming features!!"
+
+#### ViewProfile 
+
+```java
+public class ViewProfile extends AppCompatActivity {  
+    TextView accNo;  
+    TextView name;  
+    protected void onCreate(Bundle bundle) {  
+        super.onCreate(bundle);  
+        setContentView(R.layout.activity_view_profile);  
+        this.name = (TextView) findViewById(R.id.name);  
+        this.accNo = (TextView) findViewById(R.id.accNo);  
+        Volley.newRequestQueue(this).add(new StringRequest(0, getIntent().getStringExtra("depl_URL") + "/user/" + getIntent().getStringExtra("id") + "?secret=" + getIntent().getStringExtra("pin"), new Response.Listener() { 
+            public final void onResponse(Object obj) {  
+                ViewProfile.this.m6lambda$onCreate$0$comsecurebankingViewProfile((String) obj);  
+            }  
+        }, new Response.ErrorListener() { 
+            public void onErrorResponse(VolleyError volleyError) {  
+                Toast.makeText(ViewProfile.this.getApplicationContext(), volleyError.toString(), 0).show();  
+                Log.d("Error is: ", volleyError.toString());  
+            }  
+        }));  
+    } 
+    /* synthetic */ void m6lambda$onCreate$0$comsecurebankingViewProfile(String str) {  
+        try {  
+            JSONObject jSONObject = new JSONObject(str);  
+            this.name.setText(jSONObject.getString("username"));  
+            this.accNo.setText(jSONObject.getString("accountNumber"));  
+        } catch (JSONException e) {  
+            throw new RuntimeException(e);  
+        }  
+    }  
+}
+```
+
+- the `onCreate` functions sets up the UI  and initializes the activity when the activity is created
+- the initial lines sets up the layout and text view components , after then a request is made to the deployment url with user id and the secret pin using volley 
+
+>[!NOTE]
+>_Volley_ is _an HTTP library that makes networking_. It was developed by Google. It manages the processing and caching of network requests.
+
+- From the response , the user name and account number is displayed in the ViewProfile UI
+
+#### Customer Login Page
+
+```java
+ protected void onCreate(Bundle bundle) {  
+        super.onCreate(bundle);  
+        setContentView(R.layout.activity_customer_login_page);  
+        this.dialog = new Dialog(this);  
+        this.accountNumber = (EditText) findViewById(R.id.customer_acc_no);  
+        this.pin = (EditText) findViewById(R.id.customer_pin_no);  
+        this.deployment = (EditText) findViewById(R.id.deployment_url);  
+        this.customerLoginBTN = (Button) findViewById(R.id.customer_login_btn);  
+        if (!isNetworkAvailable(getApplication()).booleanValue()) {  
+            alert("Please connect to the internet");  
+        }  
+        DBHelper dBHelper = new DBHelper(getApplicationContext());  
+        this.DB = dBHelper;  
+        dBHelper.createDB();  
+ ```
+
+- the above initial lines perfoms UI initializtion , Network availability check and Database Initialization.
+- btw , where is the Database , weather is it connecting remotely or a db file ? , lets analayse `dBHelper` in future
+
+- after then my eyes caught into Login Button logic , 
+
+```java
+       this.customerLoginBTN.setOnClickListener(new View.OnClickListener() { 
+            public void onClick(View view) {  
+                String obj = customer_login_page.this.accountNumber.getText().toString();  
+                String obj2 = customer_login_page.this.pin.getText().toString();  
+                String obj3 = customer_login_page.this.deployment.getText().toString();  
+                if (obj.equals("") || obj2.equals("") || obj3.equals("")) {  
+                    Toast.makeText(customer_login_page.this, "Please Enter all the fields !", 0).show();  
+                    return;  
+                }  
+                try {  
+                    if (customer_login_page.this.isValidURL(obj3)) {  
+                        if (customer_login_page.this.DB.authenticateUser(obj, customer_login_page.hash(Long.valueOf(Long.parseLong(obj2)))).booleanValue()) {  
+                            customer_login_page.this.customerLogin(obj2);  
+                        } else {  
+                            customer_login_page.this.invalidCredentialsDialog();  
+                        }  
+                    } else {  
+                        Toast.makeText(customer_login_page.this, "Invalid URL", 0).show();  
+                    }  
+                } catch (MalformedURLException | URISyntaxException e) {  
+                    e.printStackTrace();  
+                }  
+            }  
+        });  
+    }
+
+```
+
+- The initial variable Reads user input:
+	
+	- **`obj`**: Account number.
+	- **`obj2`**: PIN.
+	- **`obj3`**: Deployment URL.
+
+- then Checks if any of the fields are empty, Checks if the deployment URL is valid. 
+
+- after these checks are processed , it authenticates with the Account number and hashed PIN using `dBHelper`
+
+- the hashed PIN is generated by an user defined function ,that is specified in  
+
+
 
 
