@@ -340,7 +340,7 @@ We’ve got an APK and a server instance to mess with. Let’s get cracking — 
 
 ---
 
-## APK Dissection: Static Analysis
+## Static Analysis
 
 Decompiled the APK using `jadx-gui` and an online [APK decompiler](https://www.decompiler.com/). My first stop? `AndroidManifest.xml` — the cheat sheet of app permissions and activities. Found 7 activities. Let’s snoop around.
 
@@ -403,7 +403,7 @@ public class ViewProfile extends AppCompatActivity {
 }
 ```
 
-The app sends a GET request to fetch user details using `id` and `pin`. Response displays your username and account number. Nothing screams "security!" here 😂.
+The app sends a GET request to fetch user details with `id` and `pin` using volley. Response displays your username and account number. Nothing screams "security!" here 😂.
 
 ---
 
@@ -486,15 +486,19 @@ uid | username | acct_number | hashed_PIN      | balance
 Let’s undo their "fancy" hashing:
 
 ```java
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Long hashedPin = 216406515827922L;  // Example hashed PIN
-        Long valueOf4 = (hashedPin << 16) | (hashedPin >>> 16);
-        Long valueOf3 = ((valueOf4 & 16711935L) << 8) | ((valueOf4 & 4278255360L) >>> 8);
-        Long valueOf2 = ((valueOf3 & 252645135L) << 4) | ((valueOf3 & 4042322160L) >>> 4);
-        Long valueOf = ((valueOf2 & 858993459L) << 2) | ((valueOf2 & 3435973836L) >>> 2);
-        Long originalPin = ((valueOf & 1431655765L) << 1) | ((valueOf & 2863311530L) >>> 1);
-        System.out.println("Original PIN: " + originalPin);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the hashed PIN to decrypt:");
+        Long hashedPin = scanner.nextLong();
+        Long valueOf4 = Long.valueOf((hashedPin << 16) | (hashedPin >>> 16));
+        Long valueOf3 = Long.valueOf(((valueOf4 & 16711935L) << 8) | ((valueOf4 & 4278255360L) >>> 8));
+        Long valueOf2 = Long.valueOf(((valueOf3 & 252645135L) << 4) | ((valueOf3 & 4042322160L) >>> 4));
+        Long valueOf = Long.valueOf(((valueOf2 & 858993459L) << 2) | ((valueOf2 & 3435973836L) >>> 2));
+        Long originalPin = Long.valueOf(((valueOf & 1431655765L) << 1) | ((valueOf & 2863311530L) >>> 1));
+        System.out.println("Hashed PIN: " + hashedPin + " => Original PIN: " + originalPin);
+        scanner.close();
     }
 }
 ```
@@ -518,12 +522,23 @@ Logged in with the provided creds. Observed API interactions. Tried swapping use
 
 ### Admin Privileges
 
-Used the admin credentials from the database.And voilà! The system handed me the flag on a silver platter. **Secure Bank**? More like "Surrender Bank."
+Used the admin credentials from the database.And voilà! The system handed me the flag . **Secure Bank**? More like "Surrender Bank."
 
 
 **Pro Tip :** If this bank actually launched, I’d keep my money in a mattress instead. At least my mattress won’t leak my account details. 🤣
 
 ---
+
+
+# WEB
+
+## SNAP FROM URL (100 points)
+
+- we are given a flask server main.py and admin.py that is running locally
+
+- main.py file as onle two routes simple right ! that to one for index !!! the simplest .
+
+
 
 
 
