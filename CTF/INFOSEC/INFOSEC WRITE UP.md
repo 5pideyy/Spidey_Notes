@@ -534,157 +534,148 @@ Used the admin credentials from the database.And voilà! The system handed me th
 
 ## SNAP FROM URL (100 points)
 
-- we are given a flask server main.py and admin.py that is running locally
-### Main.py
-- main.py file has only two routes simple right ! that to one for index !!! the simplest .
-#### Image Processing Route
+- Two Flask scripts `main.py` is EXPOSED and `admin.py` is running locally. The goal is to bypass URL validation and access internal server which is admin.py (`127.0.0.1`) to retrieve the flag.
 
-```python
-@app.route('/images', methods=['POST'])
-def images():
-    try:
-        url = request.form.get('url')
+---
 
-        if not url:
-            return render_template("error.html", error="Missing url :("), 400
+### Main.py:  Functionality
 
-        if blacklisted(url):
-            return render_template("error.html", error="URL is blacklisted (unsafe or restricted)"), 403
+#### Routes
 
-        ip = socket.gethostbyname(urlparse(url).hostname)
-        print(ip)
-        if ip in ["localhost", "0.0.0.0"]:
-            return render_template("error.html", error="Blocked !! "), 403
-        
-        response = requests.get(url, allow_redirects=False)
-        res_text = response.text
+1. `**/**` **Route**:
     
-        img_urls = image_parser(res_text, url)
-        if not img_urls:
-            return render_template("error.html", error="No images found on the page :("), 404
+    - Renders `index.html`.
 
-        return render_template('images.html', url=url, images=img_urls)
-
-    except Exception:
-        error = "An error occurred while fetching the URL. Please try again later."
-        return render_template("error.html", error=error), 500
-
-```
-
-
-- extracts the `url` from the POST request , if no url or blacklisted url is specified error.html is rendered
-
-- resolves the ip from host name ,
-
-```
-if ip in ["localhost", "0.0.0.0"]:
-            return render_template("error.html", error="Blocked !! "), 403
-```
-
-- huhhh why not 127.0.0.1,127.0.0.0 is blocked!! may be our path wayyy 
-- 
-- but aww snappp it is blocked using blacklist function and yeah we have to figure out the payload that resolved to 127.0.0.1,127.0.0.0
-
-- then , it make get request to the url given as input and parses image using `image_parser`
-
-#### Image parsing
 ```python
-def image_parser(res_text, url):
-    soup = BeautifulSoup(res_text, 'html.parser')
-
-    images = soup.find_all('img')
-
-    img_data = [
-        {
-            'src': urljoin(url, img['src']),
-            'alt': img.get('alt', '(No alt text)')
-        }
-        for img in images if 'src' in img.attrs
-    ]
-
-    print("img_data", img_data)
-
-    if not img_data:
-        return None
-
-    return img_data
-
+@app.route("/")
+def home():
+	return render_template('index.html')
 ```
 
+2. `**/images**` **Route**:
+    
+    - Accepts a POST request with a `url` parameter.
+        
+    - Performs URL validation and parses the page for images.
+        
+#### Key Steps in `/images`
 
+1. **Extract URL**:
 
-#### ### **Blacklist and URL Validation**
+```python
+try:
+	url = request.form.get('url')
+	if not url:
+		return render_template("error.html",error="Missing url :("), 400
+```
+
+- Validates the presence of a `url`.
+- If missing, renders an error (`400 Bad Request`).
+
+2. **Blacklist Check**:
+
+```python
+if blacklisted(url):
+	return render_template("error.html",error="URL is blacklisted (unsafe or restricted)"), 403
+```
+
+- Uses a `blacklisted` function to block unsafe URLs (e.g., `localhost`, `127.0.0.1`, `0.0.0.0`).
+- Validates private IPs using regex patterns.
+
+3. **DNS Resolution**:
+
+```python
+ip = socket.gethostbyname(urlparse(url).hostname)
+print(ip)
+if ip in ["localhost", "0.0.0.0"]:
+	return render_template("error.html",error="Blocked !! "), 403
+```
+
+- Resolves the hostname to an IP.
+- Blocks if IP matches `localhost` or `0.0.0.0`.
+- But misses `127.0.0.1` , `127.0.0.0` , `127.0.1.1` , this gives idea for DNS Rebinding attack
+
+4. **Image Parsing**:
+```python
+response = requests.get(url,allow_redirects=False)
+res_text=response.text
+img_urls = image_parser(res_text,url)
+```
+
+- Fetches HTML content of the URL using `requests`.
+- Extracts `<img>` tags using BeautifulSoup.
+#### Blacklist Validation (`blacklisted` Function)
 
 ```python
 blacklist = [
-    "localhost",
     "127.0.0.1",
     "0.0.0.0",
     "169.254.169.254",
     ""  
 ]
-
 def blacklisted(url):
     try:
         parsed_url = urlparse(url)
         if parsed_url.scheme not in ["http", "https"]:
             return render_template("error.html", error="Invalid URL scheme"), 400
-
+                
         host = parsed_url.hostname
-        print("host", host)
-
+        print("host",host)
     except:
         return True
     if host in blacklist:
         return True
-        
     private_ip_patterns = [
-        r"^127\..*",           
-        r"\b(0|o|0o|q)177\b",  
+        r"^127\..*",
+        r"\b(0|o|0o|q)177\b"  
         r"^2130*",      
         r"^10\..*",           
         r"^172\.(1[6-9]|2[0-9]|3[0-1])\..*", 
         r"^192\.168\..*",  
         r"^169\.254\..*",
     ]
-    
     for pattern in private_ip_patterns:
         if re.match(pattern, host):
             print("blocked")
             return True
     
     return False
-
-
 ```
 
 
-### admin.py
+- Blocks explicit entries like `127.0.0.1`, `localhost`, and `169.254.169.254`
+- Regex patterns cover loopback and reserved IP ranges.
 
-```PYTHON
+---
+
+### Admin.py Functionality
+
+The `admin.py` script serves an `admin.html` page containing the flag which is running internally 
+
+```python
 from flask import Flask, render_template, make_response
 import os
 app = Flask(__name__)
 @app.route('/')
 def home():
-	response = make_response(render_template('admin.html', flag="flag{fake_one_for test}"))
+	response = make_response(render_template('admin.html', flag=os.environ["flag"]))
 	response.headers['X-Frame-Options'] = 'DENY'
 	return response
-
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=80, debug=False)
-- now i used [RegEx visualizer](https://regexper.com/) since im weak in understanding it....  
-- immediately dns rebinder came to my mind ! and i used https://lock.cmpxchg8b.com/rebinder.html by giviing one ip ad 127.0.0.1 and other as 8.8.8.8
-- http://7f000001.08080808.rbndr.us THIS bypasses the check and gave the flag
-
-
 ```
 
-`  <img src="{{ url_for('static', filename='chill.jpeg') }}" alt="{{flag}}">`
-  
-- and yeah we got flag in image alt siince admin.html put there 
-  
-  
+- here , the flag is retrived from environment variable , and renders using admin.html template
+- In `admin.html`, the flag is placed in alt text of the image
 
+```html
+<img src="{{ url_for('static', filename='chill.jpeg') }}" alt="{{flag}}">
+```
 
+### Way to capture flag
 
+- since the resolved ip misses to match with `127.0.0.1` and `127.0.0.0` , Let us use DNS rebinding attack 
+- i have used [rebinder tool ](https://lock.cmpxchg8b.com/rebinder.html) , initialized the ips  `127.0.0.1` and the other with `127.0.0.0`
+- **PAYLOAD** : http://7f000001.7f000101.rbndr.us this is nothing but ,` <ipv4 in base-16>.<ipv4 in base-16>.rbndr.us`
+
+- And yeah Flag captured 
