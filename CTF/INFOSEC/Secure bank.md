@@ -60,3 +60,11 @@ connect mobile with adb and login with the given cred in readme.txt
 ![[Pasted image 20250111140903.png]]
 
 https://ch2016112962.challenges.eng.run/user/0?secret=31733100
+
+
+
+
+# Secure Bank CTF Writeup 
+
+## Challenge Overview (300 Points)
+

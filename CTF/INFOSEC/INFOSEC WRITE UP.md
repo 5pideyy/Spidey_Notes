@@ -331,17 +331,29 @@ print(conn.recvline().decode())
 
 ## SECURE BANK (300 points)
 
-- we are given with an apk file and an instance that takes into a web immeidately after deployed
--  usually when i get apk in CTF initially i perform static analysis using `jadx-gui` and [decompiler](https://www.decompiler.com/) ,yeah you can use what ever decompile process that works for you . 
-- immediately after decompiling my eye will be into `AndroidManifest.xml` , from there i can see the permissions and  , i can see around 7 activities that the apk performs . yeah now lets go through them
+SecureBank Pvt Ltd is releasing their beta version of the banking application for bug bounty hunters. The test credentials for test account are as follows:
 
-### ACTIVITY
-##### MESSAGE 
+* Account Number: `667614145`
+* PIN: `1260585352`  
+
+We’ve got an APK and a server instance to mess with. Let’s get cracking — literally!
+
+---
+
+## APK Dissection: Static Analysis
+
+Decompiled the APK using `jadx-gui` and an online [APK decompiler](https://www.decompiler.com/). My first stop? `AndroidManifest.xml` — the cheat sheet of app permissions and activities. Found 7 activities. Let’s snoop around.
+
+---
+
+### Activity Gossip
+
+#### **1. Messages Activity**
 
 ```java
 public class Messages extends AppCompatActivity {  
     TextView msg;  
-  
+
     protected void onCreate(Bundle bundle) {  
         super.onCreate(bundle);  
         setContentView(R.layout.activity_messages);  
@@ -352,14 +364,17 @@ public class Messages extends AppCompatActivity {
 }
 ```
 
-- nothing intresting , it just sets the text "Stay tuned for upcoming features!!"
+_Spoiler alert_: Nothing juicy here. Just a motivational message: "Stay tuned for upcoming features!!". Thanks, devs. 🙄
 
-#### ViewProfile 
+---
+
+#### **2. ViewProfile Activity**
 
 ```java
 public class ViewProfile extends AppCompatActivity {  
     TextView accNo;  
     TextView name;  
+
     protected void onCreate(Bundle bundle) {  
         super.onCreate(bundle);  
         setContentView(R.layout.activity_view_profile);  
@@ -375,7 +390,7 @@ public class ViewProfile extends AppCompatActivity {
                 Log.d("Error is: ", volleyError.toString());  
             }  
         }));  
-    } 
+    }  
     /* synthetic */ void m6lambda$onCreate$0$comsecurebankingViewProfile(String str) {  
         try {  
             JSONObject jSONObject = new JSONObject(str);  
@@ -388,134 +403,75 @@ public class ViewProfile extends AppCompatActivity {
 }
 ```
 
-- the `onCreate` functions sets up the UI  and initializes the activity when the activity is created
-- the initial lines sets up the layout and text view components , after then a request is made to the deployment url with user id and the secret pin using volley 
+The app sends a GET request to fetch user details using `id` and `pin`. Response displays your username and account number. Nothing screams "security!" here 😂.
 
->[!NOTE]
->_Volley_ is _an HTTP library that makes networking_. It was developed by Google. It manages the processing and caching of network requests.
+---
 
-- From the response , the user name and account number is displayed in the ViewProfile UI
+#### **3. Customer Login Page Activity**
 
-#### Customer Login Page
+This is where things get spicy! The login logic:
 
-```java
- protected void onCreate(Bundle bundle) {  
-        super.onCreate(bundle);  
-        setContentView(R.layout.activity_customer_login_page);  
-        this.dialog = new Dialog(this);  
-        this.accountNumber = (EditText) findViewById(R.id.customer_acc_no);  
-        this.pin = (EditText) findViewById(R.id.customer_pin_no);  
-        this.deployment = (EditText) findViewById(R.id.deployment_url);  
-        this.customerLoginBTN = (Button) findViewById(R.id.customer_login_btn);  
-        if (!isNetworkAvailable(getApplication()).booleanValue()) {  
-            alert("Please connect to the internet");  
-        }  
-        DBHelper dBHelper = new DBHelper(getApplicationContext());  
-        this.DB = dBHelper;  
-        dBHelper.createDB();  
- ```
+1. **UI Setup**: Initializes fields for account number, PIN, deployment URL.
+2. **Validation Checks**: Fields can’t be empty, and URL must be valid.
+3. **Authentication**:
+    - Calls `dBHelper.authenticateUser()` with account number and hashed PIN.
+    - The "hashing"? Wait for it..
 
-- the above initial lines perfoms UI initializtion , Network availability check and Database Initialization.
-- btw , where is the Database , weather is it connecting remotely or a db file ? , lets analayse `dBHelper` in future
-
-- after then my eyes caught into Login Button logic , 
+Here’s the PIN hashing magic:
 
 ```java
-       this.customerLoginBTN.setOnClickListener(new View.OnClickListener() { 
-            public void onClick(View view) {  
-                String obj = customer_login_page.this.accountNumber.getText().toString();  
-                String obj2 = customer_login_page.this.pin.getText().toString();  
-                String obj3 = customer_login_page.this.deployment.getText().toString();  
-                if (obj.equals("") || obj2.equals("") || obj3.equals("")) {  
-                    Toast.makeText(customer_login_page.this, "Please Enter all the fields !", 0).show();  
-                    return;  
-                }  
-                try {  
-                    if (customer_login_page.this.isValidURL(obj3)) {  
-                        if (customer_login_page.this.DB.authenticateUser(obj, customer_login_page.hash(Long.valueOf(Long.parseLong(obj2)))).booleanValue()) {  
-                            customer_login_page.this.customerLogin(obj2);  
-                        } else {  
-                            customer_login_page.this.invalidCredentialsDialog();  
-                        }  
-                    } else {  
-                        Toast.makeText(customer_login_page.this, "Invalid URL", 0).show();  
-                    }  
-                } catch (MalformedURLException | URISyntaxException e) {  
-                    e.printStackTrace();  
-                }  
-            }  
-        });  
-    }
-
+public static Long hash(Long l) {  
+    Long valueOf = Long.valueOf(((l.longValue() & 2863311530L) >>> 1) | ((l.longValue() & 1431655765) << 1));  
+    Long valueOf2 = Long.valueOf(((valueOf.longValue() & 3435973836L) >>> 2) | ((valueOf.longValue() & 858993459) << 2));  
+    Long valueOf3 = Long.valueOf(((valueOf2.longValue() & 4042322160L) >>> 4) | ((valueOf2.longValue() & 252645135) << 4));  
+    Long valueOf4 = Long.valueOf(((valueOf3.longValue() & 4278255360L) >>> 8) | ((valueOf3.longValue() & 16711935) << 8));  
+    return Long.valueOf((valueOf4.longValue() >>> 16) | (valueOf4.longValue() << 16));  
+}
 ```
 
-- The initial variable Reads user input:
-	
-	- **`obj`**: Account number.
-	- **`obj2`**: PIN.
-	- **`obj3`**: Deployment URL.
+This obfuscates the PIN using bitwise operations:
 
-- then Checks if any of the fields are empty, Checks if the deployment URL is valid. 
+1. Swaps even and odd bits.
+2. Swaps adjacent pairs, groups of 4, and groups of 8 bits.
+3. Finally, swaps 16-bit halves.
 
-- after these checks are processed , it authenticates with the Account number and hashed PIN using `dBHelper`
+TL;DR: This swaps bits around like a Rubik's cube. Obfuscation? Sure. Real security? Not really.
 
-- the hashed PIN is generated by an user defined function specified in  `Customer Login Page` file
+---
 
-```java
- public static Long hash(Long l) {  
-        Long valueOf = Long.valueOf(((l.longValue() & 2863311530L) >>> 1) | ((l.longValue() & 1431655765) << 1));  
-        Long valueOf2 = Long.valueOf(((valueOf.longValue() & 3435973836L) >>> 2) | ((valueOf.longValue() & 858993459) << 2));  
-        Long valueOf3 = Long.valueOf(((valueOf2.longValue() & 4042322160L) >>> 4) | ((valueOf2.longValue() & 252645135) << 4));  
-        Long valueOf4 = Long.valueOf(((valueOf3.longValue() & 4278255360L) >>> 8) | ((valueOf3.longValue() & 16711935) << 8));  
-        return Long.valueOf((valueOf4.longValue() >>> 16) | (valueOf4.longValue() << 16));  
-    }
-```
-
-
-- it performs a bitwise  operations that  swaps bits to scramble the pin 
-- overall process of the `hash` method
-	- Swap Even and Odd Bits: Bits at even and odd positions are swapped.
-	- Swap Groups of 2 Bits: Adjacent pairs of bits are swapped.
-	- Swap Groups of 4 Bits: Adjacent groups of 4 bits are swapped.
-	- Swap Groups of 8 Bits: Adjacent groups of 8 bits are swapped.
-	- Swap 16-Bit Halves: The lower 16 bits and upper 16 bits are swapped.
-
-- this is just an obfuscation  , not a hash 
-
-
-#### DBhelper
+#### **4. DBHelper**
 
 ```java
 public class DBHelper extends SQLiteOpenHelper {  
     private static String name = "bankDB.db";  
     private final Context context;  
     private String path;  
-    
-    public void onCreate(SQLiteDatabase sQLiteDatabase) {  
-    }  
-    
-    public void onUpgrade(SQLiteDatabase sQLiteDatabase, int i, int i2) {  
-    }  
-    
+
     public DBHelper(Context context) {  
         super(context, name, (SQLiteDatabase.CursorFactory) null, 1);  
         this.context = context;  
         this.path = context.getDatabasePath(name).getPath();  
     }  
-    
+
     private boolean checkDB() {  
         return new File(this.path).exists();  
     }
+}
 ```
 
-- yeah , this infers `bankDB.db` files exits locally in assets , lets export the db file.
+Spotted! A local SQLite database named `bankDB.db`. Let’s grab it 👀.
 
-- the `bankDB.db` file is an SQLite 3.x database file , 
+---
+
+### Database Extraction
+
+Exported the database. Here’s what we found:
 
 ```bash
 sqlite> .tables
 android_metadata  customerDetails 
-sqlite> select * from customerDetails;
+
+sqlite> SELECT * FROM customerDetails;
 uid | username | acct_number | hashed_PIN      | balance 
 1   | user1    | 667614145   | 216406515827922 | 1000.0
 0   | admin    | 000000000   | 43431626549120  | 2000.0
@@ -523,15 +479,51 @@ uid | username | acct_number | hashed_PIN      | balance
 2   | user2    | 111111111   | 240658437888736 | 5000.0
 ```
 
-#### REVERSE THE HASED PIN
+---
 
-- now its time to reverse the hashed pin , i used GPT to write a script to do the reverse process , kinda lazy 
+## Reverse the Hashed PIN
+
+Let’s undo their "fancy" hashing:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Long hashedPin = 216406515827922L;  // Example hashed PIN
+        Long valueOf4 = (hashedPin << 16) | (hashedPin >>> 16);
+        Long valueOf3 = ((valueOf4 & 16711935L) << 8) | ((valueOf4 & 4278255360L) >>> 8);
+        Long valueOf2 = ((valueOf3 & 252645135L) << 4) | ((valueOf3 & 4042322160L) >>> 4);
+        Long valueOf = ((valueOf2 & 858993459L) << 2) | ((valueOf2 & 3435973836L) >>> 2);
+        Long originalPin = ((valueOf & 1431655765L) << 1) | ((valueOf & 2863311530L) >>> 1);
+        System.out.println("Original PIN: " + originalPin);
+    }
+}
+```
+
+Boom! PIN reversed. Let’s take these for a spin.
+
+---
+
+## Dynamic Analysis 
+
+### ADB Logging
+
+Installed the APK, connected via `adb`, and logged requests:
+
+```bash
+adb logcat | grep eng.run
+https://ch2016112962.challenges.eng.run/user/0?secret=31733100
+```
+
+Logged in with the provided creds. Observed API interactions. Tried swapping user IDs and PINs.
+
+### Admin Privileges
+
+Used the admin credentials from the database.And voilà! The system handed me the flag on a silver platter. **Secure Bank**? More like "Surrender Bank."
 
 
+**Pro Tip :** If this bank actually launched, I’d keep my money in a mattress instead. At least my mattress won’t leak my account details. 🤣
 
-
-
-
+---
 
 
 
