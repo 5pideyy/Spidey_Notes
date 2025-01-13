@@ -581,7 +581,7 @@ if ip in ["localhost", "0.0.0.0"]:
             return render_template("error.html", error="Blocked !! "), 403
 ```
 
-- huhhh why not 127.0.0.1,127.0.0.0 is blocked!! thats our path wayyy 
+- huhhh why not 127.0.0.1,127.0.0.0 is blocked!! may be our path wayyy 
 - 
 - but aww snappp it is blocked using blacklist function and yeah we have to figure out the payload that resolved to 127.0.0.1,127.0.0.0
 
@@ -658,9 +658,6 @@ def blacklisted(url):
 
 ```
 
-- now i used [RegEx visualizer](https://regexper.com/) since im weak in understanding it....  
-- the private ip even blocks other number notations it is not strict 
-- octal representation of 127.0.0.1 bypasses the check and admin page is rendered which is running in port 80 
 
 ### admin.py
 
@@ -676,12 +673,18 @@ def home():
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=80, debug=False)
+- now i used [RegEx visualizer](https://regexper.com/) since im weak in understanding it....  
+- immediately dns rebinder came to my mind ! and i used https://lock.cmpxchg8b.com/rebinder.html by giviing one ip ad 127.0.0.1 and other as 8.8.8.8
+- http://7f000001.08080808.rbndr.us THIS bypasses the check and gave the flag
+
+
 ```
-  
+
+`  <img src="{{ url_for('static', filename='chill.jpeg') }}" alt="{{flag}}">`
   
 - and yeah we got flag in image alt siince admin.html put there 
   
   
-`  <img src="{{ url_for('static', filename='chill.jpeg') }}" alt="{{flag}}">`
+
 
 
