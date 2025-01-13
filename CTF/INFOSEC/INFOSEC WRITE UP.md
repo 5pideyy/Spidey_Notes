@@ -535,7 +535,7 @@ Used the admin credentials from the database.And voilà! The system handed me th
 ## SNAP FROM URL (100 points)
 
 - we are given a flask server main.py and admin.py that is running locally
-
+### Main.py
 - main.py file has only two routes simple right ! that to one for index !!! the simplest .
 #### Image Processing Route
 
@@ -573,8 +573,19 @@ def images():
 
 
 - extracts the `url` from the POST request , if no url or blacklisted url is specified error.html is rendered
-- resolves the ip from host name , huhhh why not 127.0.0.1,127.0.0.0 is blocked!! thats our path wayyy but aww snappp it is blocked using blacklist function and yeah we have to figure out the payload that resolved to 127.0.0.1,127.0.0.0
-- it make get request to the url given as input and parses image using `image_parser`
+
+- resolves the ip from host name ,
+
+```
+if ip in ["localhost", "0.0.0.0"]:
+            return render_template("error.html", error="Blocked !! "), 403
+```
+
+- huhhh why not 127.0.0.1,127.0.0.0 is blocked!! thats our path wayyy 
+- 
+- but aww snappp it is blocked using blacklist function and yeah we have to figure out the payload that resolved to 127.0.0.1,127.0.0.0
+
+- then , it make get request to the url given as input and parses image using `image_parser`
 
 #### Image parsing
 ```python
@@ -647,7 +658,30 @@ def blacklisted(url):
 
 ```
 
-- 
+- now i used [RegEx visualizer](https://regexper.com/) since im weak in understanding it....  
+- the private ip even blocks other number notations it is not strict 
+- octal representation of 127.0.0.1 bypasses the check and admin page is rendered which is running in port 80 
 
+### admin.py
+
+```PYTHON
+from flask import Flask, render_template, make_response
+import os
+app = Flask(__name__)
+@app.route('/')
+def home():
+	response = make_response(render_template('admin.html', flag="flag{fake_one_for test}"))
+	response.headers['X-Frame-Options'] = 'DENY'
+	return response
+
+if __name__ == '__main__':
+	app.run(host='0.0.0.0', port=80, debug=False)
+```
+  
+  
+- and yeah we got flag in image alt siince admin.html put there 
+  
+  
+`  <img src="{{ url_for('static', filename='chill.jpeg') }}" alt="{{flag}}">`
 
 
