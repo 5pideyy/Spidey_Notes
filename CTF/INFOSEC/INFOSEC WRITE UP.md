@@ -536,9 +536,118 @@ Used the admin credentials from the database.And voilà! The system handed me th
 
 - we are given a flask server main.py and admin.py that is running locally
 
-- main.py file as onle two routes simple right ! that to one for index !!! the simplest .
+- main.py file has only two routes simple right ! that to one for index !!! the simplest .
+#### Image Processing Route
+
+```python
+@app.route('/images', methods=['POST'])
+def images():
+    try:
+        url = request.form.get('url')
+
+        if not url:
+            return render_template("error.html", error="Missing url :("), 400
+
+        if blacklisted(url):
+            return render_template("error.html", error="URL is blacklisted (unsafe or restricted)"), 403
+
+        ip = socket.gethostbyname(urlparse(url).hostname)
+        print(ip)
+        if ip in ["localhost", "0.0.0.0"]:
+            return render_template("error.html", error="Blocked !! "), 403
+        
+        response = requests.get(url, allow_redirects=False)
+        res_text = response.text
+    
+        img_urls = image_parser(res_text, url)
+        if not img_urls:
+            return render_template("error.html", error="No images found on the page :("), 404
+
+        return render_template('images.html', url=url, images=img_urls)
+
+    except Exception:
+        error = "An error occurred while fetching the URL. Please try again later."
+        return render_template("error.html", error=error), 500
+
+```
 
 
+- extracts the `url` from the POST request , if no url or blacklisted url is specified error.html is rendered
+- resolves the ip from host name , huhhh why not 127.0.0.1,127.0.0.0 is blocked!! thats our path wayyy but aww snappp it is blocked using blacklist function and yeah we have to figure out the payload that resolved to 127.0.0.1,127.0.0.0
+- it make get request to the url given as input and parses image using `image_parser`
+
+#### Image parsing
+```python
+def image_parser(res_text, url):
+    soup = BeautifulSoup(res_text, 'html.parser')
+
+    images = soup.find_all('img')
+
+    img_data = [
+        {
+            'src': urljoin(url, img['src']),
+            'alt': img.get('alt', '(No alt text)')
+        }
+        for img in images if 'src' in img.attrs
+    ]
+
+    print("img_data", img_data)
+
+    if not img_data:
+        return None
+
+    return img_data
+
+```
+
+
+
+#### ### **Blacklist and URL Validation**
+
+```python
+blacklist = [
+    "localhost",
+    "127.0.0.1",
+    "0.0.0.0",
+    "169.254.169.254",
+    ""  
+]
+
+def blacklisted(url):
+    try:
+        parsed_url = urlparse(url)
+        if parsed_url.scheme not in ["http", "https"]:
+            return render_template("error.html", error="Invalid URL scheme"), 400
+
+        host = parsed_url.hostname
+        print("host", host)
+
+    except:
+        return True
+    if host in blacklist:
+        return True
+        
+    private_ip_patterns = [
+        r"^127\..*",           
+        r"\b(0|o|0o|q)177\b",  
+        r"^2130*",      
+        r"^10\..*",           
+        r"^172\.(1[6-9]|2[0-9]|3[0-1])\..*", 
+        r"^192\.168\..*",  
+        r"^169\.254\..*",
+    ]
+    
+    for pattern in private_ip_patterns:
+        if re.match(pattern, host):
+            print("blocked")
+            return True
+    
+    return False
+
+
+```
+
+- 
 
 
 
