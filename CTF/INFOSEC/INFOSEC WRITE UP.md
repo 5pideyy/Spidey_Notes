@@ -542,7 +542,7 @@ Used the admin credentials from the database.And voilà! The system handed me th
 
 #### Routes
 
-1. `**/**` **Route**:
+1. `/` **Route**:
     
     - Renders `index.html`.
 
@@ -552,7 +552,7 @@ def home():
 	return render_template('index.html')
 ```
 
-2. `**/images**` **Route**:
+2. `/images` **Route**:
     
     - Accepts a POST request with a `url` parameter.
         
