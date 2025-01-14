@@ -11,15 +11,15 @@ We’ve got an APK and a server instance to mess with. Let’s get cracking — 
 
 ---
 
-## Static Analysis
+### Static Analysis
 
 Decompiled the APK using `jadx-gui` and an online [APK decompiler](https://www.decompiler.com/). My first stop? `AndroidManifest.xml` — the cheat sheet of app permissions and activities. Found 7 activities. Let’s snoop around.
 
 ---
 
-### Activity Gossip
+#### Activity Gossip
 
-#### **1. Messages Activity**
+##### **1. Messages Activity**
 
 ```java
 public class Messages extends AppCompatActivity {  
@@ -39,7 +39,7 @@ _Spoiler alert_: Nothing juicy here. Just a motivational message: "Stay tuned fo
 
 ---
 
-#### **2. ViewProfile Activity**
+##### **2. ViewProfile Activity**
 
 ```java
 public class ViewProfile extends AppCompatActivity {  
@@ -78,7 +78,7 @@ The app sends a GET request to fetch user details with `id` and `pin` using voll
 
 ---
 
-#### **3. Customer Login Page Activity**
+##### **3. Customer Login Page Activity**
 
 This is where things get spicy! The login logic:
 
@@ -110,7 +110,7 @@ TL;DR: This swaps bits around like a Rubik's cube. Obfuscation? Sure. Real secur
 
 ---
 
-#### **4. DBHelper**
+##### **4. DBHelper**
 
 ```java
 public class DBHelper extends SQLiteOpenHelper {  
@@ -134,7 +134,7 @@ Spotted! A local SQLite database named `bankDB.db`. Let’s grab it 👀.
 
 ---
 
-### Database Extraction
+#### Database Extraction
 
 Exported the database. Here’s what we found:
 
