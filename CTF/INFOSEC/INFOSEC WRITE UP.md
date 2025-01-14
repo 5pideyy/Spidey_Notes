@@ -529,22 +529,20 @@ Used the admin credentials from the database.And voilà! The system handed me th
 
 ---
 
-
 # WEB
 
 ## SNAP FROM URL (100 points)
 
-- Two Flask scripts `main.py` is EXPOSED and `admin.py` is running locally. The goal is to bypass URL validation and access internal server which is admin.py (`127.0.0.1`) to retrieve the flag.
+Two Flask scripts are in play: `main.py`, boldly exposed to the internet, and `admin.py`, quietly minding its business on `127.0.0.1`. The goal? Sneak past URL validation, access the hidden `admin.py`, and retrieve the flag. Here's how it went down:
 
 ---
 
-### Main.py:  Functionality
+### Main.py: Functionality
 
 #### Routes
 
 1. `/` **Route**:
-    
-    - Renders `index.html`.
+    - Loads `index.html`, keeping things simple and uneventful.
 
 ```python
 @app.route("/")
@@ -553,11 +551,9 @@ def home():
 ```
 
 2. `/images` **Route**:
-    
     - Accepts a POST request with a `url` parameter.
-        
-    - Performs URL validation and parses the page for images.
-        
+    - Validates the URL and attempts to parse images. Sounds secure, but...
+
 #### Key Steps in `/images`
 
 1. **Extract URL**:
@@ -569,8 +565,7 @@ try:
 		return render_template("error.html",error="Missing url :("), 400
 ```
 
-- Validates the presence of a `url`.
-- If missing, renders an error (`400 Bad Request`).
+- Checks if a `url` is provided. If not, it responds with a `400` error. Straightforward enough.
 
 2. **Blacklist Check**:
 
@@ -579,8 +574,7 @@ if blacklisted(url):
 	return render_template("error.html",error="URL is blacklisted (unsafe or restricted)"), 403
 ```
 
-- Uses a `blacklisted` function to block unsafe URLs (e.g., `localhost`, `127.0.0.1`, `0.0.0.0`).
-- Validates private IPs using regex patterns.
+- Runs a blacklist check on the URL. Anything suspicious gets blocked. Or so it thinks...
 
 3. **DNS Resolution**:
 
@@ -591,19 +585,18 @@ if ip in ["localhost", "0.0.0.0"]:
 	return render_template("error.html",error="Blocked !! "), 403
 ```
 
-- Resolves the hostname to an IP.
-- Blocks if IP matches `localhost` or `0.0.0.0`.
-- But misses `127.0.0.1` , `127.0.0.0` , `127.0.1.1` , this gives idea for DNS Rebinding attack
+- Resolves the hostname to an IP and blocks certain values like `localhost`. Unfortunately, it forgets about relatives like `127.0.0.1` and `127.0.0.0`,However, it isn’t entirely foolproof—DNS rebinding can still bypass it.
 
 4. **Image Parsing**:
+
 ```python
 response = requests.get(url,allow_redirects=False)
 res_text=response.text
 img_urls = image_parser(res_text,url)
 ```
 
-- Fetches HTML content of the URL using `requests`.
-- Extracts `<img>` tags using BeautifulSoup.
+- Fetches HTML content from the given URL and parses it for `<img>` tags. Functional, but exploitable.
+
 #### Blacklist Validation (`blacklisted` Function)
 
 ```python
@@ -627,7 +620,7 @@ def blacklisted(url):
         return True
     private_ip_patterns = [
         r"^127\..*",
-        r"\b(0|o|0o|q)177\b"  
+        r"\b(0|o|0o|q)177\b"
         r"^2130*",      
         r"^10\..*",           
         r"^172\.(1[6-9]|2[0-9]|3[0-1])\..*", 
@@ -642,15 +635,13 @@ def blacklisted(url):
     return False
 ```
 
-
-- Blocks explicit entries like `127.0.0.1`, `localhost`, and `169.254.169.254`
-- Regex patterns cover loopback and reserved IP ranges.
+- Blocks known suspicious hosts like `127.0.0.1` and `169.254.169.254` and uses regex to catch private IPs. a little drama here—a missing comma after `r"\b(0|o|0o|q)177\b"`. This little oopsie merges it with the next pattern (`r"^2130*"`)
 
 ---
 
 ### Admin.py Functionality
 
-The `admin.py` script serves an `admin.html` page containing the flag which is running internally 
+On the other side, `admin.py` serves `admin.html`, which contains the flag. It operates locally and doesn’t anticipate any interference.
 
 ```python
 from flask import Flask, render_template, make_response
@@ -665,17 +656,87 @@ if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=80, debug=False)
 ```
 
-- here , the flag is retrived from environment variable , and renders using admin.html template
-- In `admin.html`, the flag is placed in alt text of the image
+- The flag is sourced from an environment variable and rendered in the `alt` text of an image in `admin.html`.
 
 ```html
 <img src="{{ url_for('static', filename='chill.jpeg') }}" alt="{{flag}}">
 ```
 
-### Way to capture flag
+---
 
-- since the resolved ip misses to match with `127.0.0.1` and `127.0.0.0` , Let us use DNS rebinding attack 
-- i have used [rebinder tool ](https://lock.cmpxchg8b.com/rebinder.html) , initialized the ips  `127.0.0.1` and the other with `127.0.0.0`
-- **PAYLOAD** : http://7f000001.7f000101.rbndr.us this is nothing but ,` <ipv4 in base-16>.<ipv4 in base-16>.rbndr.us`
+### The Plan to Capture the Flag
 
-- And yeah Flag captured 
+1. The blacklist has a loophole—it doesn’t account for certain `127.0.0.1` variations.
+2. Using [Rebinder](https://lock.cmpxchg8b.com/rebinder.html), set up to resolve alternately to `127.0.0.1` and `127.0.0.0`.
+3. **The payload:** `http://7f000001.7f000101.rbndr.us`
+4. With the bypass successful, the flag is retrieved from `admin.py`. 
+
+###  The Comma Oversight
+
+Thanks to a missing comma, the regex `r"\b(0|o|0o|q)177\b"` doesn’t behave as intended. Instead of stopping octal representations of `127.0.0.1`, it merges with the next pattern (`r"^2130*"`). This leaves a gap wide enough for URLs like `http://0177.0000.0000.0000/` to sneak through .
+
+```python
+    private_ip_patterns = [
+        r"^127\..*",
+        r"\b(0|o|0o|q)177\b"
+        r"^2130*",      
+        r"^10\..*",           
+        r"^172\.(1[6-9]|2[0-9]|3[0-1])\..*", 
+        r"^192\.168\..*",  
+        r"^169\.254\..*",
+    ]
+```
+
+
+
+---
+
+# NETWORK
+
+## PING OF SECRETS (100 points)
+
+
+- we are given a pcap file `traffic.pcap` which has ICMP , TCP , SSH , NTP etc ..
+- initially when i unwrapped the icmp packet in wireshark i could see a data with 1 byte 
+- and every ICMP packets has 1byte data 
+- when i extracted the contents of the data using scapy 
+```python
+from scapy.all import rdpcap, ICMP
+pcap_file_path = 'traffic.pcap'  
+packets = rdpcap(pcap_file_path)
+payload_data = []
+ 
+for packet in packets:
+    if ICMP in packet and hasattr(packet[ICMP], 'load'):
+        payload_data.append(packet[ICMP].load.hex())  
+try:
+    flag = ''.join([bytes.fromhex(byte).decode('ascii') for byte in payload_data])
+    print("Flag:", flag)
+except Exception as e:
+    print("Error decoding payload:", e)
+
+# output : Flag: SBoizX=ja5lvW{1n=}whUAbafpCgGh
+```
+- i got a jumble strings which contains every letter of the flag format . and yeah there is some to be done to get correct flag 
+
+- after a while , i got to think the icmp packet woudl sent letter by letter by the challenge creator , thus if i short by time i would get the flag 
+- and yeah that works 
+
+```python
+from scapy.all import rdpcap, ICMP
+pcap_file_path = 'traffic.pcap'  
+packets = rdpcap(pcap_file_path)
+payload_data = []
+sorted_packets = sorted(packets, key=lambda x: x.time)  
+for packet in sorted_packets:
+    if ICMP in packet and hasattr(packet[ICMP], 'load'):
+        payload_data.append(packet[ICMP].load.hex())  
+try:
+    flag = ''.join([bytes.fromhex(byte).decode('ascii') for byte in payload_data])
+    print("Flag:", flag)
+except Exception as e:
+    print("Error decoding payload:", e)
+
+# output : Flag: flag{1aUoAbGhWCXzSpBjihnv5w==}
+```
+

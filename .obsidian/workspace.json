@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/CTF CHEETSHEETS/REV/GITHUB INFO.md",
+                "file": "CTF/INFOSEC/INFOSEC WRITE UP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GITHUB INFO"
+              "title": "INFOSEC WRITE UP"
             }
           },
           {
@@ -243,8 +243,7 @@
               "title": "INTRO"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -388,10 +387,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21ae269dcda8db27",
+  "active": "9c5462116f859c2f",
   "lastOpenFiles": [
-    "CTF/INFOSEC/Secure bank.md",
+    "CTF/CTF CHEETSHEETS/REV/GITHUB INFO.md",
     "CTF/INFOSEC/INFOSEC WRITE UP.md",
+    "CTF/INFOSEC/Secure bank.md",
     "CTF/TOOLSET.md",
     "CTF/INFOSEC/SNAP FROM URL.md",
     "PASTED IMAGES/Pasted image 20250113160906.png",
