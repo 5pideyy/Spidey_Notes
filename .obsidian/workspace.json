@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
+                "file": "HTB/CPTS/PASSWORD ATTACKS/Attacking SAM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D FOOTPRINTING"
+              "title": "Attacking SAM"
             }
           },
           {
@@ -389,6 +389,8 @@
   },
   "active": "9c5462116f859c2f",
   "lastOpenFiles": [
+    "HTB/CPTS/PASSWORD ATTACKS/Attacking LSASS.md",
+    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "HTB/CPTS/Footprinting.md",
     "HTB/ACADEMY/BUG HUNTER PATH/Y HACKING WORDPRESS.md",
     "HTB/CPTS/INFORMATION GATHERING WEB.md",
@@ -415,14 +417,12 @@
     "HTB/CPTS/PASSWORD ATTACKS/Password Mutations.md",
     "HTB/CPTS/PASSWORD ATTACKS/PASSWORD ATTACKS.md",
     "HTB/HTB_CPTS/Academy/04. Exploitation/19. Attacking Common Services/Attacking Common Services.md",
-    "HTB/CPTS/PASSWORD ATTACKS/Attacking LSASS.md",
     "HTB/CPTS/PASSWORD ATTACKS",
     "Untitled.md",
     "PRADYUN_R.md",
     "SMB SERVER IN ATTACKER.md",
     "HTB/SERVICES AND PROCESS.md",
     "HTB/HTB_CHEETSHEETS/Enumeration/CHEETSHEET.md",
-    "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "HTB/CPTS",
     "CTF/CTF LEARNINGS/WEB/ROADMAP.md",
     "CTF/CTF LEARNINGS/WEB/UNSEEN SQL INJECTION.md",

