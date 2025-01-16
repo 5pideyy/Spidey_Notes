@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/CPTS/PASSWORD ATTACKS/Attacking SAM.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking SAM"
+              "title": "Untitled"
             }
           },
           {
@@ -389,6 +389,7 @@
   },
   "active": "9c5462116f859c2f",
   "lastOpenFiles": [
+    "HTB/CPTS/PASSWORD ATTACKS/Attacking SAM.md",
     "HTB/CPTS/PASSWORD ATTACKS/Attacking LSASS.md",
     "HTB/ACADEMY/PENETSTER PATH/D FOOTPRINTING.md",
     "HTB/CPTS/Footprinting.md",
@@ -413,7 +414,6 @@
     "PASTED IMAGES/image (1) 1.png",
     "CTF/CTF WRITEUPS/WEB/POLITICAL WIRTEUP.md",
     "CTF/INFOSEC",
-    "HTB/CPTS/PASSWORD ATTACKS/Attacking SAM.md",
     "HTB/CPTS/PASSWORD ATTACKS/Password Mutations.md",
     "HTB/CPTS/PASSWORD ATTACKS/PASSWORD ATTACKS.md",
     "HTB/HTB_CPTS/Academy/04. Exploitation/19. Attacking Common Services/Attacking Common Services.md",
