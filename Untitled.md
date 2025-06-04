@@ -1,2 +1,3 @@
-DB_USER=postgres DB_PASSWORD=As3#nd1o& DB_HOST=135.234.245.207 DB_NAME=postgres help me to connect ans enumerate
+
+http://www.linkedin.com/premium/redeem/gift?_ed=hefdUfymR56B8BFl_dDiPx5861&mcid=7185883047605547008
 

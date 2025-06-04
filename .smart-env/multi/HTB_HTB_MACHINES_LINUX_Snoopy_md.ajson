@@ -1,0 +1,2 @@
+
+"smart_sources:HTB/HTB_MACHINES/LINUX/Snoopy.md": {"path":"HTB/HTB_MACHINES/LINUX/Snoopy.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"d9f2e416d1567e8f4a6d1095ea8bba303c984027d843fe884cb132fe3f797940","at":1742234549114},"class_name":"SmartSource","outlinks":[{"title":"ssh key gen.png","target":"ssh key gen.png","line":66},{"title":"cat id .png","target":"cat id .png","line":68}],"blocks":{"#":[1,259]},"last_import":{"mtime":1742234189457,"size":8568,"at":1742234549114,"hash":"d9f2e416d1567e8f4a6d1095ea8bba303c984027d843fe884cb132fe3f797940"}},
